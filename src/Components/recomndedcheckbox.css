@@ -1,0 +1,373 @@
+
+.recomndedcheckbox_recomndedcheckbox {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	background: rgba(235,240,255,1.00);
+	border: 1px solid rgba(0,0,0,1);
+	box-sizing: border-box;
+}
+.recomndedcheckbox_recomndedcheckbox .othernavigationhorizontaldektop {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 107px;
+	width: 1440px;
+	height: 88px;
+}
+.recomndedcheckbox_recomndedcheckbox .othernavigationhorizontaldektop .bg {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 1440px;
+	height: 88px;
+	background: rgba(246,248,251,1.00);
+}
+.recomndedcheckbox_recomndedcheckbox .othernavigationhorizontaldektop .circle {
+	visibility: hidden;
+	position: absolute;
+	right: 165px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 3px solid rgba(232.00000137090683,232.00000137090683,232.00000137090683,1);
+}
+.recomndedcheckbox_recomndedcheckbox .othernavigationhorizontaldektop .avatarcircledman16 {
+	visibility: hidden;
+	position: absolute;
+	right: 165px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 40px;
+	height: 40px;
+}
+.recomndedcheckbox_recomndedcheckbox .othernavigationhorizontaldektop .avatarcircledman16 .circle_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	background-size: cover;
+}
+.recomndedcheckbox_recomndedcheckbox .othernavigationhorizontaldektop .textfieldsearchroundeddefault {
+	position: absolute;
+	left: 339px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 350px;
+	height: 40px;
+}
+.recomndedcheckbox_recomndedcheckbox .othernavigationhorizontaldektop .textfieldsearchroundeddefault .bg_1 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 350px;
+	height: 40px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 100px;
+}
+.recomndedcheckbox_recomndedcheckbox .othernavigationhorizontaldektop .textfieldsearchroundeddefault .Search {
+	position: absolute;
+	margin-left: 42px;
+	margin-right: 16px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 292px;
+	height: 16px;
+	display: flex;
+	align-items: center;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 16px;
+}
+.recomndedcheckbox_recomndedcheckbox .othernavigationhorizontaldektop .textfieldsearchroundeddefault .iconicofontwebsearchdefault {
+	position: absolute;
+	left: 16px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 14px;
+	height: 14px;
+}
+.recomndedcheckbox_recomndedcheckbox .othernavigationhorizontaldektop .textfieldsearchroundeddefault .iconicofontwebsearchdefault .Vector {
+	position: absolute;
+	left: 0px;
+	top: 0.0908203125px;
+	width: 100%;
+	height: 98.64676339285714%;
+}
+.recomndedcheckbox_recomndedcheckbox .othernavigationhorizontaldektop .iconicofontwebnotificationnotification {
+	visibility: hidden;
+	position: absolute;
+	right: 231px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 24px;
+	height: 24px;
+}
+.recomndedcheckbox_recomndedcheckbox .othernavigationhorizontaldektop .iconicofontwebnotificationnotification .Vector_1 {
+	position: absolute;
+	left: 1.51171875px;
+	top: 1.4990234375px;
+	width: 87.445068359375%;
+	height: 87.47965494791666%;
+}
+.recomndedcheckbox_recomndedcheckbox .othernavigationhorizontaldektop .notification {
+	visibility: hidden;
+	position: absolute;
+	left: 1203px;
+	top: 26px;
+	width: 16px;
+	height: 16px;
+}
+.recomndedcheckbox_recomndedcheckbox .othernavigationhorizontaldektop .notification .circle_2 {
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+	background: rgba(255,103,96,1.00);
+	border-radius: 50%;
+	border: 2px solid rgba(246.0000005364418,248.0000004172325,251.00000023841858,1);
+}
+.recomndedcheckbox_recomndedcheckbox .othernavigationhorizontaldektop .notification ._9 {
+	position: absolute;
+	right: 2px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 12px;
+	height: 12px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Lato;
+	font-size: 10px;
+	font-weight: 700;
+	line-height: 12px;
+}
+.recomndedcheckbox_recomndedcheckbox .othernavigationhorizontaldektop .logolong {
+	position: absolute;
+	left: 165px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 142px;
+	height: 30px;
+}
+.recomndedcheckbox_recomndedcheckbox .othernavigationhorizontaldektop .logolong .logoimage {
+	visibility: hidden;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+}
+.recomndedcheckbox_recomndedcheckbox .Questionnaire {
+	visibility: hidden;
+	position: absolute;
+	left: 395px;
+	top: 136px;
+	width: 106.62939453125px;
+	height: 34.4375px;
+}
+.recomndedcheckbox_recomndedcheckbox .Questionnaire .Questionnaire_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 106.4100157067823%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	color: rgba(37,40,43,1.00);
+	font-family: Roboto;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.recomndedcheckbox_recomndedcheckbox .Header {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1440px;
+	height: 80px;
+}
+.recomndedcheckbox_recomndedcheckbox .Header .Rectangle {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(14,25,64,1.00);
+}
+.recomndedcheckbox_recomndedcheckbox .Header .IconLogOut {
+	position: absolute;
+	left: 1375px;
+	top: 24px;
+	width: 2.2222222222222223%;
+	height: 40%;
+}
+.recomndedcheckbox_recomndedcheckbox .Header .IconLogOut .Frame {
+	position: absolute;
+	left: 1.33349609375px;
+	top: 2.6669921875px;
+	width: 91.66717529296875%;
+	height: 83.3343505859375%;
+}
+.recomndedcheckbox_recomndedcheckbox .Header .IconLogOut .Frame .Group {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.recomndedcheckbox_recomndedcheckbox .Header .IconLogOut .Frame .Group .Vector_2 {
+	position: absolute;
+	left: 10.47607421875px;
+	top: 5.92578125px;
+	width: 64.28464419475655%;
+	height: 55.55352107518219%;
+}
+.recomndedcheckbox_recomndedcheckbox .Header .IconLogOut .Frame .Group .Vector_3 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 61.904286308780684%;
+	height: 100%;
+}
+.recomndedcheckbox_recomndedcheckbox .Header .IconCircleFill {
+	position: absolute;
+	left: 1323px;
+	top: 24px;
+	width: 2.2222222222222223%;
+	height: 40%;
+}
+.recomndedcheckbox_recomndedcheckbox .Header .IconCircleFill .Mask {
+	position: absolute;
+	left: 2.66650390625px;
+	top: 2.6669921875px;
+	width: 83.33282470703125%;
+	height: 83.3343505859375%;
+}
+.recomndedcheckbox_recomndedcheckbox .Header .ElmindaLogo {
+	position: absolute;
+	left: 20px;
+	top: 23px;
+	width: 9.583333333333334%;
+	height: 37.37548828125%;
+}
+.recomndedcheckbox_recomndedcheckbox .Header .ElmindaLogo .Group_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100.3331373701744%;
+}
+.recomndedcheckbox_recomndedcheckbox .Header .ElmindaLogo .Group_1 .Vector_4 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.recomndedcheckbox_recomndedcheckbox .Header .RichardMcClintock {
+	position: absolute;
+	left: 1095px;
+	top: 18px;
+	width: 15.48611111111111%;
+	height: 27.500000000000004%;
+	color: rgba(227,242,253,1.00);
+	font-family: Roboto;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 28.125px;
+}
+.recomndedcheckbox_recomndedcheckbox .Header .Elminda {
+	position: absolute;
+	left: 1095px;
+	top: 42px;
+	width: 8.88888888888889%;
+	height: 27.500000000000004%;
+	color: rgba(227,242,253,1.00);
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 21.09375px;
+}
+.recomndedcheckbox_recomndedcheckbox .Button {
+	position: absolute;
+	left: 127px;
+	top: 294px;
+	width: 262px;
+	height: 69px;
+}
+.recomndedcheckbox_recomndedcheckbox .Button .Rectangle1 {
+	position: absolute;
+	left: 0px;
+	top: 15.203125px;
+	width: 100%;
+	height: 77.96648550724638%;
+	background: rgba(51,108,251,1.00);
+	border-radius: 10px;
+}
+.recomndedcheckbox_recomndedcheckbox .Button .Continue {
+	position: absolute;
+	left: 36.01025390625px;
+	top: 33.9150390625px;
+	width: 72.13740458015268%;
+	height: 23.18840579710145%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 16px;
+}
+.recomndedcheckbox_recomndedcheckbox .Button_1 {
+	position: absolute;
+	left: 514px;
+	top: 293px;
+	width: 262px;
+	height: 69px;
+}
+.recomndedcheckbox_recomndedcheckbox .Button_1 .Rectangle1_1 {
+	position: absolute;
+	left: 0px;
+	top: 15.203125px;
+	width: 100%;
+	height: 77.96648550724638%;
+	background: rgba(51,108,251,1.00);
+	border-radius: 10px;
+}
+.recomndedcheckbox_recomndedcheckbox .Button_1 .Continue_1 {
+	position: absolute;
+	left: 14.01025390625px;
+	top: 33.9150390625px;
+	width: 88.93129770992367%;
+	height: 23.18840579710145%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 16px;
+}

@@ -1,0 +1,4181 @@
+
+.Navigationmenuvertical_Navigationmenuvertical {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	background: rgba(246,248,251,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .background {
+	position: absolute;
+	left: 80px;
+	top: 166px;
+	width: 1280px;
+	height: 1666px;
+	border-radius: 8px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .background_1 {
+	position: absolute;
+	left: 80px;
+	top: 1912px;
+	width: 1280px;
+	height: 3004px;
+	border-radius: 8px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementssheetshadow {
+	position: absolute;
+	left: 136px;
+	top: 390px;
+	width: 256px;
+	height: 256px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementssheetshadow .navigationmenuverticalelementssheetshadow_1 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 256px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementssheetrightdivider {
+	position: absolute;
+	left: 540px;
+	top: 390px;
+	width: 256px;
+	height: 256px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementssheetrightdivider .navigationmenuverticalelementssheetshadow_2 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 256px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementssheetrightdivider .navigationmenuverticalelementssheetshadow_3 {
+	position: absolute;
+	right: -1px;
+	width: 1px;
+	height: 256px;
+	background: rgba(232,232,232,1.00);
+	border-radius: 1px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementssheetclean {
+	position: absolute;
+	left: 944px;
+	top: 390px;
+	width: 256px;
+	height: 256px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementssheetclean .navigationmenuverticalelementssheetshadow_4 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 256px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .Shadow {
+	position: absolute;
+	left: 136px;
+	top: 358px;
+	width: 356px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Shadow_1 {
+	position: absolute;
+	left: 136px;
+	top: 2104px;
+	width: 356px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Shadow_2 {
+	position: absolute;
+	left: 136px;
+	top: 3066px;
+	width: 356px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Shadow_3 {
+	position: absolute;
+	left: 136px;
+	top: 4028px;
+	width: 356px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Rightdivider {
+	position: absolute;
+	left: 540px;
+	top: 4028px;
+	width: 356px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Clean {
+	position: absolute;
+	left: 944px;
+	top: 4028px;
+	width: 356px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Rightdivider_1 {
+	position: absolute;
+	left: 540px;
+	top: 2104px;
+	width: 356px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Rightdivider_2 {
+	position: absolute;
+	left: 540px;
+	top: 3066px;
+	width: 356px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Clean_1 {
+	position: absolute;
+	left: 944px;
+	top: 2104px;
+	width: 356px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Clean_2 {
+	position: absolute;
+	left: 944px;
+	top: 3066px;
+	width: 356px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Default {
+	position: absolute;
+	left: 136px;
+	top: 776px;
+	width: 356px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Default_1 {
+	position: absolute;
+	left: 136px;
+	top: 986px;
+	width: 356px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Default_2 {
+	position: absolute;
+	left: 136px;
+	top: 1696px;
+	width: 356px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Default_3 {
+	position: absolute;
+	left: 136px;
+	top: 1446px;
+	width: 356px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Default_4 {
+	position: absolute;
+	left: 136px;
+	top: 1196px;
+	width: 356px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Hover {
+	position: absolute;
+	left: 540px;
+	top: 1196px;
+	width: 356px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Selected {
+	position: absolute;
+	left: 944px;
+	top: 1196px;
+	width: 356px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemlabeldefault {
+	position: absolute;
+	left: 136px;
+	top: 808px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemlabeldefault .linebg {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemlabeldefault .label {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitlelabeldefault {
+	position: absolute;
+	left: 136px;
+	top: 1228px;
+	width: 256px;
+	height: 88px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitlelabeldefault .linebg_1 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 88px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitlelabeldefault .label_1 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 72.72727272727273%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitlelabeldefault .subtitle {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 27.27272727272727%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitleiconlabeldefault {
+	position: absolute;
+	left: 136px;
+	top: 1478px;
+	width: 256px;
+	height: 88px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitleiconlabeldefault .linebg_2 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 88px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitleiconlabeldefault .subtitle_1 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 27.27272727272727%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitleiconlabeldefault .label_2 {
+	position: absolute;
+	margin-left: 52px;
+	margin-right: 24px;
+	top: 72.72727272727273%;
+	transform: translate(0, -50%);
+	width: 180px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitleiconlabeldefault .iconicofontmedicalpillspills {
+	position: absolute;
+	left: 24px;
+	top: 72.72727272727273%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitleiconlabeldefault .iconicofontmedicalpillspills .Vector {
+	position: absolute;
+	left: -0.0001220703125px;
+	top: 1.43359375px;
+	width: 100.00381469726562%;
+	height: 82.1044921875%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitleiconlabelhover {
+	position: absolute;
+	left: 540px;
+	top: 1478px;
+	width: 256px;
+	height: 88px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitleiconlabelhover .linebg_3 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 88px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitleiconlabelhover .subtitle_2 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 27.27272727272727%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitleiconlabelhover .label_3 {
+	position: absolute;
+	margin-left: 52px;
+	margin-right: 24px;
+	top: 72.72727272727273%;
+	transform: translate(0, -50%);
+	width: 180px;
+	height: 20px;
+	color: rgba(85,142,255,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitleiconlabelhover .CursorPointinghand {
+	position: absolute;
+	left: 56px;
+	top: 70px;
+	width: 16px;
+	height: 16px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitleiconlabelhover .CursorPointinghand .Group {
+	position: absolute;
+	left: 1px;
+	top: 0.3515625px;
+	width: 14.308349609375px;
+	height: 15.26953125px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitleiconlabelhover .CursorPointinghand .Group .Fill1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitleiconlabelhover .CursorPointinghand .Group .Stroke3 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitleiconlabelhover .CursorPointinghand .Group .Stroke5 {
+	position: absolute;
+	left: 11.1279296875px;
+	top: 8.796875px;
+	width: 6.988926237480165%;
+	height: 22.66564338705551%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitleiconlabelhover .CursorPointinghand .Group .Stroke7 {
+	position: absolute;
+	left: 9.09619140625px;
+	top: 8.796875px;
+	width: 6.988926237480165%;
+	height: 22.742389357892044%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitleiconlabelhover .CursorPointinghand .Group .Stroke9 {
+	position: absolute;
+	left: 7.1162109375px;
+	top: 8.828125px;
+	width: 6.988926237480165%;
+	height: 22.43540547454592%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitleiconlabelhover .iconicofontmedicalpillspills_1 {
+	position: absolute;
+	left: 24px;
+	top: 72.72727272727273%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitleiconlabelhover .iconicofontmedicalpillspills_1 .Vector_1 {
+	position: absolute;
+	left: -0.000244140625px;
+	top: 1.43359375px;
+	width: 100.00457763671875%;
+	height: 82.1044921875%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitleiconlabelselected {
+	position: absolute;
+	left: 944px;
+	top: 1478px;
+	width: 256px;
+	height: 88px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitleiconlabelselected .linebg_4 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 88px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitleiconlabelselected .subtitle_3 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 27.27272727272727%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitleiconlabelselected .label_4 {
+	position: absolute;
+	margin-left: 52px;
+	margin-right: 24px;
+	top: 72.72727272727273%;
+	transform: translate(0, -50%);
+	width: 180px;
+	height: 20px;
+	color: rgba(51,108,251,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitleiconlabelselected .iconicofontmedicalpillspills_2 {
+	position: absolute;
+	left: 24px;
+	top: 72.72727272727273%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitleiconlabelselected .iconicofontmedicalpillspills_2 .Vector_2 {
+	position: absolute;
+	left: -0.000244140625px;
+	top: 1.43359375px;
+	width: 100.00457763671875%;
+	height: 82.1044921875%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitlelabelhover {
+	position: absolute;
+	left: 540px;
+	top: 1228px;
+	width: 256px;
+	height: 88px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitlelabelhover .linebg_5 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 88px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitlelabelhover .label_5 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 72.72727272727273%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	color: rgba(85,142,255,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitlelabelhover .CursorPointinghand_1 {
+	position: absolute;
+	left: 32px;
+	top: 70px;
+	width: 16px;
+	height: 16px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitlelabelhover .CursorPointinghand_1 .Group_1 {
+	position: absolute;
+	left: 1px;
+	top: 0.3515625px;
+	width: 14.308349609375px;
+	height: 15.26953125px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitlelabelhover .CursorPointinghand_1 .Group_1 .Fill1_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitlelabelhover .CursorPointinghand_1 .Group_1 .Stroke3_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitlelabelhover .CursorPointinghand_1 .Group_1 .Stroke5_1 {
+	position: absolute;
+	left: 11.1279296875px;
+	top: 8.796875px;
+	width: 6.988926237480165%;
+	height: 22.66564338705551%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitlelabelhover .CursorPointinghand_1 .Group_1 .Stroke7_1 {
+	position: absolute;
+	left: 9.09619140625px;
+	top: 8.796875px;
+	width: 6.988926237480165%;
+	height: 22.742389357892044%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitlelabelhover .CursorPointinghand_1 .Group_1 .Stroke9_1 {
+	position: absolute;
+	left: 7.1162109375px;
+	top: 8.828125px;
+	width: 6.988926237480165%;
+	height: 22.43540547454592%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitlelabelhover .subtitle_4 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 27.27272727272727%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitlelabelselected {
+	position: absolute;
+	left: 944px;
+	top: 1228px;
+	width: 256px;
+	height: 88px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitlelabelselected .linebg_6 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 88px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitlelabelselected .label_6 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 72.72727272727273%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	display: flex;
+	color: rgba(51,108,251,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemsubtitlelabelselected .subtitle_5 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 27.27272727272727%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	display: flex;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconlabeldefault {
+	position: absolute;
+	left: 136px;
+	top: 1018px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconlabeldefault .linebg_7 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconlabeldefault .label_7 {
+	position: absolute;
+	margin-left: 52px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 180px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconlabeldefault .iconicofontmedicalpillspills_3 {
+	position: absolute;
+	left: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconlabeldefault .iconicofontmedicalpillspills_3 .Vector_3 {
+	position: absolute;
+	left: -0.0001220703125px;
+	top: 1.43359375px;
+	width: 100.00381469726562%;
+	height: 82.1044921875%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemicondefault {
+	position: absolute;
+	left: 136px;
+	top: 1728px;
+	width: 48px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemicondefault .linebg_8 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 48px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemicondefault .iconicofontmedicalpillspills_4 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 20px;
+	height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemicondefault .iconicofontmedicalpillspills_4 .Vector_4 {
+	position: absolute;
+	left: -0.0001220703125px;
+	top: 1.7890625px;
+	width: 100.0042724609375%;
+	height: 82.109375%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconlabelhover {
+	position: absolute;
+	left: 540px;
+	top: 1018px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconlabelhover .linebg_9 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconlabelhover .label_8 {
+	position: absolute;
+	margin-left: 52px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 180px;
+	height: 20px;
+	color: rgba(85,142,255,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconlabelhover .iconicofontmedicalpillspills_5 {
+	position: absolute;
+	left: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconlabelhover .iconicofontmedicalpillspills_5 .Vector_5 {
+	position: absolute;
+	left: 0px;
+	top: 1.43359375px;
+	width: 100.00457763671875%;
+	height: 82.1044921875%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconlabelhover .CursorPointinghand_2 {
+	position: absolute;
+	left: 48px;
+	top: 30px;
+	width: 16px;
+	height: 16px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconlabelhover .CursorPointinghand_2 .Group_2 {
+	position: absolute;
+	left: 1px;
+	top: 0.3515625px;
+	width: 14.308349609375px;
+	height: 15.26953125px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconlabelhover .CursorPointinghand_2 .Group_2 .Fill1_2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconlabelhover .CursorPointinghand_2 .Group_2 .Stroke3_2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconlabelhover .CursorPointinghand_2 .Group_2 .Stroke5_2 {
+	position: absolute;
+	left: 11.1279296875px;
+	top: 8.796875px;
+	width: 6.988926237480165%;
+	height: 22.66564338705551%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconlabelhover .CursorPointinghand_2 .Group_2 .Stroke7_2 {
+	position: absolute;
+	left: 9.09619140625px;
+	top: 8.796875px;
+	width: 6.988926237480165%;
+	height: 22.742389357892044%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconlabelhover .CursorPointinghand_2 .Group_2 .Stroke9_2 {
+	position: absolute;
+	left: 7.1162109375px;
+	top: 8.828125px;
+	width: 6.988926237480165%;
+	height: 22.43540547454592%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconhover {
+	position: absolute;
+	left: 540px;
+	top: 1728px;
+	width: 48px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconhover .linebg_10 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 48px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconhover .iconicofontmedicalpillspills_6 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 20px;
+	height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconhover .iconicofontmedicalpillspills_6 .Vector_6 {
+	position: absolute;
+	left: -0.000244140625px;
+	top: 1.7890625px;
+	width: 100.00366210937499%;
+	height: 82.109375%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconhover .CursorPointinghand_3 {
+	position: absolute;
+	left: 62.5%;
+	top: 79.16666666666666%;
+	transform: translate(-50%, -50%);
+	width: 16px;
+	height: 16px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconhover .CursorPointinghand_3 .Group_3 {
+	position: absolute;
+	left: 1px;
+	top: 0.3515625px;
+	width: 14.308349609375px;
+	height: 15.26953125px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconhover .CursorPointinghand_3 .Group_3 .Fill1_3 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconhover .CursorPointinghand_3 .Group_3 .Stroke3_3 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconhover .CursorPointinghand_3 .Group_3 .Stroke5_3 {
+	position: absolute;
+	left: 11.1279296875px;
+	top: 8.796875px;
+	width: 6.988926237480165%;
+	height: 22.66564338705551%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconhover .CursorPointinghand_3 .Group_3 .Stroke7_3 {
+	position: absolute;
+	left: 9.09619140625px;
+	top: 8.796875px;
+	width: 6.988926237480165%;
+	height: 22.742389357892044%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconhover .CursorPointinghand_3 .Group_3 .Stroke9_3 {
+	position: absolute;
+	left: 7.1162109375px;
+	top: 8.828125px;
+	width: 6.988926237480165%;
+	height: 22.43540547454592%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconlabelselected {
+	position: absolute;
+	left: 944px;
+	top: 1018px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconlabelselected .linebg_11 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconlabelselected .label_9 {
+	position: absolute;
+	margin-left: 52px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 180px;
+	height: 20px;
+	color: rgba(51,108,251,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconlabelselected .iconicofontmedicalpillspills_7 {
+	position: absolute;
+	left: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconlabelselected .iconicofontmedicalpillspills_7 .Vector_7 {
+	position: absolute;
+	left: -0.000244140625px;
+	top: 1.43359375px;
+	width: 100.00457763671875%;
+	height: 82.1044921875%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconselected {
+	position: absolute;
+	left: 944px;
+	top: 1728px;
+	width: 48px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconselected .linebg_12 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 48px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconselected .iconicofontmedicalpillspills_8 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 20px;
+	height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemiconselected .iconicofontmedicalpillspills_8 .Vector_8 {
+	position: absolute;
+	left: -0.000244140625px;
+	top: 1.7890625px;
+	width: 100.00366210937499%;
+	height: 82.109375%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemlabelhover {
+	position: absolute;
+	left: 540px;
+	top: 808px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemlabelhover .linebg_13 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemlabelhover .label_10 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	color: rgba(85,142,255,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemlabelhover .CursorPointinghand_4 {
+	position: absolute;
+	left: 32px;
+	top: 30px;
+	width: 16px;
+	height: 16px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemlabelhover .CursorPointinghand_4 .Group_4 {
+	position: absolute;
+	left: 1px;
+	top: 0.3515625px;
+	width: 14.308349609375px;
+	height: 15.26953125px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemlabelhover .CursorPointinghand_4 .Group_4 .Fill1_4 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemlabelhover .CursorPointinghand_4 .Group_4 .Stroke3_4 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemlabelhover .CursorPointinghand_4 .Group_4 .Stroke5_4 {
+	position: absolute;
+	left: 11.1279296875px;
+	top: 8.796875px;
+	width: 6.988926237480165%;
+	height: 22.66564338705551%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemlabelhover .CursorPointinghand_4 .Group_4 .Stroke7_4 {
+	position: absolute;
+	left: 9.09619140625px;
+	top: 8.796875px;
+	width: 6.988926237480165%;
+	height: 22.742389357892044%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemlabelhover .CursorPointinghand_4 .Group_4 .Stroke9_4 {
+	position: absolute;
+	left: 7.1162109375px;
+	top: 8.828125px;
+	width: 6.988926237480165%;
+	height: 22.43540547454592%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemlabelselected {
+	position: absolute;
+	left: 944px;
+	top: 808px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemlabelselected .linebg_14 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalelementsitemlabelselected .label_11 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	color: rgba(51,108,251,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Rightdivider_3 {
+	position: absolute;
+	left: 540px;
+	top: 358px;
+	width: 356px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Hover_1 {
+	position: absolute;
+	left: 540px;
+	top: 776px;
+	width: 356px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Hover_2 {
+	position: absolute;
+	left: 540px;
+	top: 986px;
+	width: 356px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Hover_3 {
+	position: absolute;
+	left: 540px;
+	top: 1696px;
+	width: 356px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Hover_4 {
+	position: absolute;
+	left: 540px;
+	top: 1446px;
+	width: 356px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Clean_3 {
+	position: absolute;
+	left: 944px;
+	top: 358px;
+	width: 356px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Selected_1 {
+	position: absolute;
+	left: 944px;
+	top: 776px;
+	width: 356px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Selected_2 {
+	position: absolute;
+	left: 944px;
+	top: 986px;
+	width: 356px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Selected_3 {
+	position: absolute;
+	left: 944px;
+	top: 1696px;
+	width: 356px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Selected_4 {
+	position: absolute;
+	left: 944px;
+	top: 1446px;
+	width: 356px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Elements {
+	position: absolute;
+	left: 136px;
+	top: 222px;
+	width: 168px;
+	height: 46px;
+	color: rgba(37,40,43,1.00);
+	font-family: Lato;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 46px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Example {
+	position: absolute;
+	left: 136px;
+	top: 1968px;
+	width: 156px;
+	height: 46px;
+	color: rgba(37,40,43,1.00);
+	font-family: Lato;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 46px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Sheet {
+	position: absolute;
+	left: 136px;
+	top: 308px;
+	width: 72px;
+	height: 34px;
+	color: rgba(37,40,43,1.00);
+	font-family: Lato;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 34px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Iconlabel {
+	position: absolute;
+	left: 136px;
+	top: 2054px;
+	width: 142px;
+	height: 34px;
+	color: rgba(37,40,43,1.00);
+	font-family: Lato;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 34px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Label {
+	position: absolute;
+	left: 136px;
+	top: 3016px;
+	width: 68px;
+	height: 34px;
+	color: rgba(37,40,43,1.00);
+	font-family: Lato;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 34px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Tablet {
+	position: absolute;
+	left: 136px;
+	top: 3978px;
+	width: 77px;
+	height: 34px;
+	color: rgba(37,40,43,1.00);
+	font-family: Lato;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 34px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Label_1 {
+	position: absolute;
+	left: 136px;
+	top: 726px;
+	width: 68px;
+	height: 34px;
+	color: rgba(37,40,43,1.00);
+	font-family: Lato;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 34px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Labelwithsubtitle {
+	position: absolute;
+	left: 136px;
+	top: 1146px;
+	width: 229px;
+	height: 34px;
+	color: rgba(37,40,43,1.00);
+	font-family: Lato;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 34px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Iconlabel_1 {
+	position: absolute;
+	left: 136px;
+	top: 936px;
+	width: 142px;
+	height: 34px;
+	color: rgba(37,40,43,1.00);
+	font-family: Lato;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 34px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Icon {
+	position: absolute;
+	left: 136px;
+	top: 1646px;
+	width: 54px;
+	height: 34px;
+	color: rgba(37,40,43,1.00);
+	font-family: Lato;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 34px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Iconlabelwithsubtitle {
+	position: absolute;
+	left: 136px;
+	top: 1396px;
+	width: 303px;
+	height: 34px;
+	color: rgba(37,40,43,1.00);
+	font-family: Lato;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 34px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .Navigationmenuvertical_1 {
+	position: absolute;
+	left: 80px;
+	top: 56px;
+	width: 671px;
+	height: 70px;
+	color: rgba(37,40,43,1.00);
+	font-family: Lato;
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 70px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .logolong {
+	position: absolute;
+	left: 1218px;
+	top: 81px;
+	width: 142px;
+	height: 30px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .logolong .logoimage {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow {
+	position: absolute;
+	left: 136px;
+	top: 2136px;
+	width: 256px;
+	height: 800px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementssheetshadow_5 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 800px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementssheetshadow_5 .navigationmenuverticalelementssheetshadow_6 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 800px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemsubtitleiconlabelselected_1 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 86px;
+	width: 256px;
+	height: 88px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemsubtitleiconlabelselected_1 .linebg_15 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 88px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemsubtitleiconlabelselected_1 .subtitle_6 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 27.27272727272727%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemsubtitleiconlabelselected_1 .label_12 {
+	position: absolute;
+	margin-left: 52px;
+	margin-right: 24px;
+	top: 72.72727272727273%;
+	transform: translate(0, -50%);
+	width: 180px;
+	height: 20px;
+	color: rgba(51,108,251,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemsubtitleiconlabelselected_1 .iconicofontwebotherpiechart {
+	position: absolute;
+	left: 24px;
+	top: 72.72727272727273%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemsubtitleiconlabelselected_1 .iconicofontwebotherpiechart .Vector_9 {
+	position: absolute;
+	left: 1px;
+	top: 1.3515625px;
+	width: 87.5%;
+	height: 83.10546875%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .logolong_1 {
+	position: absolute;
+	left: 24px;
+	top: 24px;
+	width: 142px;
+	height: 30px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .logolong_1 .logoimage_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemiconlabeldefault_1 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 174px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemiconlabeldefault_1 .linebg_16 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemiconlabeldefault_1 .label_13 {
+	position: absolute;
+	margin-left: 52px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 180px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemiconlabeldefault_1 .iconicofontmedicaldevicesstethoscope1 {
+	position: absolute;
+	left: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemiconlabeldefault_1 .iconicofontmedicaldevicesstethoscope1 .Vector_10 {
+	position: absolute;
+	left: -0.0001220703125px;
+	top: 0.0546875px;
+	width: 99.99923706054688%;
+	height: 99.31640625%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemiconlabeldefault_2 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 222px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemiconlabeldefault_2 .linebg_17 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemiconlabeldefault_2 .label_14 {
+	position: absolute;
+	margin-left: 52px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 180px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemiconlabeldefault_2 .iconicofontmedicalstaffdoctor2 {
+	position: absolute;
+	left: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemiconlabeldefault_2 .iconicofontmedicalstaffdoctor2 .Vector_11 {
+	position: absolute;
+	left: 1.6912841796875px;
+	top: 0px;
+	width: 78.64456176757812%;
+	height: 99.9755859375%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemiconlabeldefault_3 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 270px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemiconlabeldefault_3 .linebg_18 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemiconlabeldefault_3 .label_15 {
+	position: absolute;
+	margin-left: 52px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 180px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemiconlabeldefault_3 .iconicofontmedicalstaffnurse2 {
+	position: absolute;
+	left: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemiconlabeldefault_3 .iconicofontmedicalstaffnurse2 .Vector_12 {
+	position: absolute;
+	left: 1.3670654296875px;
+	top: 0px;
+	width: 82.98721313476562%;
+	height: 100.0244140625%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemiconlabeldefault_4 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 318px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemiconlabeldefault_4 .linebg_19 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemiconlabeldefault_4 .label_16 {
+	position: absolute;
+	margin-left: 52px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 180px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemiconlabeldefault_4 .iconicofontmedicaldisableddefault {
+	position: absolute;
+	left: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemiconlabeldefault_4 .iconicofontmedicaldisableddefault .Vector_13 {
+	position: absolute;
+	left: 1.4239501953125px;
+	top: 0px;
+	width: 82.275390625%;
+	height: 100%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemiconlabeldefault_5 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 366px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemiconlabeldefault_5 .linebg_20 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemiconlabeldefault_5 .label_17 {
+	position: absolute;
+	margin-left: 52px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 180px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemiconlabeldefault_5 .iconicofontwebbankcreditcard {
+	position: absolute;
+	left: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemiconlabeldefault_5 .iconicofontwebbankcreditcard .Vector_14 {
+	position: absolute;
+	left: 1px;
+	top: 3.2734375px;
+	width: 87.5%;
+	height: 59.1064453125%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemiconlabeldefault_6 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 430px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemiconlabeldefault_6 .linebg_21 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemiconlabeldefault_6 .label_18 {
+	position: absolute;
+	margin-left: 52px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 180px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemiconlabeldefault_6 .iconicofontwebquestioncircled {
+	position: absolute;
+	left: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .navigationmenuverticalelementsitemiconlabeldefault_6 .iconicofontwebquestioncircled .Vector_15 {
+	position: absolute;
+	left: 1px;
+	top: 1px;
+	width: 87.5%;
+	height: 87.5%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelshadow .divider {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 422px;
+	width: 256px;
+	height: 0px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelshadow {
+	position: absolute;
+	left: 136px;
+	top: 3098px;
+	width: 256px;
+	height: 800px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelshadow .navigationmenuverticalelementssheetshadow_7 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 800px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelshadow .navigationmenuverticalelementssheetshadow_7 .navigationmenuverticalelementssheetshadow_8 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 800px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelshadow .navigationmenuverticalelementsitemsubtitlelabelselected_1 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 86px;
+	width: 256px;
+	height: 88px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelshadow .navigationmenuverticalelementsitemsubtitlelabelselected_1 .linebg_22 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 88px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelshadow .navigationmenuverticalelementsitemsubtitlelabelselected_1 .label_19 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 72.72727272727273%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	display: flex;
+	color: rgba(51,108,251,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelshadow .navigationmenuverticalelementsitemsubtitlelabelselected_1 .subtitle_7 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 27.27272727272727%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	display: flex;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelshadow .logolong_2 {
+	position: absolute;
+	left: 24px;
+	top: 24px;
+	width: 142px;
+	height: 30px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelshadow .logolong_2 .logoimage_2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelshadow .navigationmenuverticalelementsitemlabeldefault_1 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 174px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelshadow .navigationmenuverticalelementsitemlabeldefault_1 .linebg_23 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelshadow .navigationmenuverticalelementsitemlabeldefault_1 .label_20 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelshadow .navigationmenuverticalelementsitemlabeldefault_2 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 222px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelshadow .navigationmenuverticalelementsitemlabeldefault_2 .linebg_24 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelshadow .navigationmenuverticalelementsitemlabeldefault_2 .label_21 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelshadow .navigationmenuverticalelementsitemlabeldefault_3 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 270px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelshadow .navigationmenuverticalelementsitemlabeldefault_3 .linebg_25 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelshadow .navigationmenuverticalelementsitemlabeldefault_3 .label_22 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelshadow .navigationmenuverticalelementsitemlabeldefault_4 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 318px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelshadow .navigationmenuverticalelementsitemlabeldefault_4 .linebg_26 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelshadow .navigationmenuverticalelementsitemlabeldefault_4 .label_23 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelshadow .navigationmenuverticalelementsitemlabeldefault_5 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 366px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelshadow .navigationmenuverticalelementsitemlabeldefault_5 .linebg_27 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelshadow .navigationmenuverticalelementsitemlabeldefault_5 .label_24 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelshadow .navigationmenuverticalelementsitemlabeldefault_6 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 430px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelshadow .navigationmenuverticalelementsitemlabeldefault_6 .linebg_28 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelshadow .navigationmenuverticalelementsitemlabeldefault_6 .label_25 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelshadow .divider_1 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 422px;
+	width: 256px;
+	height: 0px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow {
+	position: absolute;
+	left: 136px;
+	top: 4060px;
+	width: 68px;
+	height: 800px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow .navigationmenuverticalelementssheetshadow_9 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 68px;
+	height: 800px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow .navigationmenuverticalelementssheetshadow_9 .navigationmenuverticalelementssheetshadow_10 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 68px;
+	height: 800px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow .navigationmenuverticalelementsitemiconselected_1 {
+	position: absolute;
+	margin-left: 10px;
+	margin-right: 10px;
+	top: 86px;
+	width: 48px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow .navigationmenuverticalelementsitemiconselected_1 .linebg_29 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 48px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow .navigationmenuverticalelementsitemiconselected_1 .iconicofontwebotherpiechart_1 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 20px;
+	height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow .navigationmenuverticalelementsitemiconselected_1 .iconicofontwebotherpiechart_1 .Vector_16 {
+	position: absolute;
+	left: 1.25px;
+	top: 1.6875px;
+	width: 87.5%;
+	height: 83.10546875%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow .logoshort {
+	position: absolute;
+	left: 50%;
+	top: 24px;
+	transform: translate(-50%, 0);
+	width: 30px;
+	height: 30px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow .logoshort .logoimage_3 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow .navigationmenuverticalelementsitemicondefault_1 {
+	position: absolute;
+	margin-left: 10px;
+	margin-right: 10px;
+	top: 134px;
+	width: 48px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow .navigationmenuverticalelementsitemicondefault_1 .linebg_30 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 48px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow .navigationmenuverticalelementsitemicondefault_1 .iconicofontmedicaldevicesstethoscope1_1 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 20px;
+	height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow .navigationmenuverticalelementsitemicondefault_1 .iconicofontmedicaldevicesstethoscope1_1 .Vector_17 {
+	position: absolute;
+	left: -0.0001220703125px;
+	top: 0.0703125px;
+	width: 99.9993896484375%;
+	height: 99.31640625%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow .navigationmenuverticalelementsitemicondefault_2 {
+	position: absolute;
+	margin-left: 10px;
+	margin-right: 10px;
+	top: 182px;
+	width: 48px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow .navigationmenuverticalelementsitemicondefault_2 .linebg_31 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 48px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow .navigationmenuverticalelementsitemicondefault_2 .iconicofontmedicalstaffdoctor2_1 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 20px;
+	height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow .navigationmenuverticalelementsitemicondefault_2 .iconicofontmedicalstaffdoctor2_1 .Vector_18 {
+	position: absolute;
+	left: 2.114013671875px;
+	top: 0px;
+	width: 78.6444091796875%;
+	height: 99.98046875%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow .navigationmenuverticalelementsitemicondefault_3 {
+	position: absolute;
+	margin-left: 10px;
+	margin-right: 10px;
+	top: 230px;
+	width: 48px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow .navigationmenuverticalelementsitemicondefault_3 .linebg_32 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 48px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow .navigationmenuverticalelementsitemicondefault_3 .iconicofontmedicalstaffnurse2_1 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 20px;
+	height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow .navigationmenuverticalelementsitemicondefault_3 .iconicofontmedicalstaffnurse2_1 .Vector_19 {
+	position: absolute;
+	left: 1.708740234375px;
+	top: 0px;
+	width: 82.9876708984375%;
+	height: 100.01953125%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow .navigationmenuverticalelementsitemicondefault_4 {
+	position: absolute;
+	margin-left: 10px;
+	margin-right: 10px;
+	top: 278px;
+	width: 48px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow .navigationmenuverticalelementsitemicondefault_4 .linebg_33 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 48px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow .navigationmenuverticalelementsitemicondefault_4 .iconicofontmedicaldisableddefault_1 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 20px;
+	height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow .navigationmenuverticalelementsitemicondefault_4 .iconicofontmedicaldisableddefault_1 .Vector_20 {
+	position: absolute;
+	left: 1.780029296875px;
+	top: 0px;
+	width: 82.2760009765625%;
+	height: 100%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow .navigationmenuverticalelementsitemicondefault_5 {
+	position: absolute;
+	margin-left: 10px;
+	margin-right: 10px;
+	top: 326px;
+	width: 48px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow .navigationmenuverticalelementsitemicondefault_5 .linebg_34 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 48px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow .navigationmenuverticalelementsitemicondefault_5 .iconicofontwebbankcreditcard_1 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 20px;
+	height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow .navigationmenuverticalelementsitemicondefault_5 .iconicofontwebbankcreditcard_1 .Vector_21 {
+	position: absolute;
+	left: 1.25px;
+	top: 4.09375px;
+	width: 87.5%;
+	height: 59.10156250000001%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow .navigationmenuverticalelementsitemicondefault_6 {
+	position: absolute;
+	margin-left: 10px;
+	margin-right: 10px;
+	top: 390px;
+	width: 48px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow .navigationmenuverticalelementsitemicondefault_6 .linebg_35 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 48px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow .navigationmenuverticalelementsitemicondefault_6 .iconicofontwebquestioncircled_1 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 20px;
+	height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow .navigationmenuverticalelementsitemicondefault_6 .iconicofontwebquestioncircled_1 .Vector_22 {
+	position: absolute;
+	left: 1.25px;
+	top: 1.25px;
+	width: 87.5%;
+	height: 87.5%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow .divider_2 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 382px;
+	width: 68px;
+	height: 0px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 {
+	position: absolute;
+	left: 540px;
+	top: 4060px;
+	width: 68px;
+	height: 800px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .navigationmenuverticalelementssheetrightdivider_1 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 68px;
+	height: 800px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .navigationmenuverticalelementssheetrightdivider_1 .navigationmenuverticalelementssheetshadow_11 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 68px;
+	height: 800px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .navigationmenuverticalelementssheetrightdivider_1 .navigationmenuverticalelementssheetshadow_12 {
+	position: absolute;
+	right: -1px;
+	width: 1px;
+	height: 800px;
+	background: rgba(232,232,232,1.00);
+	border-radius: 1px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .navigationmenuverticalelementsitemiconselected_2 {
+	position: absolute;
+	margin-left: 10px;
+	margin-right: 10px;
+	top: 86px;
+	width: 48px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .navigationmenuverticalelementsitemiconselected_2 .linebg_36 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 48px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .navigationmenuverticalelementsitemiconselected_2 .iconicofontwebotherpiechart_2 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 20px;
+	height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .navigationmenuverticalelementsitemiconselected_2 .iconicofontwebotherpiechart_2 .Vector_23 {
+	position: absolute;
+	left: 1.25px;
+	top: 1.6875px;
+	width: 87.5%;
+	height: 83.10546875%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .logoshort_1 {
+	position: absolute;
+	left: 50%;
+	top: 24px;
+	transform: translate(-50%, 0);
+	width: 30px;
+	height: 30px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .logoshort_1 .logoimage_4 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .navigationmenuverticalelementsitemicondefault_7 {
+	position: absolute;
+	margin-left: 10px;
+	margin-right: 10px;
+	top: 134px;
+	width: 48px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .navigationmenuverticalelementsitemicondefault_7 .linebg_37 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 48px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .navigationmenuverticalelementsitemicondefault_7 .iconicofontmedicaldevicesstethoscope1_2 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 20px;
+	height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .navigationmenuverticalelementsitemicondefault_7 .iconicofontmedicaldevicesstethoscope1_2 .Vector_24 {
+	position: absolute;
+	left: -0.000244140625px;
+	top: 0.0703125px;
+	width: 100%;
+	height: 99.31640625%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .navigationmenuverticalelementsitemicondefault_8 {
+	position: absolute;
+	margin-left: 10px;
+	margin-right: 10px;
+	top: 182px;
+	width: 48px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .navigationmenuverticalelementsitemicondefault_8 .linebg_38 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 48px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .navigationmenuverticalelementsitemicondefault_8 .iconicofontmedicalstaffdoctor2_2 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 20px;
+	height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .navigationmenuverticalelementsitemicondefault_8 .iconicofontmedicalstaffdoctor2_2 .Vector_25 {
+	position: absolute;
+	left: 2.114013671875px;
+	top: 0px;
+	width: 78.64501953125%;
+	height: 99.98046875%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .navigationmenuverticalelementsitemicondefault_9 {
+	position: absolute;
+	margin-left: 10px;
+	margin-right: 10px;
+	top: 230px;
+	width: 48px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .navigationmenuverticalelementsitemicondefault_9 .linebg_39 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 48px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .navigationmenuverticalelementsitemicondefault_9 .iconicofontmedicalstaffnurse2_2 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 20px;
+	height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .navigationmenuverticalelementsitemicondefault_9 .iconicofontmedicalstaffnurse2_2 .Vector_26 {
+	position: absolute;
+	left: 1.708740234375px;
+	top: 0px;
+	width: 82.987060546875%;
+	height: 100.01953125%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .navigationmenuverticalelementsitemicondefault_10 {
+	position: absolute;
+	margin-left: 10px;
+	margin-right: 10px;
+	top: 278px;
+	width: 48px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .navigationmenuverticalelementsitemicondefault_10 .linebg_40 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 48px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .navigationmenuverticalelementsitemicondefault_10 .iconicofontmedicaldisableddefault_2 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 20px;
+	height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .navigationmenuverticalelementsitemicondefault_10 .iconicofontmedicaldisableddefault_2 .Vector_27 {
+	position: absolute;
+	left: 1.780029296875px;
+	top: 0px;
+	width: 82.275390625%;
+	height: 100%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .navigationmenuverticalelementsitemicondefault_11 {
+	position: absolute;
+	margin-left: 10px;
+	margin-right: 10px;
+	top: 326px;
+	width: 48px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .navigationmenuverticalelementsitemicondefault_11 .linebg_41 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 48px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .navigationmenuverticalelementsitemicondefault_11 .iconicofontwebbankcreditcard_2 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 20px;
+	height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .navigationmenuverticalelementsitemicondefault_11 .iconicofontwebbankcreditcard_2 .Vector_28 {
+	position: absolute;
+	left: 1.25px;
+	top: 4.09375px;
+	width: 87.5%;
+	height: 59.10156250000001%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .navigationmenuverticalelementsitemicondefault_12 {
+	position: absolute;
+	margin-left: 10px;
+	margin-right: 10px;
+	top: 390px;
+	width: 48px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .navigationmenuverticalelementsitemicondefault_12 .linebg_42 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 48px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .navigationmenuverticalelementsitemicondefault_12 .iconicofontwebquestioncircled_2 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 20px;
+	height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .navigationmenuverticalelementsitemicondefault_12 .iconicofontwebquestioncircled_2 .Vector_29 {
+	position: absolute;
+	left: 1.25px;
+	top: 1.25px;
+	width: 87.5%;
+	height: 87.5%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_1 .divider_3 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 382px;
+	width: 68px;
+	height: 0px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 {
+	position: absolute;
+	left: 944px;
+	top: 4060px;
+	width: 68px;
+	height: 800px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 .navigationmenuverticalelementssheetclean_1 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 68px;
+	height: 800px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 .navigationmenuverticalelementssheetclean_1 .navigationmenuverticalelementssheetshadow_13 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 68px;
+	height: 800px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 .navigationmenuverticalelementsitemiconselected_3 {
+	position: absolute;
+	margin-left: 10px;
+	margin-right: 10px;
+	top: 86px;
+	width: 48px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 .navigationmenuverticalelementsitemiconselected_3 .linebg_43 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 48px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 .navigationmenuverticalelementsitemiconselected_3 .iconicofontwebotherpiechart_3 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 20px;
+	height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 .navigationmenuverticalelementsitemiconselected_3 .iconicofontwebotherpiechart_3 .Vector_30 {
+	position: absolute;
+	left: 1.25px;
+	top: 1.6875px;
+	width: 87.5%;
+	height: 83.10546875%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 .logoshort_2 {
+	position: absolute;
+	left: 50%;
+	top: 24px;
+	transform: translate(-50%, 0);
+	width: 30px;
+	height: 30px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 .logoshort_2 .logoimage_5 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 .navigationmenuverticalelementsitemicondefault_13 {
+	position: absolute;
+	margin-left: 10px;
+	margin-right: 10px;
+	top: 134px;
+	width: 48px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 .navigationmenuverticalelementsitemicondefault_13 .linebg_44 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 48px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 .navigationmenuverticalelementsitemicondefault_13 .iconicofontmedicaldevicesstethoscope1_3 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 20px;
+	height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 .navigationmenuverticalelementsitemicondefault_13 .iconicofontmedicaldevicesstethoscope1_3 .Vector_31 {
+	position: absolute;
+	left: -0.000244140625px;
+	top: 0.0703125px;
+	width: 100%;
+	height: 99.31640625%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 .navigationmenuverticalelementsitemicondefault_14 {
+	position: absolute;
+	margin-left: 10px;
+	margin-right: 10px;
+	top: 182px;
+	width: 48px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 .navigationmenuverticalelementsitemicondefault_14 .linebg_45 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 48px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 .navigationmenuverticalelementsitemicondefault_14 .iconicofontmedicalstaffdoctor2_3 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 20px;
+	height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 .navigationmenuverticalelementsitemicondefault_14 .iconicofontmedicalstaffdoctor2_3 .Vector_32 {
+	position: absolute;
+	left: 2.114013671875px;
+	top: 0px;
+	width: 78.64501953125%;
+	height: 99.98046875%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 .navigationmenuverticalelementsitemicondefault_15 {
+	position: absolute;
+	margin-left: 10px;
+	margin-right: 10px;
+	top: 230px;
+	width: 48px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 .navigationmenuverticalelementsitemicondefault_15 .linebg_46 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 48px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 .navigationmenuverticalelementsitemicondefault_15 .iconicofontmedicalstaffnurse2_3 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 20px;
+	height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 .navigationmenuverticalelementsitemicondefault_15 .iconicofontmedicalstaffnurse2_3 .Vector_33 {
+	position: absolute;
+	left: 1.708740234375px;
+	top: 0px;
+	width: 82.987060546875%;
+	height: 100.01953125%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 .navigationmenuverticalelementsitemicondefault_16 {
+	position: absolute;
+	margin-left: 10px;
+	margin-right: 10px;
+	top: 278px;
+	width: 48px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 .navigationmenuverticalelementsitemicondefault_16 .linebg_47 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 48px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 .navigationmenuverticalelementsitemicondefault_16 .iconicofontmedicaldisableddefault_3 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 20px;
+	height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 .navigationmenuverticalelementsitemicondefault_16 .iconicofontmedicaldisableddefault_3 .Vector_34 {
+	position: absolute;
+	left: 1.780029296875px;
+	top: 0px;
+	width: 82.275390625%;
+	height: 100%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 .navigationmenuverticalelementsitemicondefault_17 {
+	position: absolute;
+	margin-left: 10px;
+	margin-right: 10px;
+	top: 326px;
+	width: 48px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 .navigationmenuverticalelementsitemicondefault_17 .linebg_48 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 48px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 .navigationmenuverticalelementsitemicondefault_17 .iconicofontwebbankcreditcard_3 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 20px;
+	height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 .navigationmenuverticalelementsitemicondefault_17 .iconicofontwebbankcreditcard_3 .Vector_35 {
+	position: absolute;
+	left: 1.25px;
+	top: 4.09375px;
+	width: 87.5%;
+	height: 59.10156250000001%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 .navigationmenuverticalelementsitemicondefault_18 {
+	position: absolute;
+	margin-left: 10px;
+	margin-right: 10px;
+	top: 390px;
+	width: 48px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 .navigationmenuverticalelementsitemicondefault_18 .linebg_49 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 48px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 .navigationmenuverticalelementsitemicondefault_18 .iconicofontwebquestioncircled_3 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 20px;
+	height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 .navigationmenuverticalelementsitemicondefault_18 .iconicofontwebquestioncircled_3 .Vector_36 {
+	position: absolute;
+	left: 1.25px;
+	top: 1.25px;
+	width: 87.5%;
+	height: 87.5%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampletabletshadow_2 .divider_4 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 382px;
+	width: 68px;
+	height: 0px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelrightdivider {
+	position: absolute;
+	left: 540px;
+	top: 3098px;
+	width: 256px;
+	height: 800px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelrightdivider .navigationmenuverticalelementssheetrightdivider_2 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 800px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelrightdivider .navigationmenuverticalelementssheetrightdivider_2 .navigationmenuverticalelementssheetshadow_14 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 800px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelrightdivider .navigationmenuverticalelementssheetrightdivider_2 .navigationmenuverticalelementssheetshadow_15 {
+	position: absolute;
+	right: -1px;
+	width: 1px;
+	height: 800px;
+	background: rgba(232,232,232,1.00);
+	border-radius: 1px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelrightdivider .navigationmenuverticalelementsitemsubtitlelabelselected_2 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 86px;
+	width: 256px;
+	height: 88px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelrightdivider .navigationmenuverticalelementsitemsubtitlelabelselected_2 .linebg_50 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 88px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelrightdivider .navigationmenuverticalelementsitemsubtitlelabelselected_2 .label_26 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 72.72727272727273%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	display: flex;
+	color: rgba(51,108,251,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelrightdivider .navigationmenuverticalelementsitemsubtitlelabelselected_2 .subtitle_8 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 27.27272727272727%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	display: flex;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelrightdivider .logolong_3 {
+	position: absolute;
+	left: 24px;
+	top: 24px;
+	width: 142px;
+	height: 30px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelrightdivider .logolong_3 .logoimage_6 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelrightdivider .navigationmenuverticalelementsitemlabeldefault_7 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 174px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelrightdivider .navigationmenuverticalelementsitemlabeldefault_7 .linebg_51 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelrightdivider .navigationmenuverticalelementsitemlabeldefault_7 .label_27 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelrightdivider .navigationmenuverticalelementsitemlabeldefault_8 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 222px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelrightdivider .navigationmenuverticalelementsitemlabeldefault_8 .linebg_52 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelrightdivider .navigationmenuverticalelementsitemlabeldefault_8 .label_28 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelrightdivider .navigationmenuverticalelementsitemlabeldefault_9 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 270px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelrightdivider .navigationmenuverticalelementsitemlabeldefault_9 .linebg_53 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelrightdivider .navigationmenuverticalelementsitemlabeldefault_9 .label_29 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelrightdivider .navigationmenuverticalelementsitemlabeldefault_10 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 318px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelrightdivider .navigationmenuverticalelementsitemlabeldefault_10 .linebg_54 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelrightdivider .navigationmenuverticalelementsitemlabeldefault_10 .label_30 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelrightdivider .navigationmenuverticalelementsitemlabeldefault_11 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 366px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelrightdivider .navigationmenuverticalelementsitemlabeldefault_11 .linebg_55 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelrightdivider .navigationmenuverticalelementsitemlabeldefault_11 .label_31 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelrightdivider .navigationmenuverticalelementsitemlabeldefault_12 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 430px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelrightdivider .navigationmenuverticalelementsitemlabeldefault_12 .linebg_56 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelrightdivider .navigationmenuverticalelementsitemlabeldefault_12 .label_32 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelrightdivider .divider_5 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 422px;
+	width: 256px;
+	height: 0px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelclean {
+	position: absolute;
+	left: 944px;
+	top: 3098px;
+	width: 256px;
+	height: 800px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelclean .navigationmenuverticalelementssheetclean_2 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 800px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelclean .navigationmenuverticalelementssheetclean_2 .navigationmenuverticalelementssheetshadow_16 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 800px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelclean .navigationmenuverticalelementsitemsubtitlelabelselected_3 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 86px;
+	width: 256px;
+	height: 88px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelclean .navigationmenuverticalelementsitemsubtitlelabelselected_3 .linebg_57 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 88px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelclean .navigationmenuverticalelementsitemsubtitlelabelselected_3 .label_33 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 72.72727272727273%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	display: flex;
+	color: rgba(51,108,251,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelclean .navigationmenuverticalelementsitemsubtitlelabelselected_3 .subtitle_9 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 27.27272727272727%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	display: flex;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelclean .logolong_4 {
+	position: absolute;
+	left: 24px;
+	top: 24px;
+	width: 142px;
+	height: 30px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelclean .logolong_4 .logoimage_7 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelclean .navigationmenuverticalelementsitemlabeldefault_13 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 174px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelclean .navigationmenuverticalelementsitemlabeldefault_13 .linebg_58 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelclean .navigationmenuverticalelementsitemlabeldefault_13 .label_34 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelclean .navigationmenuverticalelementsitemlabeldefault_14 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 222px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelclean .navigationmenuverticalelementsitemlabeldefault_14 .linebg_59 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelclean .navigationmenuverticalelementsitemlabeldefault_14 .label_35 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelclean .navigationmenuverticalelementsitemlabeldefault_15 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 270px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelclean .navigationmenuverticalelementsitemlabeldefault_15 .linebg_60 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelclean .navigationmenuverticalelementsitemlabeldefault_15 .label_36 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelclean .navigationmenuverticalelementsitemlabeldefault_16 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 318px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelclean .navigationmenuverticalelementsitemlabeldefault_16 .linebg_61 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelclean .navigationmenuverticalelementsitemlabeldefault_16 .label_37 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelclean .navigationmenuverticalelementsitemlabeldefault_17 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 366px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelclean .navigationmenuverticalelementsitemlabeldefault_17 .linebg_62 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelclean .navigationmenuverticalelementsitemlabeldefault_17 .label_38 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelclean .navigationmenuverticalelementsitemlabeldefault_18 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 430px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelclean .navigationmenuverticalelementsitemlabeldefault_18 .linebg_63 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelclean .navigationmenuverticalelementsitemlabeldefault_18 .label_39 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexamplelabelclean .divider_6 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 422px;
+	width: 256px;
+	height: 0px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider {
+	position: absolute;
+	left: 540px;
+	top: 2136px;
+	width: 256px;
+	height: 800px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementssheetrightdivider_3 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 800px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementssheetrightdivider_3 .navigationmenuverticalelementssheetshadow_17 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 800px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementssheetrightdivider_3 .navigationmenuverticalelementssheetshadow_18 {
+	position: absolute;
+	right: -1px;
+	width: 1px;
+	height: 800px;
+	background: rgba(232,232,232,1.00);
+	border-radius: 1px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemsubtitleiconlabelselected_2 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 86px;
+	width: 256px;
+	height: 88px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemsubtitleiconlabelselected_2 .linebg_64 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 88px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemsubtitleiconlabelselected_2 .subtitle_10 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 27.27272727272727%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemsubtitleiconlabelselected_2 .label_40 {
+	position: absolute;
+	margin-left: 52px;
+	margin-right: 24px;
+	top: 72.72727272727273%;
+	transform: translate(0, -50%);
+	width: 180px;
+	height: 20px;
+	color: rgba(51,108,251,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemsubtitleiconlabelselected_2 .iconicofontwebotherpiechart_4 {
+	position: absolute;
+	left: 24px;
+	top: 72.72727272727273%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemsubtitleiconlabelselected_2 .iconicofontwebotherpiechart_4 .Vector_37 {
+	position: absolute;
+	left: 1px;
+	top: 1.3515625px;
+	width: 87.5%;
+	height: 83.10546875%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .logolong_5 {
+	position: absolute;
+	left: 24px;
+	top: 24px;
+	width: 142px;
+	height: 30px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .logolong_5 .logoimage_8 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemiconlabeldefault_7 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 174px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemiconlabeldefault_7 .linebg_65 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemiconlabeldefault_7 .label_41 {
+	position: absolute;
+	margin-left: 52px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 180px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemiconlabeldefault_7 .iconicofontmedicaldevicesstethoscope1_4 {
+	position: absolute;
+	left: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemiconlabeldefault_7 .iconicofontmedicaldevicesstethoscope1_4 .Vector_38 {
+	position: absolute;
+	left: 0px;
+	top: 0.0546875px;
+	width: 100%;
+	height: 99.31640625%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemiconlabeldefault_8 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 222px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemiconlabeldefault_8 .linebg_66 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemiconlabeldefault_8 .label_42 {
+	position: absolute;
+	margin-left: 52px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 180px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemiconlabeldefault_8 .iconicofontmedicalstaffdoctor2_4 {
+	position: absolute;
+	left: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemiconlabeldefault_8 .iconicofontmedicalstaffdoctor2_4 .Vector_39 {
+	position: absolute;
+	left: 1.691162109375px;
+	top: 0px;
+	width: 78.64532470703125%;
+	height: 99.9755859375%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemiconlabeldefault_9 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 270px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemiconlabeldefault_9 .linebg_67 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemiconlabeldefault_9 .label_43 {
+	position: absolute;
+	margin-left: 52px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 180px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemiconlabeldefault_9 .iconicofontmedicalstaffnurse2_4 {
+	position: absolute;
+	left: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemiconlabeldefault_9 .iconicofontmedicalstaffnurse2_4 .Vector_40 {
+	position: absolute;
+	left: 1.366943359375px;
+	top: 0px;
+	width: 82.98797607421875%;
+	height: 100.0244140625%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemiconlabeldefault_10 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 318px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemiconlabeldefault_10 .linebg_68 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemiconlabeldefault_10 .label_44 {
+	position: absolute;
+	margin-left: 52px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 180px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemiconlabeldefault_10 .iconicofontmedicaldisableddefault_4 {
+	position: absolute;
+	left: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemiconlabeldefault_10 .iconicofontmedicaldisableddefault_4 .Vector_41 {
+	position: absolute;
+	left: 1.424072265625px;
+	top: 0px;
+	width: 82.275390625%;
+	height: 100%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemiconlabeldefault_11 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 366px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemiconlabeldefault_11 .linebg_69 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemiconlabeldefault_11 .label_45 {
+	position: absolute;
+	margin-left: 52px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 180px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemiconlabeldefault_11 .iconicofontwebbankcreditcard_4 {
+	position: absolute;
+	left: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemiconlabeldefault_11 .iconicofontwebbankcreditcard_4 .Vector_42 {
+	position: absolute;
+	left: 1px;
+	top: 3.2734375px;
+	width: 87.5%;
+	height: 59.1064453125%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemiconlabeldefault_12 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 430px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemiconlabeldefault_12 .linebg_70 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemiconlabeldefault_12 .label_46 {
+	position: absolute;
+	margin-left: 52px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 180px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemiconlabeldefault_12 .iconicofontwebquestioncircled_4 {
+	position: absolute;
+	left: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .navigationmenuverticalelementsitemiconlabeldefault_12 .iconicofontwebquestioncircled_4 .Vector_43 {
+	position: absolute;
+	left: 1px;
+	top: 1px;
+	width: 87.5%;
+	height: 87.5%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelrightdivider .divider_7 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 422px;
+	width: 256px;
+	height: 0px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean {
+	position: absolute;
+	left: 944px;
+	top: 2136px;
+	width: 256px;
+	height: 800px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementssheetclean_3 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 800px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementssheetclean_3 .navigationmenuverticalelementssheetshadow_19 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 800px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemsubtitleiconlabelselected_3 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 86px;
+	width: 256px;
+	height: 88px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemsubtitleiconlabelselected_3 .linebg_71 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 88px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemsubtitleiconlabelselected_3 .subtitle_11 {
+	position: absolute;
+	margin-left: 24px;
+	margin-right: 24px;
+	top: 27.27272727272727%;
+	transform: translate(0, -50%);
+	width: 208px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemsubtitleiconlabelselected_3 .label_47 {
+	position: absolute;
+	margin-left: 52px;
+	margin-right: 24px;
+	top: 72.72727272727273%;
+	transform: translate(0, -50%);
+	width: 180px;
+	height: 20px;
+	color: rgba(51,108,251,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemsubtitleiconlabelselected_3 .iconicofontwebotherpiechart_5 {
+	position: absolute;
+	left: 24px;
+	top: 72.72727272727273%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemsubtitleiconlabelselected_3 .iconicofontwebotherpiechart_5 .Vector_44 {
+	position: absolute;
+	left: 1px;
+	top: 1.3515625px;
+	width: 87.5%;
+	height: 83.10546875%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .logolong_6 {
+	position: absolute;
+	left: 24px;
+	top: 24px;
+	width: 142px;
+	height: 30px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .logolong_6 .logoimage_9 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemiconlabeldefault_13 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 174px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemiconlabeldefault_13 .linebg_72 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemiconlabeldefault_13 .label_48 {
+	position: absolute;
+	margin-left: 52px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 180px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemiconlabeldefault_13 .iconicofontmedicaldevicesstethoscope1_5 {
+	position: absolute;
+	left: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemiconlabeldefault_13 .iconicofontmedicaldevicesstethoscope1_5 .Vector_45 {
+	position: absolute;
+	left: 0px;
+	top: 0.0546875px;
+	width: 100%;
+	height: 99.31640625%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemiconlabeldefault_14 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 222px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemiconlabeldefault_14 .linebg_73 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemiconlabeldefault_14 .label_49 {
+	position: absolute;
+	margin-left: 52px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 180px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemiconlabeldefault_14 .iconicofontmedicalstaffdoctor2_5 {
+	position: absolute;
+	left: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemiconlabeldefault_14 .iconicofontmedicalstaffdoctor2_5 .Vector_46 {
+	position: absolute;
+	left: 1.691162109375px;
+	top: 0px;
+	width: 78.64532470703125%;
+	height: 99.9755859375%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemiconlabeldefault_15 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 270px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemiconlabeldefault_15 .linebg_74 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemiconlabeldefault_15 .label_50 {
+	position: absolute;
+	margin-left: 52px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 180px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemiconlabeldefault_15 .iconicofontmedicalstaffnurse2_5 {
+	position: absolute;
+	left: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemiconlabeldefault_15 .iconicofontmedicalstaffnurse2_5 .Vector_47 {
+	position: absolute;
+	left: 1.366943359375px;
+	top: 0px;
+	width: 82.98797607421875%;
+	height: 100.0244140625%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemiconlabeldefault_16 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 318px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemiconlabeldefault_16 .linebg_75 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemiconlabeldefault_16 .label_51 {
+	position: absolute;
+	margin-left: 52px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 180px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemiconlabeldefault_16 .iconicofontmedicaldisableddefault_5 {
+	position: absolute;
+	left: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemiconlabeldefault_16 .iconicofontmedicaldisableddefault_5 .Vector_48 {
+	position: absolute;
+	left: 1.424072265625px;
+	top: 0px;
+	width: 82.275390625%;
+	height: 100%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemiconlabeldefault_17 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 366px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemiconlabeldefault_17 .linebg_76 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemiconlabeldefault_17 .label_52 {
+	position: absolute;
+	margin-left: 52px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 180px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemiconlabeldefault_17 .iconicofontwebbankcreditcard_5 {
+	position: absolute;
+	left: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemiconlabeldefault_17 .iconicofontwebbankcreditcard_5 .Vector_49 {
+	position: absolute;
+	left: 1px;
+	top: 3.2734375px;
+	width: 87.5%;
+	height: 59.1064453125%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemiconlabeldefault_18 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 430px;
+	width: 256px;
+	height: 48px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemiconlabeldefault_18 .linebg_77 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 48px;
+	background: rgba(255,255,255,1.00);
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemiconlabeldefault_18 .label_53 {
+	position: absolute;
+	margin-left: 52px;
+	margin-right: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 180px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemiconlabeldefault_18 .iconicofontwebquestioncircled_5 {
+	position: absolute;
+	left: 24px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .navigationmenuverticalelementsitemiconlabeldefault_18 .iconicofontwebquestioncircled_5 .Vector_50 {
+	position: absolute;
+	left: 1px;
+	top: 1px;
+	width: 87.5%;
+	height: 87.5%;
+}
+.Navigationmenuvertical_Navigationmenuvertical .navigationmenuverticalexampleiconlabelclean .divider_8 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 422px;
+	width: 256px;
+	height: 0px;
+}

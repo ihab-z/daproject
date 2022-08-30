@@ -1,0 +1,883 @@
+
+.Resultofselectesddataset_Resultofselectesddataset {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	background: rgba(235,240,255,1.00);
+	border: 1px solid rgba(0,0,0,1);
+	box-sizing: border-box;
+}
+.Resultofselectesddataset_Resultofselectesddataset .othernavigationhorizontaldektop {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 116px;
+	width: 1440px;
+	height: 88px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .othernavigationhorizontaldektop .bg {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 1440px;
+	height: 88px;
+	background: rgba(246,248,251,1.00);
+}
+.Resultofselectesddataset_Resultofselectesddataset .othernavigationhorizontaldektop .circle {
+	visibility: hidden;
+	position: absolute;
+	right: 165px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 3px solid rgba(232.00000137090683,232.00000137090683,232.00000137090683,1);
+}
+.Resultofselectesddataset_Resultofselectesddataset .othernavigationhorizontaldektop .avatarcircledman16 {
+	visibility: hidden;
+	position: absolute;
+	right: 165px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 40px;
+	height: 40px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .othernavigationhorizontaldektop .avatarcircledman16 .circle_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	background-size: cover;
+}
+.Resultofselectesddataset_Resultofselectesddataset .othernavigationhorizontaldektop .textfieldsearchroundeddefault {
+	position: absolute;
+	left: 339px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 350px;
+	height: 40px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .othernavigationhorizontaldektop .textfieldsearchroundeddefault .bg_1 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 350px;
+	height: 40px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 100px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .othernavigationhorizontaldektop .textfieldsearchroundeddefault .Search {
+	position: absolute;
+	margin-left: 42px;
+	margin-right: 16px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 292px;
+	height: 16px;
+	display: flex;
+	align-items: center;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 16px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .othernavigationhorizontaldektop .textfieldsearchroundeddefault .iconicofontwebsearchdefault {
+	position: absolute;
+	left: 16px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 14px;
+	height: 14px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .othernavigationhorizontaldektop .textfieldsearchroundeddefault .iconicofontwebsearchdefault .Vector {
+	position: absolute;
+	left: 0px;
+	top: 0.09100341796875px;
+	width: 99.99869210379464%;
+	height: 98.64981515066964%;
+}
+.Resultofselectesddataset_Resultofselectesddataset .othernavigationhorizontaldektop .iconicofontwebnotificationnotification {
+	visibility: hidden;
+	position: absolute;
+	right: 231px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 24px;
+	height: 24px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .othernavigationhorizontaldektop .iconicofontwebnotificationnotification .Vector_1 {
+	position: absolute;
+	left: 1.511688232421875px;
+	top: 1.49951171875px;
+	width: 87.44544982910156%;
+	height: 87.48016357421875%;
+}
+.Resultofselectesddataset_Resultofselectesddataset .othernavigationhorizontaldektop .notification {
+	visibility: hidden;
+	position: absolute;
+	left: 1203px;
+	top: 26px;
+	width: 16px;
+	height: 16px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .othernavigationhorizontaldektop .notification .circle_2 {
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+	background: rgba(255,103,96,1.00);
+	border-radius: 50%;
+	border: 2px solid rgba(246.0000005364418,248.0000004172325,251.00000023841858,1);
+}
+.Resultofselectesddataset_Resultofselectesddataset .othernavigationhorizontaldektop .notification ._9 {
+	position: absolute;
+	right: 2px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 12px;
+	height: 12px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Lato;
+	font-size: 10px;
+	font-weight: 700;
+	line-height: 12px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .othernavigationhorizontaldektop .logolong {
+	position: absolute;
+	left: 165px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 142px;
+	height: 30px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .othernavigationhorizontaldektop .logolong .logoimage {
+	visibility: hidden;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Questionnaire {
+	visibility: hidden;
+	position: absolute;
+	left: 395px;
+	top: 136px;
+	width: 106.62921142578125px;
+	height: 34.4378662109375px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Questionnaire .Questionnaire_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 106.4102556764031%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	color: rgba(37,40,43,1.00);
+	font-family: Roboto;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient {
+	position: absolute;
+	left: 114px;
+	top: 204px;
+	width: 1212px;
+	height: 794.839599609375px;
+	background: rgba(255,255,255,1.00);
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 75.23785400390625px;
+	height: 762.8076171875px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .Rectangle1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 75.23785400390625px;
+	height: 762.8076171875px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 8.939151763916016px;
+	border: 0.744929313659668px solid rgba(231.62500709295273,230.65990447998047,230.65990447998047,1);
+	box-sizing: border-box;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .Group18 {
+	position: absolute;
+	left: 15.64349365234375px;
+	top: 125.89306640625px;
+	width: 44.69573974609375px;
+	height: 44.69573974609375px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .Group18 .Rectangle50 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 44.69573974609375px;
+	height: 44.69573974609375px;
+	background: rgba(48,48,48,1.00);
+	border-radius: 8.939151763916016px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .Group18 .Frame {
+	position: absolute;
+	left: 11.1739501953125px;
+	top: 11.1739501953125px;
+	width: 22.347900390625px;
+	height: 22.347900390625px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .Group18 .Frame .Vector_2 {
+	position: absolute;
+	left: 0px;
+	top: 0.0001220703125px;
+	width: 100%;
+	height: 100%;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .Group18 .Frame .Vector_3 {
+	position: absolute;
+	left: 2.79351806640625px;
+	top: 2.7935791015625px;
+	width: 75%;
+	height: 75%;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .Group17 {
+	position: absolute;
+	left: 15.64349365234375px;
+	top: 192.93670654296875px;
+	width: 44.69573974609375px;
+	height: 44.69573974609375px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .Group17 .Rectangle51 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 44.69573974609375px;
+	height: 44.69573974609375px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 8.939151763916016px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .Group17 .Frame_1 {
+	position: absolute;
+	left: 11.1739501953125px;
+	top: 11.17388916015625px;
+	width: 22.347900390625px;
+	height: 22.347900390625px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .Group17 .Frame_1 .Vector_4 {
+	position: absolute;
+	left: 0px;
+	top: 0.00006103515625px;
+	width: 100%;
+	height: 100%;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .Group17 .Frame_1 .Vector_5 {
+	position: absolute;
+	left: 1.86236572265625px;
+	top: 0.93121337890625px;
+	width: 83.33324229546523%;
+	height: 83.33324229546523%;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .Group15 {
+	position: absolute;
+	left: 15.64349365234375px;
+	top: 327.02392578125px;
+	width: 44.69573974609375px;
+	height: 44.69580078125px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .Group15 .Rectangle53 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 44.69573974609375px;
+	height: 44.69580078125px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 8.939151763916016px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .Group15 .Frame_2 {
+	position: absolute;
+	left: 11.1739501953125px;
+	top: 11.1739501953125px;
+	width: 22.347900390625px;
+	height: 22.347900390625px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .Group15 .Frame_2 .Vector_6 {
+	position: absolute;
+	left: 0px;
+	top: -0.0001220703125px;
+	width: 100%;
+	height: 100%;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .Group15 .Frame_2 .Vector_7 {
+	position: absolute;
+	left: 1.8623046875px;
+	top: 1.8621826171875px;
+	width: 83.33324229546523%;
+	height: 83.33351540906956%;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .Group16 {
+	position: absolute;
+	left: 15.6435546875px;
+	top: 259.980224609375px;
+	width: 44.69573974609375px;
+	height: 44.69573974609375px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .Group16 .Rectangle52 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 44.69573974609375px;
+	height: 44.69573974609375px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 8.939151763916016px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .Group16 .Frame_3 {
+	position: absolute;
+	left: 11.1739501953125px;
+	top: 11.1739501953125px;
+	width: 22.347900390625px;
+	height: 22.347900390625px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .Group16 .Frame_3 .Vector_8 {
+	position: absolute;
+	left: 0px;
+	top: -0.00006103515625px;
+	width: 100%;
+	height: 100%;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .Group16 .Frame_3 .Vector_9 {
+	position: absolute;
+	left: 1.8623046875px;
+	top: 2.79345703125px;
+	width: 83.33324229546523%;
+	height: 75%;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .Group19 {
+	position: absolute;
+	left: 15.64349365234375px;
+	top: 394.067626953125px;
+	width: 44.69573974609375px;
+	height: 44.69580078125px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .Group19 .Rectangle53_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 44.69573974609375px;
+	height: 44.69580078125px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 8.939151763916016px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .Group19 .Frame_4 {
+	position: absolute;
+	left: 11.1739501953125px;
+	top: 11.1739501953125px;
+	width: 23.83770751953125px;
+	height: 23.8377685546875px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .Group19 .Frame_4 .Vector_10 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .Group19 .Frame_4 .Vector_11 {
+	position: absolute;
+	left: 2.34600830078125px;
+	top: 1.98486328125px;
+	width: 80.3168295536887%;
+	height: 83.34792783658254%;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .Group26 {
+	position: absolute;
+	left: 15.64349365234375px;
+	top: 461.1112060546875px;
+	width: 44.69573974609375px;
+	height: 44.69580078125px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .Group26 .Rectangle53_2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 44.69573974609375px;
+	height: 44.69580078125px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 8.939151763916016px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .Group26 .Frame_5 {
+	position: absolute;
+	left: 11.1739501953125px;
+	top: 11.173828125px;
+	width: 22.347900390625px;
+	height: 22.347900390625px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .Group26 .Frame_5 .Vector_12 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .Group26 .Frame_5 .Vector_13 {
+	position: absolute;
+	left: 0.93115234375px;
+	top: 1.8623046875px;
+	width: 79.16662114773261%;
+	height: 83.33351540906956%;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .StandardCollection10 {
+	position: absolute;
+	left: 23.09283447265625px;
+	top: 42.46099853515625px;
+	width: 29.8331298828125px;
+	height: 30.290771484375px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .StandardCollection10 .Group {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Sidebar .StandardCollection10 .Group .Vector_14 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .NameAgeGender {
+	position: absolute;
+	left: 104.29010009765625px;
+	top: 17.1334228515625px;
+	width: 177.29318237304688px;
+	height: 119.93359375px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .NameAgeGender .NameJaneCooperAge40GenderFemaleDisorderBipolarDisorder {
+	position: absolute;
+	left: 0px;
+	top: 0.00006103515625px;
+	width: 254.62183514262654%;
+	height: 93.16770755300784%;
+	color: rgba(59,118,160,1.00);
+	font-family: Roboto;
+	font-size: 20.858020782470703px;
+	font-weight: 400;
+	line-height: 24.4429931640625px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .PHQ9 {
+	position: absolute;
+	left: 103.545166015625px;
+	top: 313.615234375px;
+	width: 60.339263916015625px;
+	height: 26.072509765625px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 20.858020782470703px;
+	font-weight: 400;
+	line-height: 24.4429931640625px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .SuicideSeverityRatingCSSRS {
+	position: absolute;
+	left: 104.29010009765625px;
+	top: 164.62939453125px;
+	width: 216.0294952392578px;
+	height: 51.400146484375px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 20.858020782470703px;
+	font-weight: 400;
+	line-height: 24.4429931640625px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .BNAMarker {
+	position: absolute;
+	left: 103.545166015625px;
+	top: 469.305419921875px;
+	width: 112.48431396484375px;
+	height: 25.32763671875px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 20.858020782470703px;
+	font-weight: 400;
+	line-height: 24.4429931640625px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Treatment {
+	position: absolute;
+	left: 103.545166015625px;
+	top: 624.250732421875px;
+	width: 96.09588623046875px;
+	height: 26.072509765625px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 20.858020782470703px;
+	font-weight: 400;
+	line-height: 24.4429931640625px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Vector1 {
+	position: absolute;
+	left: 113.97418212890625px;
+	top: 741.2047119140625px;
+	width: 990.7559814453125px;
+	height: 1.4898681640625px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Time {
+	position: absolute;
+	left: 1142.7215576171875px;
+	top: 728.5408935546875px;
+	width: 47px;
+	height: 24px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 20.858020782470703px;
+	font-weight: 400;
+	line-height: 24.4429931640625px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Vector3 {
+	position: absolute;
+	left: 365.015380859375px;
+	top: 170.58880615234375px;
+	width: 0px;
+	height: 569.8709106445312px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Vector4 {
+	position: absolute;
+	left: 428.3343505859375px;
+	top: 171.333740234375px;
+	width: 0px;
+	height: 569.870849609375px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Vector8 {
+	position: absolute;
+	left: 512.5113525390625px;
+	top: 171.333740234375px;
+	width: 0px;
+	height: 569.870849609375px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Vector7 {
+	position: absolute;
+	left: 1041.4111328125px;
+	top: 170.58880615234375px;
+	width: 0px;
+	height: 569.8709106445312px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Vector6 {
+	position: absolute;
+	left: 823.1469116210938px;
+	top: 170.58880615234375px;
+	width: 0px;
+	height: 569.8709106445312px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Vector5 {
+	position: absolute;
+	left: 651.0682373046875px;
+	top: 171.333740234375px;
+	width: 0px;
+	height: 569.870849609375px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Vector9 {
+	position: absolute;
+	left: 365.015380859375px;
+	top: 181.017822265625px;
+	width: 674.9059448242188px;
+	height: 71.51318359375px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Vector10 {
+	position: absolute;
+	left: 367.9950866699219px;
+	top: 456.6416015625px;
+	width: 670.4364013671875px;
+	height: 56.6146240234375px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Vector11 {
+	position: absolute;
+	left: 365.015380859375px;
+	top: 306.16595458984375px;
+	width: 674.9059448242188px;
+	height: 75.98272705078125px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Vector12 {
+	position: absolute;
+	left: 430.56915283203125px;
+	top: 629.46533203125px;
+	width: 612.3319091796875px;
+	height: 22.347900390625px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .SSRI {
+	position: absolute;
+	left: 430.56915283203125px;
+	top: 627.9754638671875px;
+	width: 28px;
+	height: 16px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 13.408727645874023px;
+	font-weight: 400;
+	line-height: 15.713353157043457px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .SSRITMS {
+	position: absolute;
+	left: 514.7461547851562px;
+	top: 616.801513671875px;
+	width: 64px;
+	height: 16px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 13.408727645874023px;
+	font-weight: 400;
+	line-height: 15.713353157043457px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .V1 {
+	position: absolute;
+	left: 351.60662841796875px;
+	top: 747.9090576171875px;
+	width: 58.1044921875px;
+	height: 20.8580322265625px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 20.858020782470703px;
+	font-weight: 400;
+	line-height: 24.4429931640625px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .V2 {
+	position: absolute;
+	left: 423.8647766113281px;
+	top: 747.9090576171875px;
+	width: 58.1044921875px;
+	height: 20.8580322265625px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 20.858020782470703px;
+	font-weight: 400;
+	line-height: 24.4429931640625px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .V4 {
+	position: absolute;
+	left: 644.3638305664062px;
+	top: 747.9090576171875px;
+	width: 58.1044921875px;
+	height: 20.8580322265625px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 20.858020782470703px;
+	font-weight: 400;
+	line-height: 24.4429931640625px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .V5 {
+	position: absolute;
+	left: 823.1469116210938px;
+	top: 749.39892578125px;
+	width: 58.1044921875px;
+	height: 20.8580322265625px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 20.858020782470703px;
+	font-weight: 400;
+	line-height: 24.4429931640625px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .V6 {
+	position: absolute;
+	left: 1038.4315185546875px;
+	top: 747.9090576171875px;
+	width: 58.1044921875px;
+	height: 20.8580322265625px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 20.858020782470703px;
+	font-weight: 400;
+	line-height: 24.4429931640625px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .V3 {
+	position: absolute;
+	left: 512.5113525390625px;
+	top: 747.9090576171875px;
+	width: 58.104488372802734px;
+	height: 20.8580322265625px;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 20.858020782470703px;
+	font-weight: 400;
+	line-height: 24.4429931640625px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .LayersCSSRSPHQ9BNAMarkerTreatment {
+	position: absolute;
+	left: 1054.074951171875px;
+	top: 8.1942138671875px;
+	width: 157.925048828125px;
+	height: 140.04669189453125px;
+	color: rgba(28,110,205,1.00);
+	font-family: Roboto;
+	font-size: 20.858020782470703px;
+	font-weight: 400;
+	line-height: 24.4429931640625px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Rectangle54 {
+	position: absolute;
+	left: 1051.09521484375px;
+	top: 35.01165771484375px;
+	width: 17.8782958984375px;
+	height: 17.13336181640625px;
+	background: rgba(196,196,196,1.00);
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Rectangle55 {
+	position: absolute;
+	left: 1051.8402099609375px;
+	top: 85.6668701171875px;
+	width: 17.8782958984375px;
+	height: 17.13336181640625px;
+	background: rgba(196,196,196,1.00);
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Rectangle57 {
+	position: absolute;
+	left: 1051.8402099609375px;
+	top: 61.084228515625px;
+	width: 17.8782958984375px;
+	height: 17.13336181640625px;
+	background: rgba(196,196,196,1.00);
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Rectangle58 {
+	visibility: hidden;
+	position: absolute;
+	left: 1051.8402099609375px;
+	top: 110.24951171875px;
+	width: 17.8782958984375px;
+	height: 17.13336181640625px;
+	background: rgba(196,196,196,1.00);
+}
+.Resultofselectesddataset_Resultofselectesddataset .Chosenpatient .Rectangle56 {
+	position: absolute;
+	left: 1051.8402099609375px;
+	top: 35.01165771484375px;
+	width: 17.8782958984375px;
+	height: 17.13336181640625px;
+	background: rgba(196,196,196,1.00);
+}
+.Resultofselectesddataset_Resultofselectesddataset .Header {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1440px;
+	height: 80px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Header .Rectangle {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(14,25,64,1.00);
+}
+.Resultofselectesddataset_Resultofselectesddataset .Header .IconLogOut {
+	position: absolute;
+	left: 1375px;
+	top: 24px;
+	width: 2.2222222222222223%;
+	height: 40%;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Header .IconLogOut .Frame_6 {
+	position: absolute;
+	left: 1.33331298828125px;
+	top: 2.66668701171875px;
+	width: 91.6666030883789%;
+	height: 83.3333969116211%;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Header .IconLogOut .Frame_6 .Group_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Header .IconLogOut .Frame_6 .Group_1 .Vector_15 {
+	position: absolute;
+	left: 10.4761962890625px;
+	top: 5.9259033203125px;
+	width: 64.28566969831272%;
+	height: 55.55553012425985%;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Header .IconLogOut .Frame_6 .Group_1 .Vector_16 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 61.904880804499406%;
+	height: 100%;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Header .IconCircleFill {
+	position: absolute;
+	left: 1323px;
+	top: 24px;
+	width: 2.2222222222222223%;
+	height: 40%;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Header .IconCircleFill .Mask {
+	position: absolute;
+	left: 2.66668701171875px;
+	top: 2.66668701171875px;
+	width: 83.3333969116211%;
+	height: 83.3333969116211%;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Header .ElmindaLogo {
+	position: absolute;
+	left: 20px;
+	top: 23px;
+	width: 9.583333333333334%;
+	height: 37.375030517578125%;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Header .ElmindaLogo .Group_2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100.33436623513417%;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Header .ElmindaLogo .Group_2 .Vector_17 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Header .RichardMcClintock {
+	position: absolute;
+	left: 1095px;
+	top: 18px;
+	width: 15.48611111111111%;
+	height: 27.500000000000004%;
+	color: rgba(227,242,253,1.00);
+	font-family: Roboto;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 28.125px;
+}
+.Resultofselectesddataset_Resultofselectesddataset .Header .Elminda {
+	position: absolute;
+	left: 1095px;
+	top: 42px;
+	width: 8.88888888888889%;
+	height: 27.500000000000004%;
+	color: rgba(227,242,253,1.00);
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 21.09375px;
+}

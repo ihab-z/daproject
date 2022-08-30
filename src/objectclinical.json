@@ -1,0 +1,204 @@
+{
+	"clinical": {
+		"ASRS": {
+			"Total score": "ASRS_SCORE",
+			"ASRSCHALLENGE": "ASRSCHALLENGE",
+			"ASRSORGANIZE": "ASRSORGANIZE",
+			"ASRSREMEMBER": "ASRSREMEMBER",
+			"ASRSMULTITHOUGHT": "ASRSMULTITHOUGHT",
+			"ASRSLONGSITTING": "ASRSLONGSITTING",
+			"ASRSOVERACTIVE": "ASRSOVERACTIVE"
+		},
+		"MADRS": {
+			"Total score": "MADRS_SCORE",
+			"MADRepSad": "MADRepSad",
+			"MADAppSad": "MADAppSad",
+			"MADTension": "MADTension",
+			"MADSleep": "MADSleep",
+			"MADAppetite": "MADAppetite",
+			"MADConc": "MADConc",
+			"MADLassitude": "MADLassitude",
+			"MADInableFeel": "MADInableFeel",
+			"MADPess": "MADPess",
+			"MADSuicide": "MADSuicide"
+		},
+		"HDRS-17": {
+			"Total score": "HAM_SCORE",
+			"HAMDepressed": "HAMDepressed",
+			"HAMGuilt": "HAMGuilt",
+			"HAMSuicide": "HAMSuicide",
+			"HAMInsomniaEarly": "HAMInsomniaEarly",
+			"HAMInsomniaMiddle": "HAMInsomniaMiddle",
+			"HAMInsomniaLatere": "HAMInsomniaLate",
+			"HAMActivities": "HAMActivities",
+			"HAMRetardation": "HAMRetardation",
+			"HAMAgitation": "HAMAgitation",
+			"HAMAnxietyPsychic": "HAMAnxietyPsychic",
+			"HAMAnxietySomatic": "HAMAnxietySomatic",
+			"HAMGastro": "HAMGastro",
+			"HAMSomaticGeneral": "HAMSomaticGeneral",
+			"HAMGenital": "HAMGenital",
+			"HAMHypochondriasis": "HAMHypochondriasis",
+			"HAMWtLossHx": "HAMWtLossHx",
+			"HAMInsight": "HAMInsight",
+			"HAMDiurnalVar": "HAMDiurnalVar",
+			"HAMDerealize": "HAMDerealize",
+			"HAMParanoid": "HAMParanoid",
+			"HAMocd": "HAMocd"
+		},
+		"QIDS-SR-16": {
+			"Total score": "QIDS_SCORE",
+			"QIDSFallingAsleep": "QIDSFallingAsleep",
+			"QIDSNightSleep": "QIDSNightSleep",
+			"QIDSEarlyWakeup": "QIDSEarlyWakeup",
+			"QIDSSleepTooMuch": "QIDSSleepTooMuch",
+			"QIDSFeelSad": "QIDSFeelSad",
+			"QIDSDecreasedAppetite": "QIDSDecreasedAppetite",
+			"QIDSIncreasedAppetite": "QIDSIncreasedAppetite",
+			"QIDSDecreasedWeight": "QIDSDecreasedWeight",
+			"QIDSIncreasedWeight": "QIDSIncreasedWeight",
+			"QIDSConcentration": "QIDSConcentration",
+			"QIDSViewMyself": "QIDSViewMyself",
+			"QIDSDeathSuicide": "QIDSDeathSuicide",
+			"QIDSInterests": "QIDSInterests",
+			"QIDSEnergyLevel": "QIDSEnergyLevel",
+			"QIDSSlowedDown": "QIDSSlowedDown",
+			"QIDSRestless": "QIDSRestless"
+		},
+		"PHQ-9": {
+			"Total score": "SCORE",
+			"PHQInterest": "PHQInterest",
+			"PHQFeelDown": "PHQFeelDown",
+			"PHQSleep": "PHQSleep",
+			"PHQFeelTired": "PHQFeelTired",
+			"PHQAppetite": "PHQAppetite",
+			"PHQFailure": "PHQFailure",
+			"PHQConcentrating": "PHQConcentrating",
+			"PHQMovement": "PHQMovement",
+			"PHQSelfHurt": "PHQSelfHurt"			
+		},
+		"BDI": {
+			"Total score": "BECKSTotalScore"
+		},
+		"DASS": {
+			"Depression score": "DassDepressionScore",
+			"Anxiety score": "DASSAnxietyScore",
+			"Stress score": "DASSStressScore"
+		},
+		"CGI-S": {
+			"Total score": "CGISeverity"
+		},
+		"CGI-I": {
+			"Total score": "CGIImprove"
+		},
+		"GAF": {
+			"Total score": "AXIS V GAF SCALE ___ (100-0), CURRENT YEAR"
+		}
+	},
+	"cognitive": {
+		"MMSE": {
+			"Total score": "MMSETotalScore"
+			},
+		"MocA": {
+			"Memory score": "MOCAMemory",
+			"Attention score": "MOCAAttention"
+		},
+		"DSST": {
+			"Total score": "DSST_Score"
+		},
+		"Word List": {
+			"Immediate_recall1 score": "RECALLTrial1",
+			"Immediate_recall2 score": "RECALLTrial2",
+			"Immediate_recall3 score": "RECALLTrial3",
+			"Delayed_recall score": "WordsRecalled",
+			"Delayed_recognition score": "DelayedWordCount"
+		},
+		"MGH-CPFQ": {
+			"Total score": "MGH_Score"
+		},
+		"PDQ": {
+			"Total score": "PDQ_Score"
+		}
+	},
+	"EEG": {
+		"AOB": {
+			"ERP": {
+				"Frequent": {
+					"amplitude": ["N100_Theta_Frequent_attr_peakElect_interpolatedAmplitude" ,"P200_Theta_Frequent_attr_peakElect_interpolatedAmplitude","P50_Theta_Frequent_attr_peakElect_interpolatedAmplitude"],
+					"latency": ["N100_Theta_Frequent_attr_peakElect_interpolatedTime_MS" ,"P200_Theta_Frequent_attr_peakElect_interpolatedTime_MS","P50_Theta_Frequent_attr_peakElect_interpolatedTime_MS"],
+					"ERPv": ["N100_Theta_Frequent_attr_capsuleERPv" ,"P200_Theta_Frequent_attr_capsuleERPv","P50_Theta_Frequent_attr_capsuleERPv"]
+				},
+				"Novel": {
+					"amplitude": ["P3a_Delta_Novel_attr_peakElect_interpolatedAmplitude"],
+					"latency": ["P3a_Delta_Novel_attr_peakElect_interpolatedTime_MS"],
+					"ERPv": ["P3a_Delta_Novel_attr_capsuleERPv"]
+				},
+				"Target": {
+					"amplitude": ["P3b_Delta_Target_attr_peakElect_interpolatedAmplitude"],
+					"latency": ["P3b_Delta_Target_attr_peakElect_interpolatedTime_MS"],
+					"ERPv": ["P3b_Delta_Target_attr_capsuleERPv"]
+				}
+			},
+			"Behavioral": {
+				"speed": ["meanHitsRT", "stdHitsRT"],
+				"accuracy": ["targetPercCorrect", "totalNonTargetPercCorrect"]
+			}
+		},
+		"VGNG": {
+			"ERP": {
+				"Go": {
+					"amplitude": ["P200_Theta_Go_attr_peakElect_interpolatedAmplitude" ,"P3b_Theta_Go_attr_peakElect_interpolatedAmplitude"],
+					"latency": ["P200_Theta_Go_attr_peakElect_interpolatedTime_MS" ,"P3b_Theta_Go_attr_peakElect_interpolatedTime_MS"],
+					"ERPv": ["P200_Theta_Go_attr_capsuleERPv" ,"P3b_Theta_Go_attr_capsuleERPv"]
+				},
+				"NoGo": {
+					"amplitude": ["N2_Theta_NoGo_attr_peakElect_interpolatedAmplitude" ,"P3a_Theta_NoGo_attr_peakElect_interpolatedAmplitude"],
+					"latency": ["N2_Theta_NoGo_attr_peakElect_interpolatedTime_MS" ,"P3a_Theta_NoGo_attr_peakElect_interpolatedTime_MS"],
+					"ERPv": ["N2_Theta_NoGo_attr_capsuleERPv" ,"P3a_Theta_NoGo_attr_capsuleERPv"]
+				}
+			},
+			"Behavioral": {
+				"speed": ["meanHitsRT", "stdHitsRT"],
+				"accuracy": ["percCorrectGo", "percCorrectNogo"]
+			}
+		},
+		"EYEC": {
+			"Pair": {
+				"Delta": ["Pair_Mean_Power_Abs_Delta_C3-C4", "Pair_Mean_Power_Abs_Delta_F3-F4", "Pair_Mean_Power_Abs_Delta_P3-P4"],
+				"Theta": ["Pair_Mean_Power_Abs_Theta_C3-C4", "Pair_Mean_Power_Abs_Theta_F3-F4", "Pair_Mean_Power_Abs_Theta_P3-P4"],
+				"Alpha": ["Pair_Mean_Power_Abs_Alpha_C3-C4", "Pair_Mean_Power_Abs_Alpha_F3-F4", "Pair_Mean_Power_Abs_Alpha_P3-P4"],
+				"Beta1": ["Pair_Mean_Power_Abs_Beta1_C3-C4", "Pair_Mean_Power_Abs_Beta1_F3-F4", "Pair_Mean_Power_Abs_Beta1_P3-P4"],
+				"Beta2": ["Pair_Mean_Power_Abs_Beta2_C3-C4", "Pair_Mean_Power_Abs_Beta2_F3-F4", "Pair_Mean_Power_Abs_Beta2_P3-P4"]
+			},
+			"Ratio": {
+				"Alpha Over Beta1": ["Ratio_Relative_Power_Norm_Alpha Over Beta1_Cz", "Ratio_Relative_Power_Norm_Alpha Over Beta1_Fz", "Ratio_Relative_Power_Norm_Alpha Over Beta1_Pz"],
+				"Alpha Over Beta2": ["Ratio_Relative_Power_Norm_Alpha Over Beta2_Cz", "Ratio_Relative_Power_Norm_Alpha Over Beta2_Fz", "Ratio_Relative_Power_Norm_Alpha Over Beta2_Pz"],
+				"Beta1 Over Beta2": ["Ratio_Relative_Power_Norm_Beta1 Over Beta2_Cz", "Ratio_Relative_Power_Norm_Beta1 Over Beta2_Fz", "Ratio_Relative_Power_Norm_Beta1 Over Beta2_Pz"],
+				"Delta Over Alpha": ["Ratio_Relative_Power_Norm_Delta Over Alpha_Cz", "Ratio_Relative_Power_Norm_Delta Over Alpha_Fz", "Ratio_Relative_Power_Norm_Delta Over Alpha_Pz"],
+				"Delta Over Beta1": ["Ratio_Relative_Power_Norm_Delta Over Beta1_Cz", "Ratio_Relative_Power_Norm_Delta Over Beta1_Fz", "Ratio_Relative_Power_Norm_Delta Over Beta1_Pz"],
+				"Delta Over Beta2": ["Ratio_Relative_Power_Norm_Delta Over Beta2_Cz", "Ratio_Relative_Power_Norm_Delta Over Beta2_Fz", "Ratio_Relative_Power_Norm_Delta Over Beta2_Pz"],
+				"Delta Over Theta": ["Ratio_Relative_Power_Norm_Delta Over Theta_Cz", "Ratio_Relative_Power_Norm_Delta Over Theta_Fz", "Ratio_Relative_Power_Norm_Delta Over Theta_Pz"],
+				"Theta Over Alpha": ["Ratio_Relative_Power_Norm_Theta Over Alpha_Cz", "Ratio_Relative_Power_Norm_Theta Over Alpha_Fz", "Ratio_Relative_Power_Norm_Theta Over Alpha_Pz"],
+				"Theta Over Beta1": ["Ratio_Relative_Power_Norm_Theta Over Beta1_Cz", "Ratio_Relative_Power_Norm_Theta Over Beta1_Fz", "Ratio_Relative_Power_Norm_Theta Over Beta1_Pz"],
+				"Theta Over Beta2": ["Ratio_Relative_Power_Norm_Theta Over Beta2_Cz", "Ratio_Relative_Power_Norm_Theta Over Beta2_Fz", "Ratio_Relative_Power_Norm_Theta Over Beta2_Pz"]
+			},
+			"CoM": {
+				"Alpha": ["Single_Center_of_Mass_Alpha_Cz", "Single_Center_of_Mass_Alpha_Fz","Single_Center_of_Mass_Alpha_Pz"],
+			},
+			"Absolute power": {
+				"Delta": ["Single_Mean_Power_Abs_Delta_Cz", "Single_Mean_Power_Abs_Delta_Fz", "Single_Mean_Power_Abs_Delta_Pz"],
+				"Theta": ["Single_Mean_Power_Abs_Theta_Cz", "Single_Mean_Power_Abs_Theta_Fz", "Single_Mean_Power_Abs_Theta_Pz"],
+				"Alpha": ["Single_Mean_Power_Abs_Alpha_Cz", "Single_Mean_Power_Abs_Alpha_Fz", "Single_Mean_Power_Abs_Alpha_Pz"],
+				"Beta1": ["Single_Mean_Power_Abs_Beta1_Cz", "Single_Mean_Power_Abs_Beta1_Fz", "Single_Mean_Power_Abs_Beta1_Pz"],
+				"Beta2": ["Single_Mean_Power_Abs_Beta2_Cz", "Single_Mean_Power_Abs_Beta2_Fz", "Single_Mean_Power_Abs_Beta2_Pz"]
+			},
+			"Relative power": {
+				"Delta": ["Single_Relative_Power_Norm_Delta_Fz", "Single_Relative_Power_Norm_Delta_Cz", "Single_Relative_Power_Norm_Delta_Pz"],
+				"Theta": ["Single_Relative_Power_Norm_Theta_Fz", "Single_Relative_Power_Norm_Theta_Cz", "Single_Relative_Power_Norm_Theta_Pz"],
+				"Alpha": ["Single_Relative_Power_Norm_Alpha_Fz", "Single_Relative_Power_Norm_Alpha_Cz", "Single_Relative_Power_Norm_Alpha_Pz"],
+				"Beta1": ["Single_Relative_Power_Norm_Beta1_Fz", "Single_Relative_Power_Norm_Beta1_Cz", "Single_Relative_Power_Norm_Beta1_Pz"],
+				"Beta2": ["Single_Relative_Power_Norm_Beta2_Fz", "Single_Relative_Power_Norm_Beta2_Cz", "Single_Relative_Power_Norm_Beta2_Pz"]
+			}
+		}
+	}
+}

@@ -1,0 +1,1246 @@
+
+.Other_Other {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	background: rgba(246,248,251,1.00);
+}
+.Other_Other .Other_1 {
+	position: absolute;
+	left: 80px;
+	top: 56px;
+	width: 154px;
+	height: 70px;
+	color: rgba(37,40,43,1.00);
+	font-family: Lato;
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 70px;
+}
+.Other_Other .logolong {
+	position: absolute;
+	left: 1218px;
+	top: 81px;
+	width: 142px;
+	height: 30px;
+}
+.Other_Other .logolong .logoimage {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Other_Other .background {
+	position: absolute;
+	left: 80px;
+	top: 520px;
+	width: 1280px;
+	height: 1170px;
+	border-radius: 8px;
+}
+.Other_Other .Desktop {
+	position: absolute;
+	left: 136px;
+	top: 712px;
+	width: 256px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Other_Other .Desktop_1 {
+	position: absolute;
+	left: 136px;
+	top: 1258px;
+	width: 256px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Other_Other .Tablet {
+	position: absolute;
+	left: 136px;
+	top: 1466px;
+	width: 256px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Other_Other .Tablet_1 {
+	position: absolute;
+	left: 136px;
+	top: 872px;
+	width: 256px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Other_Other .Mobile {
+	position: absolute;
+	left: 136px;
+	top: 1032px;
+	width: 256px;
+	height: 20px;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.Other_Other .Navigation {
+	position: absolute;
+	left: 136px;
+	top: 576px;
+	width: 199px;
+	height: 46px;
+	color: rgba(37,40,43,1.00);
+	font-family: Lato;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 46px;
+}
+.Other_Other .Vertical {
+	position: absolute;
+	left: 136px;
+	top: 662px;
+	width: 98px;
+	height: 34px;
+	color: rgba(37,40,43,1.00);
+	font-family: Lato;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 34px;
+}
+.Other_Other .Horizontal {
+	position: absolute;
+	left: 136px;
+	top: 1208px;
+	width: 134px;
+	height: 34px;
+	color: rgba(37,40,43,1.00);
+	font-family: Lato;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 34px;
+}
+.Other_Other .othernavigationverticaldesktop {
+	position: absolute;
+	left: 136px;
+	top: 744px;
+	width: 1168px;
+	height: 88px;
+}
+.Other_Other .othernavigationverticaldesktop .bg {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 1168px;
+	height: 88px;
+	background: rgba(246,248,251,1.00);
+}
+.Other_Other .othernavigationverticaldesktop .circle {
+	position: absolute;
+	right: 38px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 3px solid rgba(232.00000137090683,232.00000137090683,232.00000137090683,1);
+}
+.Other_Other .othernavigationverticaldesktop .avatarcircledman16 {
+	position: absolute;
+	right: 38px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 40px;
+	height: 40px;
+}
+.Other_Other .othernavigationverticaldesktop .avatarcircledman16 .circle_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	background-size: cover;
+}
+.Other_Other .othernavigationverticaldesktop .textfieldsearchroundeddefault {
+	position: absolute;
+	left: 36px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 350px;
+	height: 40px;
+}
+.Other_Other .othernavigationverticaldesktop .textfieldsearchroundeddefault .bg_1 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 350px;
+	height: 40px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 100px;
+}
+.Other_Other .othernavigationverticaldesktop .textfieldsearchroundeddefault .Search {
+	position: absolute;
+	margin-left: 42px;
+	margin-right: 16px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 292px;
+	height: 16px;
+	display: flex;
+	align-items: center;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 16px;
+}
+.Other_Other .othernavigationverticaldesktop .textfieldsearchroundeddefault .iconicofontwebsearchdefault {
+	position: absolute;
+	left: 16px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 14px;
+	height: 14px;
+}
+.Other_Other .othernavigationverticaldesktop .textfieldsearchroundeddefault .iconicofontwebsearchdefault .Vector {
+	position: absolute;
+	left: 0px;
+	top: 0.08984375px;
+	width: 99.99825613839286%;
+	height: 98.66071428571429%;
+}
+.Other_Other .othernavigationverticaldesktop .iconicofontwebnotificationnotification {
+	position: absolute;
+	right: 104px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 24px;
+	height: 24px;
+}
+.Other_Other .othernavigationverticaldesktop .iconicofontwebnotificationnotification .Vector_1 {
+	position: absolute;
+	left: 1.51171875px;
+	top: 1.5px;
+	width: 87.445068359375%;
+	height: 87.48372395833334%;
+}
+.Other_Other .othernavigationverticaldesktop .notification {
+	position: absolute;
+	left: 1058px;
+	top: 26px;
+	width: 16px;
+	height: 16px;
+}
+.Other_Other .othernavigationverticaldesktop .notification .circle_2 {
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+	background: rgba(255,103,96,1.00);
+	border-radius: 50%;
+	border: 2px solid rgba(246.0000005364418,248.0000004172325,251.00000023841858,1);
+}
+.Other_Other .othernavigationverticaldesktop .notification ._9 {
+	position: absolute;
+	right: 2px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 12px;
+	height: 12px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Lato;
+	font-size: 10px;
+	font-weight: 700;
+	line-height: 12px;
+}
+.Other_Other .othernavigationverticaltablet {
+	position: absolute;
+	left: 136px;
+	top: 904px;
+	width: 600px;
+	height: 88px;
+}
+.Other_Other .othernavigationverticaltablet .bg_2 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 600px;
+	height: 88px;
+	background: rgba(246,248,251,1.00);
+}
+.Other_Other .othernavigationverticaltablet .circle_3 {
+	position: absolute;
+	right: 30px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 3px solid rgba(232.00000137090683,232.00000137090683,232.00000137090683,1);
+}
+.Other_Other .othernavigationverticaltablet .avatarcircledman16_1 {
+	position: absolute;
+	right: 30px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 40px;
+	height: 40px;
+}
+.Other_Other .othernavigationverticaltablet .avatarcircledman16_1 .circle_4 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	background-size: cover;
+}
+.Other_Other .othernavigationverticaltablet .textfieldsearchroundeddefault_1 {
+	position: absolute;
+	left: 30px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 350px;
+	height: 40px;
+}
+.Other_Other .othernavigationverticaltablet .textfieldsearchroundeddefault_1 .bg_3 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 350px;
+	height: 40px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 100px;
+}
+.Other_Other .othernavigationverticaltablet .textfieldsearchroundeddefault_1 .Search_1 {
+	position: absolute;
+	margin-left: 42px;
+	margin-right: 16px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 292px;
+	height: 16px;
+	display: flex;
+	align-items: center;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 16px;
+}
+.Other_Other .othernavigationverticaltablet .textfieldsearchroundeddefault_1 .iconicofontwebsearchdefault_1 {
+	position: absolute;
+	left: 16px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 14px;
+	height: 14px;
+}
+.Other_Other .othernavigationverticaltablet .textfieldsearchroundeddefault_1 .iconicofontwebsearchdefault_1 .Vector_2 {
+	position: absolute;
+	left: 0px;
+	top: 0.08984375px;
+	width: 99.99825613839286%;
+	height: 98.66071428571429%;
+}
+.Other_Other .othernavigationverticaltablet .iconicofontwebnotificationnotification_1 {
+	position: absolute;
+	right: 96px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 24px;
+	height: 24px;
+}
+.Other_Other .othernavigationverticaltablet .iconicofontwebnotificationnotification_1 .Vector_3 {
+	position: absolute;
+	left: 1.51171875px;
+	top: 1.5px;
+	width: 87.445068359375%;
+	height: 87.48372395833334%;
+}
+.Other_Other .othernavigationverticaltablet .notification_1 {
+	position: absolute;
+	left: 498px;
+	top: 26px;
+	width: 16px;
+	height: 16px;
+}
+.Other_Other .othernavigationverticaltablet .notification_1 .circle_5 {
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+	background: rgba(255,103,96,1.00);
+	border-radius: 50%;
+	border: 2px solid rgba(246.0000005364418,248.0000004172325,251.00000023841858,1);
+}
+.Other_Other .othernavigationverticaltablet .notification_1 ._9_1 {
+	position: absolute;
+	right: 2px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 12px;
+	height: 12px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Lato;
+	font-size: 10px;
+	font-weight: 700;
+	line-height: 12px;
+}
+.Other_Other .othernavigationverticalmobile {
+	position: absolute;
+	margin-left: 136px;
+	margin-right: 929px;
+	top: 1064px;
+	width: 375px;
+	height: 64px;
+}
+.Other_Other .othernavigationverticalmobile .bg_4 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 375px;
+	height: 64px;
+	background: rgba(255,255,255,1.00);
+}
+.Other_Other .othernavigationverticalmobile .iconicofontwebactionmenu {
+	position: absolute;
+	left: 16px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 24px;
+	height: 24px;
+}
+.Other_Other .othernavigationverticalmobile .iconicofontwebactionmenu .line {
+	position: absolute;
+	left: 3px;
+	top: 6px;
+	width: 18px;
+	height: 0px;
+}
+.Other_Other .othernavigationverticalmobile .iconicofontwebactionmenu .line_1 {
+	position: absolute;
+	left: 3px;
+	top: 12px;
+	width: 18px;
+	height: 0px;
+}
+.Other_Other .othernavigationverticalmobile .iconicofontwebactionmenu .line_2 {
+	position: absolute;
+	left: 3px;
+	top: 18px;
+	width: 18px;
+	height: 0px;
+}
+.Other_Other .othernavigationverticalmobile .avatar {
+	position: absolute;
+	left: 319px;
+	top: 12px;
+	width: 40px;
+	height: 40px;
+}
+.Other_Other .othernavigationverticalmobile .avatar .circle_6 {
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 3px solid rgba(232.00000137090683,232.00000137090683,232.00000137090683,1);
+}
+.Other_Other .othernavigationverticalmobile .avatar .avatarcircledman17 {
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 40px;
+	height: 40px;
+}
+.Other_Other .othernavigationverticalmobile .avatar .avatarcircledman17 .circle_7 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	background-size: cover;
+}
+.Other_Other .othernavigationverticalmobile .iconicofontwebnotificationnotification_2 {
+	position: absolute;
+	right: 86px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 24px;
+	height: 24px;
+}
+.Other_Other .othernavigationverticalmobile .iconicofontwebnotificationnotification_2 .Vector_4 {
+	position: absolute;
+	left: 1.51171875px;
+	top: 1.5px;
+	width: 87.445068359375%;
+	height: 87.48372395833334%;
+}
+.Other_Other .othernavigationverticalmobile .notification_2 {
+	position: absolute;
+	left: 283px;
+	top: 14px;
+	width: 16px;
+	height: 16px;
+}
+.Other_Other .othernavigationverticalmobile .notification_2 .circle_8 {
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+	background: rgba(255,103,96,1.00);
+	border-radius: 50%;
+	border: 2px solid rgba(246.0000005364418,248.0000004172325,251.00000023841858,1);
+}
+.Other_Other .othernavigationverticalmobile .notification_2 ._9_2 {
+	position: absolute;
+	right: 2px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 12px;
+	height: 12px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Lato;
+	font-size: 10px;
+	font-weight: 700;
+	line-height: 12px;
+}
+.Other_Other .othernavigationhorizontaldektop {
+	position: absolute;
+	margin-left: 136px;
+	margin-right: 136px;
+	top: 1290px;
+	width: 1168px;
+	height: 88px;
+}
+.Other_Other .othernavigationhorizontaldektop .bg_5 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 1168px;
+	height: 88px;
+	background: rgba(246,248,251,1.00);
+}
+.Other_Other .othernavigationhorizontaldektop .circle_9 {
+	position: absolute;
+	right: 165px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 3px solid rgba(232.00000137090683,232.00000137090683,232.00000137090683,1);
+}
+.Other_Other .othernavigationhorizontaldektop .avatarcircledman16_2 {
+	position: absolute;
+	right: 165px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 40px;
+	height: 40px;
+}
+.Other_Other .othernavigationhorizontaldektop .avatarcircledman16_2 .circle_10 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	background-size: cover;
+}
+.Other_Other .othernavigationhorizontaldektop .textfieldsearchroundeddefault_2 {
+	position: absolute;
+	left: 339px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 350px;
+	height: 40px;
+}
+.Other_Other .othernavigationhorizontaldektop .textfieldsearchroundeddefault_2 .bg_6 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 350px;
+	height: 40px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 100px;
+}
+.Other_Other .othernavigationhorizontaldektop .textfieldsearchroundeddefault_2 .Search_2 {
+	position: absolute;
+	margin-left: 42px;
+	margin-right: 16px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 292px;
+	height: 16px;
+	display: flex;
+	align-items: center;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 16px;
+}
+.Other_Other .othernavigationhorizontaldektop .textfieldsearchroundeddefault_2 .iconicofontwebsearchdefault_2 {
+	position: absolute;
+	left: 16px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 14px;
+	height: 14px;
+}
+.Other_Other .othernavigationhorizontaldektop .textfieldsearchroundeddefault_2 .iconicofontwebsearchdefault_2 .Vector_5 {
+	position: absolute;
+	left: 0px;
+	top: 0.08984375px;
+	width: 99.99825613839286%;
+	height: 98.66071428571429%;
+}
+.Other_Other .othernavigationhorizontaldektop .iconicofontwebnotificationnotification_3 {
+	position: absolute;
+	right: 231px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 24px;
+	height: 24px;
+}
+.Other_Other .othernavigationhorizontaldektop .iconicofontwebnotificationnotification_3 .Vector_6 {
+	position: absolute;
+	left: 1.51171875px;
+	top: 1.5px;
+	width: 87.445068359375%;
+	height: 87.48372395833334%;
+}
+.Other_Other .othernavigationhorizontaldektop .notification_3 {
+	position: absolute;
+	left: 931px;
+	top: 26px;
+	width: 16px;
+	height: 16px;
+}
+.Other_Other .othernavigationhorizontaldektop .notification_3 .circle_11 {
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+	background: rgba(255,103,96,1.00);
+	border-radius: 50%;
+	border: 2px solid rgba(246.0000005364418,248.0000004172325,251.00000023841858,1);
+}
+.Other_Other .othernavigationhorizontaldektop .notification_3 ._9_3 {
+	position: absolute;
+	right: 2px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 12px;
+	height: 12px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Lato;
+	font-size: 10px;
+	font-weight: 700;
+	line-height: 12px;
+}
+.Other_Other .othernavigationhorizontaldektop .logolong_1 {
+	position: absolute;
+	left: 165px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 142px;
+	height: 30px;
+}
+.Other_Other .othernavigationhorizontaldektop .logolong_1 .logoimage_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Other_Other .othernavigationhorizontaldektopmenu {
+	position: absolute;
+	left: 136px;
+	top: 1378px;
+	width: 1168px;
+	height: 48px;
+}
+.Other_Other .othernavigationhorizontaldektopmenu .bg_7 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 1168px;
+	height: 48px;
+	background: rgba(246,248,251,1.00);
+}
+.Other_Other .othernavigationhorizontaldektopmenu .Dashboard {
+	position: absolute;
+	left: 165px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 70px;
+	height: 20px;
+	display: flex;
+	align-items: center;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Other_Other .othernavigationhorizontaldektopmenu .Appointments {
+	position: absolute;
+	left: 267px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 91px;
+	height: 20px;
+	display: flex;
+	align-items: center;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Other_Other .othernavigationhorizontaldektopmenu .label {
+	position: absolute;
+	left: 390px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 51px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Other_Other .othernavigationhorizontaldektopmenu .label_1 {
+	position: absolute;
+	left: 473px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 85px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Other_Other .othernavigationhorizontaldektopmenu .label_2 {
+	position: absolute;
+	left: 590px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 53px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Other_Other .othernavigationhorizontaldektopmenu .label_3 {
+	position: absolute;
+	left: 675px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 63px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Other_Other .othernavigationhorizontaldektopmenu .label_4 {
+	position: absolute;
+	left: 937px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 31px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Other_Other .othernavigationhorizontaldektopmenu .label_5 {
+	position: absolute;
+	left: 802px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 87px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Other_Other .othernavigationhorizontaldektopmenu .divider {
+	position: absolute;
+	left: 770px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 0px;
+	height: 24px;
+}
+.Other_Other .othernavigationhorizontaldektopmenu .iconicofontdirectionalsimpledown {
+	position: absolute;
+	left: 893px;
+	top: 52.083333333333336%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+}
+.Other_Other .othernavigationhorizontaldektopmenu .iconicofontdirectionalsimpledown ._ {
+	position: absolute;
+	left: 3.19970703125px;
+	top: 5.3125px;
+	width: 60.0006103515625%;
+	height: 38.5986328125%;
+}
+.Other_Other .othernavigationhorizontaltablet {
+	position: absolute;
+	margin-left: 136px;
+	margin-right: 536px;
+	top: 1498px;
+	width: 768px;
+	height: 88px;
+}
+.Other_Other .othernavigationhorizontaltablet .bg_8 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 768px;
+	height: 88px;
+	background: rgba(246,248,251,1.00);
+}
+.Other_Other .othernavigationhorizontaltablet .circle_12 {
+	position: absolute;
+	right: 16px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 3px solid rgba(232.00000137090683,232.00000137090683,232.00000137090683,1);
+}
+.Other_Other .othernavigationhorizontaltablet .avatarcircledman16_3 {
+	position: absolute;
+	right: 16px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 40px;
+	height: 40px;
+}
+.Other_Other .othernavigationhorizontaltablet .avatarcircledman16_3 .circle_13 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	background-size: cover;
+}
+.Other_Other .othernavigationhorizontaltablet .textfieldsearchroundeddefault_3 {
+	position: absolute;
+	left: 190px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 256px;
+	height: 40px;
+}
+.Other_Other .othernavigationhorizontaltablet .textfieldsearchroundeddefault_3 .bg_9 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 256px;
+	height: 40px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 100px;
+}
+.Other_Other .othernavigationhorizontaltablet .textfieldsearchroundeddefault_3 .Search_3 {
+	position: absolute;
+	margin-left: 42px;
+	margin-right: 16px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 198px;
+	height: 16px;
+	display: flex;
+	align-items: center;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 16px;
+}
+.Other_Other .othernavigationhorizontaltablet .textfieldsearchroundeddefault_3 .iconicofontwebsearchdefault_3 {
+	position: absolute;
+	left: 16px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 14px;
+	height: 14px;
+}
+.Other_Other .othernavigationhorizontaltablet .textfieldsearchroundeddefault_3 .iconicofontwebsearchdefault_3 .Vector_7 {
+	position: absolute;
+	left: 0px;
+	top: 0.08984375px;
+	width: 99.99825613839286%;
+	height: 98.66071428571429%;
+}
+.Other_Other .othernavigationhorizontaltablet .iconicofontwebnotificationnotification_4 {
+	position: absolute;
+	right: 82px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 24px;
+	height: 24px;
+}
+.Other_Other .othernavigationhorizontaltablet .iconicofontwebnotificationnotification_4 .Vector_8 {
+	position: absolute;
+	left: 1.51171875px;
+	top: 1.5px;
+	width: 87.445068359375%;
+	height: 87.48372395833334%;
+}
+.Other_Other .othernavigationhorizontaltablet .notification_4 {
+	position: absolute;
+	left: 680px;
+	top: 26px;
+	width: 16px;
+	height: 16px;
+}
+.Other_Other .othernavigationhorizontaltablet .notification_4 .circle_14 {
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+	background: rgba(255,103,96,1.00);
+	border-radius: 50%;
+	border: 2px solid rgba(246.0000005364418,248.0000004172325,251.00000023841858,1);
+}
+.Other_Other .othernavigationhorizontaltablet .notification_4 ._9_4 {
+	position: absolute;
+	right: 2px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 12px;
+	height: 12px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Lato;
+	font-size: 10px;
+	font-weight: 700;
+	line-height: 12px;
+}
+.Other_Other .othernavigationhorizontaltablet .logolong_2 {
+	position: absolute;
+	left: 16px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 142px;
+	height: 30px;
+}
+.Other_Other .othernavigationhorizontaltablet .logolong_2 .logoimage_2 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Other_Other .othernavigationhorizontaltabletmenu {
+	position: absolute;
+	left: 136px;
+	top: 1586px;
+	width: 768px;
+	height: 48px;
+}
+.Other_Other .othernavigationhorizontaltabletmenu .bg_10 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 768px;
+	height: 48px;
+	background: rgba(246,248,251,1.00);
+}
+.Other_Other .othernavigationhorizontaltabletmenu .Dashboard_1 {
+	position: absolute;
+	left: 16px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 70px;
+	height: 20px;
+	display: flex;
+	align-items: center;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Other_Other .othernavigationhorizontaltabletmenu .Appointments_1 {
+	position: absolute;
+	left: 110px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 91px;
+	height: 20px;
+	display: flex;
+	align-items: center;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Other_Other .othernavigationhorizontaltabletmenu .label_6 {
+	position: absolute;
+	left: 225px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 51px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Other_Other .othernavigationhorizontaltabletmenu .label_7 {
+	position: absolute;
+	left: 300px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 85px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Other_Other .othernavigationhorizontaltabletmenu .label_8 {
+	position: absolute;
+	left: 409px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 53px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Other_Other .othernavigationhorizontaltabletmenu .label_9 {
+	position: absolute;
+	left: 486px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 63px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Other_Other .othernavigationhorizontaltabletmenu .label_10 {
+	position: absolute;
+	left: 718px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 31px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Other_Other .othernavigationhorizontaltabletmenu .label_11 {
+	position: absolute;
+	left: 589px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 87px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Other_Other .othernavigationhorizontaltabletmenu .divider_1 {
+	position: absolute;
+	left: 569px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 0px;
+	height: 24px;
+}
+.Other_Other .othernavigationhorizontaltabletmenu .iconicofontdirectionalsimpledown_1 {
+	position: absolute;
+	left: 680px;
+	top: 52.083333333333336%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+}
+.Other_Other .othernavigationhorizontaltabletmenu .iconicofontdirectionalsimpledown_1 .__1 {
+	position: absolute;
+	left: 3.19970703125px;
+	top: 5.3125px;
+	width: 60.0006103515625%;
+	height: 38.5986328125%;
+}
+.Other_Other .background_1 {
+	position: absolute;
+	left: 80px;
+	top: 166px;
+	width: 1280px;
+	height: 274px;
+	border-radius: 8px;
+}
+.Other_Other .Logo {
+	position: absolute;
+	left: 136px;
+	top: 222px;
+	width: 87px;
+	height: 46px;
+	color: rgba(37,40,43,1.00);
+	font-family: Lato;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 46px;
+}
+.Other_Other .Small {
+	position: absolute;
+	left: 136px;
+	top: 308px;
+	width: 68px;
+	height: 34px;
+	color: rgba(37,40,43,1.00);
+	font-family: Lato;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 34px;
+}
+.Other_Other .Default {
+	position: absolute;
+	left: 744px;
+	top: 308px;
+	width: 94px;
+	height: 34px;
+	color: rgba(37,40,43,1.00);
+	font-family: Lato;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 34px;
+}
+.Other_Other .logolong_3 {
+	position: absolute;
+	right: 554px;
+	top: 354px;
+	width: 142px;
+	height: 30px;
+}
+.Other_Other .logolong_3 .logoimage_3 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Other_Other .logoshort {
+	position: absolute;
+	right: 1274px;
+	top: 354px;
+	width: 30px;
+	height: 30px;
+}
+.Other_Other .logoshort .logoimage_4 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+}

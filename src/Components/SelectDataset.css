@@ -1,0 +1,831 @@
+
+.SelectDataset_SelectDataset {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	background: rgba(235,240,255,1.00);
+	border: 1px solid rgba(0,0,0,1);
+	box-sizing: border-box;
+}
+.SelectDataset_SelectDataset .othernavigationhorizontaldektop {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 107px;
+	width: 1440px;
+	height: 88px;
+}
+.SelectDataset_SelectDataset .othernavigationhorizontaldektop .bg {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 1440px;
+	height: 88px;
+	background: rgba(246,248,251,1.00);
+}
+.SelectDataset_SelectDataset .othernavigationhorizontaldektop .circle {
+	visibility: hidden;
+	position: absolute;
+	right: 165px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 3px solid rgba(232.00000137090683,232.00000137090683,232.00000137090683,1);
+}
+.SelectDataset_SelectDataset .othernavigationhorizontaldektop .avatarcircledman16 {
+	visibility: hidden;
+	position: absolute;
+	right: 165px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 40px;
+	height: 40px;
+}
+.SelectDataset_SelectDataset .othernavigationhorizontaldektop .avatarcircledman16 .circle_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	background-size: cover;
+}
+.SelectDataset_SelectDataset .othernavigationhorizontaldektop .textfieldsearchroundeddefault {
+	position: absolute;
+	left: 339px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 350px;
+	height: 40px;
+}
+.SelectDataset_SelectDataset .othernavigationhorizontaldektop .textfieldsearchroundeddefault .bg_1 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 350px;
+	height: 40px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 100px;
+}
+.SelectDataset_SelectDataset .othernavigationhorizontaldektop .textfieldsearchroundeddefault .Search {
+	position: absolute;
+	margin-left: 42px;
+	margin-right: 16px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 292px;
+	height: 16px;
+	display: flex;
+	align-items: center;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 16px;
+}
+.SelectDataset_SelectDataset .othernavigationhorizontaldektop .textfieldsearchroundeddefault .iconicofontwebsearchdefault {
+	position: absolute;
+	left: 16px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 14px;
+	height: 14px;
+}
+
+.SelectDataset_SelectDataset .othernavigationhorizontaldektop .textfieldsearchroundeddefault .iconicofontwebsearchdefault .Vector {
+	position: absolute;
+	left: 0px;
+	top: 0.0908203125px;
+	width: 100%;
+	height: 98.65025111607143%;
+}
+.SelectDataset_SelectDataset .othernavigationhorizontaldektop .iconicofontwebnotificationnotification {
+	visibility: hidden;
+	position: absolute;
+	right: 231px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 24px;
+	height: 24px;
+}
+.SelectDataset_SelectDataset .othernavigationhorizontaldektop .iconicofontwebnotificationnotification .Vector_1 {
+	position: absolute;
+	left: 1.51171875px;
+	top: 1.49951171875px;
+	width: 87.44710286458334%;
+	height: 87.47965494791666%;
+}
+.SelectDataset_SelectDataset .othernavigationhorizontaldektop .notification {
+	visibility: hidden;
+	position: absolute;
+	left: 1203px;
+	top: 26px;
+	width: 16px;
+	height: 16px;
+}
+.SelectDataset_SelectDataset .othernavigationhorizontaldektop .notification .circle_2 {
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+	background: rgba(255,103,96,1.00);
+	border-radius: 50%;
+	border: 2px solid rgba(246.0000005364418,248.0000004172325,251.00000023841858,1);
+}
+.SelectDataset_SelectDataset .othernavigationhorizontaldektop .notification ._9 {
+	position: absolute;
+	right: 2px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 12px;
+	height: 12px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Lato;
+	font-size: 10px;
+	font-weight: 700;
+	line-height: 12px;
+}
+.SelectDataset_SelectDataset .othernavigationhorizontaldektop .logolong {
+	position: absolute;
+	left: 165px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 142px;
+	height: 30px;
+}
+.SelectDataset_SelectDataset .othernavigationhorizontaldektop .logolong .logoimage {
+	visibility: hidden;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+}
+.SelectDataset_SelectDataset .Questionnaire {
+	visibility: hidden;
+	position: absolute;
+	left: 395px;
+	top: 136px;
+	width: 106.62939453125px;
+	height: 34.43798828125px;
+}
+.SelectDataset_SelectDataset .Questionnaire .Questionnaire_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 106.4100157067823%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	color: rgba(37,40,43,1.00);
+	font-family: Roboto;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.SelectDataset_SelectDataset .Header {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1440px;
+	height: 80px;
+}
+.SelectDataset_SelectDataset .Header .Rectangle {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(14,25,64,1.00);
+}
+.SelectDataset_SelectDataset .Header .IconLogOut {
+	position: absolute;
+	left: 1375px;
+	top: 24px;
+	width: 2.2222222222222223%;
+	height: 40%;
+}
+.SelectDataset_SelectDataset .Header .IconLogOut .Frame {
+	position: absolute;
+	left: 1.3330078125px;
+	top: 2.66650390625px;
+	width: 91.6656494140625%;
+	height: 83.33282470703125%;
+}
+.SelectDataset_SelectDataset .Header .IconLogOut .Frame .Group {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.SelectDataset_SelectDataset .Header .IconLogOut .Frame .Group .Vector_2 {
+	position: absolute;
+	left: 10.4765625px;
+	top: 5.92578125px;
+	width: 64.28737889935746%;
+	height: 55.55636936260597%;
+}
+.SelectDataset_SelectDataset .Header .IconLogOut .Frame .Group .Vector_3 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 61.90698138961947%;
+	height: 100%;
+}
+.SelectDataset_SelectDataset .Header .IconCircleFill {
+	position: absolute;
+	left: 1323px;
+	top: 24px;
+	width: 2.2222222222222223%;
+	height: 40%;
+}
+.SelectDataset_SelectDataset .Header .IconCircleFill .Mask {
+	position: absolute;
+	left: 2.6669921875px;
+	top: 2.66650390625px;
+	width: 83.3343505859375%;
+	height: 83.33282470703125%;
+}
+.SelectDataset_SelectDataset .Header .ElmindaLogo {
+	position: absolute;
+	left: 20px;
+	top: 23px;
+	width: 9.583333333333334%;
+	height: 37.3748779296875%;
+}
+.SelectDataset_SelectDataset .Header .ElmindaLogo .Group_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100.33477586347676%;
+}
+.SelectDataset_SelectDataset .Header .ElmindaLogo .Group_1 .Vector_4 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.SelectDataset_SelectDataset .Header .RichardMcClintock {
+	position: absolute;
+	left: 1095px;
+	top: 18px;
+	width: 15.48611111111111%;
+	height: 27.500000000000004%;
+	color: rgba(227,242,253,1.00);
+	font-family: Roboto;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 28.125px;
+}
+.SelectDataset_SelectDataset .Header .Elminda {
+	position: absolute;
+	left: 1095px;
+	top: 42px;
+	width: 8.88888888888889%;
+	height: 27.500000000000004%;
+	color: rgba(227,242,253,1.00);
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 21.09375px;
+}
+.SelectDataset_SelectDataset .item {
+	position: absolute;
+	left: 241px;
+	top: 341px;
+	width: 105px;
+	height: 40px;
+	display: flex;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 24px;
+	box-sizing: border-box;
+	align-items: center;
+}
+.SelectDataset_SelectDataset .item ._iconparent {
+	position: relative;
+	flex: none;
+	margin-right: 4px;
+	height: 32px;
+	align-self: stretch;
+}
+.SelectDataset_SelectDataset .item ._iconparent ._ {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 16px;
+	height: 32px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: rgba(79,79,79,1.00);
+	font-family: Font Awesome 5 Free;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 14.0625px;
+}
+.SelectDataset_SelectDataset .item ._checkbox {
+	position: relative;
+	flex: none;
+	margin-right: 4px;
+	width: 20px;
+	height: 20px;
+	display: flex;
+	flex-direction: column;
+	padding-top: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+	border-radius: 2px;
+	border: 1px solid rgba(189.00000393390656,189.00000393390656,189.00000393390656,1);
+	box-sizing: border-box;
+}
+.SelectDataset_SelectDataset .item ._checkbox .__1 {
+	visibility: hidden;
+	position: relative;
+	flex: none;
+	margin-bottom: 10px;
+	width: 12px;
+	height: 14px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	border: 1px solid rgba(0,0,0,1);
+	box-sizing: border-box;
+	font-family: Font Awesome 5 Free;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 14.0625px;
+}
+.SelectDataset_SelectDataset .item ._text {
+	position: relative;
+	flex: none;
+	margin-right: 4px;
+	width: 37px;
+	height: 17px;
+	display: flex;
+	padding-right: 4px;
+	padding-left: 4px;
+	box-sizing: border-box;
+}
+.SelectDataset_SelectDataset .item ._text .text {
+	position: relative;
+	flex: none;
+	margin-right: 10px;
+	width: 78.37837837837837%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: rgba(79,79,79,1.00);
+	font-family: Rubik;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 16.40625px;
+}
+.SelectDataset_SelectDataset .item_1 {
+	position: absolute;
+	left: 241px;
+	top: 341px;
+	width: 105px;
+	height: 40px;
+	display: flex;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 24px;
+	box-sizing: border-box;
+	align-items: center;
+}
+.SelectDataset_SelectDataset .item_1 ._iconparent_1 {
+	position: relative;
+	flex: none;
+	margin-right: 4px;
+	height: 32px;
+	align-self: stretch;
+}
+
+.SelectDataset_SelectDataset .item_1 ._iconparent_1 .__2 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 16px;
+	height: 32px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: rgba(79,79,79,1.00);
+	font-family: Font Awesome 5 Free;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 14.0625px;
+}
+.SelectDataset_SelectDataset .item_1 ._checkbox_1 {
+	position: relative;
+	flex: none;
+	margin-right: 4px;
+	width: 20px;
+	height: 20px;
+	display: flex;
+	flex-direction: column;
+	padding-top: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+	border-radius: 2px;
+	border: 1px solid rgba(189.00000393390656,189.00000393390656,189.00000393390656,1);
+	box-sizing: border-box;
+}
+.SelectDataset_SelectDataset .item_1 ._checkbox_1 .__3 {
+	visibility: hidden;
+	position: relative;
+	flex: none;
+	margin-bottom: 10px;
+	width: 12px;
+	height: 14px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	border: 1px solid rgba(0,0,0,1);
+	box-sizing: border-box;
+	font-family: Font Awesome 5 Free;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 14.0625px;
+}
+.SelectDataset_SelectDataset .item_1 ._text_1 {
+	position: relative;
+	flex: none;
+	margin-right: 4px;
+	width: 37px;
+	height: 17px;
+	display: flex;
+	padding-right: 4px;
+	padding-left: 4px;
+	box-sizing: border-box;
+}
+.SelectDataset_SelectDataset .item_1 ._text_1 .text_1 {
+	position: relative;
+	flex: none;
+	margin-right: 10px;
+	width: 78.37837837837837%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: rgba(79,79,79,1.00);
+	font-family: Rubik;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 16.40625px;
+}
+.SelectDataset_SelectDataset .item_2 {
+	position: absolute;
+	left: 241px;
+	top: 393px;
+	width: 138px;
+	height: 40px;
+	display: flex;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 24px;
+	box-sizing: border-box;
+	align-items: center;
+}
+.SelectDataset_SelectDataset .item_2 ._iconparent_2 {
+	position: relative;
+	flex: none;
+	margin-right: 4px;
+	height: 32px;
+	align-self: stretch;
+}
+.SelectDataset_SelectDataset .item_2 ._iconparent_2 .__4 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 16px;
+	height: 32px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: rgba(79,79,79,1.00);
+	font-family: Font Awesome 5 Free;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 14.0625px;
+}
+.SelectDataset_SelectDataset .item_2 ._checkbox_2 {
+	position: relative;
+	flex: none;
+	margin-right: 4px;
+	width: 20px;
+	height: 20px;
+	display: flex;
+	flex-direction: column;
+	padding-top: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+	border-radius: 2px;
+	border: 1px solid rgba(189.00000393390656,189.00000393390656,189.00000393390656,1);
+	box-sizing: border-box;
+}
+.SelectDataset_SelectDataset .item_2 ._checkbox_2 .__5 {
+	visibility: hidden;
+	position: relative;
+	flex: none;
+	margin-bottom: 10px;
+	width: 12px;
+	height: 14px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	border: 1px solid rgba(0,0,0,1);
+	box-sizing: border-box;
+	font-family: Font Awesome 5 Free;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 14.0625px;
+}
+.SelectDataset_SelectDataset .item_2 ._text_2 {
+	position: relative;
+	flex: none;
+	margin-right: 4px;
+	width: 70px;
+	height: 17px;
+	display: flex;
+	padding-right: 4px;
+	padding-left: 4px;
+	box-sizing: border-box;
+}
+.SelectDataset_SelectDataset .item_2 ._text_2 .text_2 {
+	position: relative;
+	flex: none;
+	margin-right: 10px;
+	width: 88.57142857142857%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: rgba(79,79,79,1.00);
+	font-family: Rubik;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 16.40625px;
+}
+.SelectDataset_SelectDataset .item_3 {
+	position: absolute;
+	left: 241px;
+	top: 444px;
+	width: 103px;
+	height: 40px;
+	display: flex;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 24px;
+	box-sizing: border-box;
+	align-items: center;
+}
+.SelectDataset_SelectDataset .item_3 ._iconparent_3 {
+	position: relative;
+	flex: none;
+	margin-right: 4px;
+	height: 32px;
+	align-self: stretch;
+}
+.SelectDataset_SelectDataset .item_3 ._iconparent_3 .__6 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 16px;
+	height: 32px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: rgba(79,79,79,1.00);
+	font-family: Font Awesome 5 Free;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 14.0625px;
+}
+
+
+
+
+.SelectDataset_SelectDataset .item_3 ._checkbox_3 {
+	position: relative;
+	flex: none;
+	margin-right: 4px;
+	width: 20px;
+	height: 20px;
+	display: flex;
+	flex-direction: column;
+	padding-top: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+	border-radius: 2px;
+	border: 1px solid rgba(189.00000393390656,189.00000393390656,189.00000393390656,1);
+	box-sizing: border-box;
+}
+.SelectDataset_SelectDataset .item_3 ._checkbox_3 .__7 {
+	visibility: hidden;
+	position: relative;
+	flex: none;
+	margin-bottom: 10px;
+	width: 12px;
+	height: 14px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	border: 1px solid rgba(0,0,0,1);
+	box-sizing: border-box;
+	font-family: Font Awesome 5 Free;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 14.0625px;
+}
+.SelectDataset_SelectDataset .item_3 ._text_3 {
+	position: relative;
+	flex: none;
+	margin-right: 4px;
+	width: 35px;
+	height: 17px;
+	display: flex;
+	padding-right: 4px;
+	padding-left: 4px;
+	box-sizing: border-box;
+}
+.SelectDataset_SelectDataset .item_3 ._text_3 .text_3 {
+	position: relative;
+	flex: none;
+	margin-right: 10px;
+	width: 77.14285714285715%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: rgba(79,79,79,1.00);
+	font-family: Rubik;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 16.40625px;
+}
+.SelectDataset_SelectDataset .Selectvariable {
+	position: absolute;
+	left: 288px;
+	top: 218px;
+	width: 183px;
+	height: 29px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-family: Roboto;
+	font-size: 27.147384643554688px;
+	font-weight: 700;
+	line-height: 28.957210540771484px;
+}
+.SelectDataset_SelectDataset .Button {
+	position: absolute;
+	left: 660px;
+	top: 573px;
+	width: 198px;
+	height: 59px;
+}
+.SelectDataset_SelectDataset .Button .Rectangle1 {
+	position: absolute;
+	left: 0px;
+	top: 13px;
+	width: 100%;
+	height: 77.96610169491525%;
+	background: rgba(51,108,251,1.00);
+	border-radius: 10px;
+}
+.SelectDataset_SelectDataset .Button .Continue {
+	position: absolute;
+	left: 20px;
+	top: 28px;
+	width: 78.78787878787878%;
+	height: 27.11864406779661%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 16px;
+}
+.SelectDataset_SelectDataset .Button_1 {
+	position: absolute;
+	left: 660px;
+	top: 484px;
+	width: 198px;
+	height: 59px;
+}
+.SelectDataset_SelectDataset .Button_1 .Rectangle1_1 {
+	position: absolute;
+	left: 0px;
+	top: 13px;
+	width: 100%;
+	height: 77.96610169491525%;
+	background: rgba(51,108,251,1.00);
+	border-radius: 10px;
+}
+.SelectDataset_SelectDataset .Button_1 .Continue_1 {
+	position: absolute;
+	left: 3px;
+	top: 28px;
+	width: 96.46464646464646%;
+	height: 27.11864406779661%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 16px;
+}
+.SelectDataset_SelectDataset .Button_2 {
+	position: absolute;
+	left: 659px;
+	top: 662px;
+	width: 198px;
+	height: 59px;
+}
+.SelectDataset_SelectDataset .Button_2 .Rectangle1_2 {
+	position: absolute;
+	left: 0px;
+	top: 13px;
+	width: 100%;
+	height: 77.96610169491525%;
+	background: rgba(51,108,251,1.00);
+	border-radius: 10px;
+}
+.SelectDataset_SelectDataset .Button_2 .Continue_2 {
+	position: absolute;
+	left: 67px;
+	top: 28px;
+	width: 31.313131313131315%;
+	height: 27.11864406779661%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Roboto;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 16px;
+}

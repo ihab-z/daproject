@@ -1,0 +1,318 @@
+
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	background: rgba(235,240,255,1.00);
+	border: 1px solid rgba(0,0,0,1);
+	box-sizing: border-box;
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .othernavigationhorizontaldektop {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 116px;
+	width: 1440px;
+	height: 88px;
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .othernavigationhorizontaldektop .bg {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 1440px;
+	height: 88px;
+	background: rgba(246,248,251,1.00);
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .othernavigationhorizontaldektop .circle {
+	visibility: hidden;
+	position: absolute;
+	right: 165px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 3px solid rgba(232.00000137090683,232.00000137090683,232.00000137090683,1);
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .othernavigationhorizontaldektop .avatarcircledman16 {
+	visibility: hidden;
+	position: absolute;
+	right: 165px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 40px;
+	height: 40px;
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .othernavigationhorizontaldektop .avatarcircledman16 .circle_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	background-size: cover;
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .othernavigationhorizontaldektop .textfieldsearchroundeddefault {
+	position: absolute;
+	left: 339px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 350px;
+	height: 40px;
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .othernavigationhorizontaldektop .textfieldsearchroundeddefault .bg_1 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 350px;
+	height: 40px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 100px;
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .othernavigationhorizontaldektop .textfieldsearchroundeddefault .Search {
+	position: absolute;
+	margin-left: 42px;
+	margin-right: 16px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 292px;
+	height: 16px;
+	display: flex;
+	align-items: center;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 16px;
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .othernavigationhorizontaldektop .textfieldsearchroundeddefault .iconicofontwebsearchdefault {
+	position: absolute;
+	left: 16px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 14px;
+	height: 14px;
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .othernavigationhorizontaldektop .textfieldsearchroundeddefault .iconicofontwebsearchdefault .Vector {
+	position: absolute;
+	left: 0px;
+	top: 0.0908203125px;
+	width: 99.99912806919643%;
+	height: 98.64676339285714%;
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .othernavigationhorizontaldektop .iconicofontwebnotificationnotification {
+	visibility: hidden;
+	position: absolute;
+	right: 231px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 24px;
+	height: 24px;
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .othernavigationhorizontaldektop .iconicofontwebnotificationnotification .Vector_1 {
+	position: absolute;
+	left: 1.51171875px;
+	top: 1.4990234375px;
+	width: 87.44557698567709%;
+	height: 87.47965494791666%;
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .othernavigationhorizontaldektop .notification {
+	visibility: hidden;
+	position: absolute;
+	left: 1203px;
+	top: 26px;
+	width: 16px;
+	height: 16px;
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .othernavigationhorizontaldektop .notification .circle_2 {
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+	background: rgba(255,103,96,1.00);
+	border-radius: 50%;
+	border: 2px solid rgba(246.0000005364418,248.0000004172325,251.00000023841858,1);
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .othernavigationhorizontaldektop .notification ._9 {
+	position: absolute;
+	right: 2px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 12px;
+	height: 12px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Lato;
+	font-size: 10px;
+	font-weight: 700;
+	line-height: 12px;
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .othernavigationhorizontaldektop .logolong {
+	position: absolute;
+	left: 165px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 142px;
+	height: 30px;
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .othernavigationhorizontaldektop .logolong .logoimage {
+	visibility: hidden;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .Questionnaire {
+	visibility: hidden;
+	position: absolute;
+	left: 395px;
+	top: 136px;
+	width: 106.629150390625px;
+	height: 34.4375px;
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .Questionnaire .Questionnaire_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 106.41025934567135%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	color: rgba(37,40,43,1.00);
+	font-family: Roboto;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .image1 {
+	position: absolute;
+	left: 219px;
+	top: 266px;
+	width: 940px;
+	height: 739px;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .Header {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1440px;
+	height: 80px;
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .Header .Rectangle {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(14,25,64,1.00);
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .Header .IconLogOut {
+	position: absolute;
+	left: 1375px;
+	top: 24px;
+	width: 2.2222222222222223%;
+	height: 40%;
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .Header .IconLogOut .Frame {
+	position: absolute;
+	left: 1.33331298828125px;
+	top: 2.6669921875px;
+	width: 91.6666030883789%;
+	height: 83.3343505859375%;
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .Header .IconLogOut .Frame .Group {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .Header .IconLogOut .Frame .Group .Vector_2 {
+	position: absolute;
+	left: 10.4761962890625px;
+	top: 5.92578125px;
+	width: 64.28566969831272%;
+	height: 55.55352107518219%;
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .Header .IconLogOut .Frame .Group .Vector_3 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 61.904880804499406%;
+	height: 100%;
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .Header .IconCircleFill {
+	position: absolute;
+	left: 1323px;
+	top: 24px;
+	width: 2.2222222222222223%;
+	height: 40%;
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .Header .IconCircleFill .Mask {
+	position: absolute;
+	left: 2.6666259765625px;
+	top: 2.6669921875px;
+	width: 83.3333969116211%;
+	height: 83.3343505859375%;
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .Header .ElmindaLogo {
+	position: absolute;
+	left: 20px;
+	top: 23px;
+	width: 9.583333333333334%;
+	height: 37.37548828125%;
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .Header .ElmindaLogo .Group_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100.3331373701744%;
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .Header .ElmindaLogo .Group_1 .Vector_4 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .Header .RichardMcClintock {
+	position: absolute;
+	left: 1095px;
+	top: 18px;
+	width: 15.48611111111111%;
+	height: 27.500000000000004%;
+	color: rgba(227,242,253,1.00);
+	font-family: Roboto;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 28.125px;
+}
+.Resultofsummarizationofthedata_Resultofsummarizationofthedata .Header .Elminda {
+	position: absolute;
+	left: 1095px;
+	top: 42px;
+	width: 8.88888888888889%;
+	height: 27.500000000000004%;
+	color: rgba(227,242,253,1.00);
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 21.09375px;
+}

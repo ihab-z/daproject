@@ -1,0 +1,327 @@
+
+.Patients_Patients .Patients_1 {
+	position: absolute;
+	left: 165px;
+	top: 176px;
+	width: 148px;
+	height: 92px;
+	color: rgba(37,40,43,1.00);
+	font-family: Lato;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 46px;
+}
+.Patients_Patients .circularbuttonfloatingaccentdefault {
+	position: absolute;
+	right: 24px;
+	bottom: 24px;
+	width: 64px;
+	height: 64px;
+}
+.Patients_Patients .circularbuttonfloatingaccentdefault .ellipsebtn {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(51,108,251,1.00);
+	border-radius: 50%;
+}
+.Patients_Patients .circularbuttonfloatingaccentdefault .iconicofontmedicalstaffdoctor2 {
+	position: absolute;
+	left: 18.666748046875px;
+	top: 18.666015625px;
+	width: 41.66679382324219%;
+	height: 41.6656494140625%;
+}
+.Patients_Patients .othernavigationhorizontaldektop {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 0px;
+	width: 1440px;
+	height: 88px;
+}
+.Patients_Patients .othernavigationhorizontaldektop .bg {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 1440px;
+	height: 88px;
+	background: rgba(246,248,251,1.00);
+}
+.Patients_Patients .othernavigationhorizontaldektop .avatarcircledman16 {
+	position: absolute;
+	right: 165px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 40px;
+	height: 40px;
+}
+.Patients_Patients .othernavigationhorizontaldektop .avatarcircledman16 .circle_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 50%;
+	background-size: cover;
+}
+.Patients_Patients .othernavigationhorizontaldektop .textfieldsearchroundeddefault {
+	position: absolute;
+	left: 339px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 350px;
+	height: 40px;
+}
+.Patients_Patients .othernavigationhorizontaldektop .textfieldsearchroundeddefault .bg_1 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 350px;
+	height: 40px;
+	background: rgba(255,255,255,1.00);
+	border-radius: 100px;
+}
+.Patients_Patients .othernavigationhorizontaldektop .textfieldsearchroundeddefault .Search {
+	position: absolute;
+	margin-left: 42px;
+	margin-right: 16px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 292px;
+	height: 16px;
+	display: flex;
+	align-items: center;
+	color: rgba(160,164,168,1.00);
+	font-family: Lato;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 16px;
+}
+.Patients_Patients .othernavigationhorizontaldektop .textfieldsearchroundeddefault .iconicofontwebsearchdefault {
+	position: absolute;
+	left: 16px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 14px;
+	height: 14px;
+}
+
+.Patients_Patients .othernavigationhorizontaldektop .iconicofontwebnotificationnotification {
+	position: absolute;
+	right: 231px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 24px;
+	height: 24px;
+}
+.Patients_Patients .othernavigationhorizontaldektop .iconicofontwebnotificationnotification .Vector_80 {
+	position: absolute;
+	left: 1.51171875px;
+	top: 1.5px;
+	width: 87.445068359375%;
+	height: 87.48372395833334%;
+}
+.Patients_Patients .othernavigationhorizontaldektop .notification {
+	position: absolute;
+	left: 1203px;
+	top: 26px;
+	width: 16px;
+	height: 16px;
+}
+.Patients_Patients .othernavigationhorizontaldektop .notification .circle_2 {
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+	background: rgba(255,103,96,1.00);
+	border-radius: 50%;
+	border: 2px solid rgba(246.0000005364418,248.0000004172325,251.00000023841858,1);
+}
+.Patients_Patients .othernavigationhorizontaldektop .notification ._9 {
+	position: absolute;
+	right: 2px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 12px;
+	height: 12px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Lato;
+	font-size: 10px;
+	font-weight: 700;
+	line-height: 12px;
+}
+.Patients_Patients .othernavigationhorizontaldektop .logolong {
+	position: absolute;
+	left: 165px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 142px;
+	height: 30px;
+}
+.Patients_Patients .othernavigationhorizontaldektop .logolong .logoimage {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+}
+.Patients_Patients .othernavigationhorizontaldektopmenu {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	top: 88px;
+	width: 1440px;
+	height: 48px;
+}
+.Patients_Patients .othernavigationhorizontaldektopmenu .bg_2 {
+	position: absolute;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 1440px;
+	height: 48px;
+	background: rgba(246,248,251,1.00);
+}
+.Patients_Patients .othernavigationhorizontaldektopmenu .Dashboard {
+	position: absolute;
+	left: 165px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 69px;
+	height: 20px;
+	display: flex;
+	align-items: center;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Patients_Patients .othernavigationhorizontaldektopmenu .Appointments {
+	position: absolute;
+	left: 267px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 90px;
+	height: 20px;
+	display: flex;
+	align-items: center;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Patients_Patients .othernavigationhorizontaldektopmenu .label {
+	position: absolute;
+	left: 390px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 7px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Patients_Patients .othernavigationhorizontaldektopmenu .label_1 {
+	position: absolute;
+	left: 473px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 83px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Patients_Patients .othernavigationhorizontaldektopmenu .label_2 {
+	position: absolute;
+	left: 590px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 52px;
+	height: 20px;
+	color: rgba(51,108,251,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Patients_Patients .othernavigationhorizontaldektopmenu .label_3 {
+	position: absolute;
+	left: 675px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 7px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Patients_Patients .othernavigationhorizontaldektopmenu .label_4 {
+	position: absolute;
+	left: 937px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 30px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Patients_Patients .othernavigationhorizontaldektopmenu .label_5 {
+	position: absolute;
+	left: 802px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 86px;
+	height: 20px;
+	color: rgba(82,87,92,1.00);
+	font-family: Lato;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+}
+.Patients_Patients .othernavigationhorizontaldektopmenu .divider_40 {
+	position: absolute;
+	left: 770px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 0px;
+	height: 24px;
+}
+.Patients_Patients .othernavigationhorizontaldektopmenu .iconicofontdirectionalsimpledown {
+	position: absolute;
+	left: 893px;
+	top: 52.083333333333336%;
+	transform: translate(0, -50%);
+	width: 16px;
+	height: 16px;
+}
+.Patients_Patients .othernavigationhorizontaldektopmenu .iconicofontdirectionalsimpledown .__2 {
+	position: absolute;
+	left: 3.199951171875px;
+	top: 5.3125px;
+	width: 60.0006103515625%;
+	height: 38.5986328125%;
+}
