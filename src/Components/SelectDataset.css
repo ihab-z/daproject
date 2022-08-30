@@ -829,3 +829,9 @@
 	font-weight: 700;
 	line-height: 16px;
 }
+
+#SelectedItems {
+	position: absolute;
+	left: 190px;
+	top: 278px;
+}

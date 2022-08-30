@@ -1,10 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './SelectDataset.css'
 import ImgAsset from '../public'
 import {Link} from 'react-router-dom'
 import Selectionbar from './Selectionbar'
 export default function SelectDataset () {
+	const [clinicalChoice, setClinicalChoice] = useState(["", false])
+	const [cognitiveChoice, setCognitiveChoice] = useState(["", false])
+	const [EEGChoice, setEEGChoice] = useState(["", false])
+	const chooseClinical= (string) => {setClinicalChoice([string, true])}
+	const chooseCognitive= (string) => {setCognitiveChoice([string, true])}
+	const chooseEEG= (string) => {setEEGChoice([string, true])}
+	const deleteClinicalChoice=()=>{setClinicalChoice(["", false])}
+	const deleteCognitiveChoice=()=>{setCognitiveChoice(["", false])}
+	const deleteEEGChoice=()=>{setEEGChoice(["", false])}
 	const method=()=>{return 0}
+	const deleteFunctions=[deleteClinicalChoice,deleteCognitiveChoice, deleteEEGChoice]
+	const chooseFunctions=[chooseClinical, chooseCognitive, chooseEEG]
 	return (
 		<div className='SelectDataset_SelectDataset'>
 			<div className='othernavigationhorizontaldektop'>
@@ -112,13 +123,29 @@ export default function SelectDataset () {
 					</div>
 				</div>
 			</Link> */}
-			
+			<SelectedItems array={deleteFunctions} clinicalChoice={clinicalChoice[0]} 
+			cognitiveChoice={cognitiveChoice[0]} EEGChoice={EEGChoice[0]}/>
 			<span className='Selectvariable'>Select variable</span>
-			<Selectionbar/>
+			<Selectionbar chooseFunctions={chooseFunctions}/>
 		</div>
 	)
 }
 
+
+function SelectedItems ({array,clinicalChoice,cognitiveChoice,EEGChoice }) {
+	return (
+		//made a change to SelectDataset.css
+		<div id='SelectedItems'>
+			<span onClick={array[0]}>&#9746;</span>
+			<input  type="text" value={clinicalChoice} size="15"/>
+			<span onClick={array[1]}> &#9746;</span>
+			<input type="text" value={cognitiveChoice} size="15"/>
+			<span onClick={array[2]}> &#9746;</span>
+			<input type="text" value={EEGChoice} size="12"/>
+		</div>
+	)
+	
+}
 
 
 // export default function SelectDataset () {

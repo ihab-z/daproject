@@ -1,15 +1,15 @@
 import React, { useState, useEffect, useRef } from "react";
 import Dropdown from './Dropdown';
 
-const MenuItems = ({ menukey, items, depthLevel, ancestorMethod }) => {
+const MenuItems = ({func, menukey, items, depthLevel, ancestorMethod }) => {
     const isPropertyString=(typeof (items[menukey]) === 'string' || (items[menukey]) instanceof String)
     const isPropertyArray=Array.isArray(items[menukey])
     const isPropertyObject= (!isPropertyArray) && (!isPropertyString)
     const [dropdown, setDropdown] = useState(false);
   const method=()=>{depthLevel===0 ? setDropdown(false) : ancestorMethod()}
   const chosen= ()=>{
-    console.log((isPropertyArray ? menukey : "")+(isPropertyString ? items[menukey] : ""))
     method()
+    func((isPropertyArray ? menukey : "")+(isPropertyString ? items[menukey] : ""))
   }
   let ref = useRef();
   useEffect(() => {
@@ -47,6 +47,7 @@ const MenuItems = ({ menukey, items, depthLevel, ancestorMethod }) => {
             {depthLevel > 0 ? <span>&raquo;</span> : <span className="arrow" />}
         </button>
         <Dropdown  depthLevel={depthLevel}
+        func={func}
         ancestorMethod={method}
           submenus={items[menukey]}
           dropdown={dropdown} />
