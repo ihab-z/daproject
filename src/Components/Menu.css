@@ -130,3 +130,14 @@
 	left: 288px;
 	top: 248px;
   }
+
+  #bar {
+    position: absolute;
+    left : 280px;
+    top: 240px;
+
+  }
+
+  .hide {
+    display: none;
+  }
