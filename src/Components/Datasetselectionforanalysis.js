@@ -1,51 +1,640 @@
 import './Menu.css'
-import React, { useState,useRef, useEffect } from 'react'
+import React, {Component , useState,useRef, useEffect } from 'react'
 import './Datasetselectionforanalysis.css'
 import ImgAsset from '../public'
 import {Link} from 'react-router-dom'
+import {useMenuSettings} from './useMenuSettings'
+import { min } from 'moment'
+
+const axios = require('axios')
+
+const Dropdown4 = ({chosenGender, chooseGender , dropdown, depthLevel, ancestorMethod }) => {  
+    const dropdownClass = depthLevel > 1 ? "dropdown-submenu" : "";
+	depthLevel=1
+	const array=[0, 1]
+ return (
+  <ul className={`dropdown ${dropdownClass} ${dropdown ? "show" : ""}`}>
+   {array.map((item) => (
+    <MenuItems4 gender={item}  chooseGender={chooseGender}
+	chosenGender={chosenGender}  depthLevel={depthLevel} ancestorMethod={ancestorMethod} key={item} />
+   ))}
+  </ul>
+ )
+}
+
+
+
+
+
+const MenuItems4 = ({chosenGender, chooseGender, gender,  depthLevel, ancestorMethod}) => {
+    // const [dropdown, setDropdown] = useState(false);
+	let genderString
+	if (depthLevel===0){
+		genderString="None"
+		if (chosenGender===0)
+		genderString="Male"
+		if (chosenGender===1)
+		genderString="Female"
+	}
+	else{
+		if (gender==0)
+		genderString="Male"
+		else
+		genderString="Female"
+	}
+
+	const {dropdown, setDropdown, ref, onMouseEnter }=useMenuSettings()
+  const method=()=>{depthLevel===0 ? setDropdown(false) : ancestorMethod()}
+  const chosen= ()=>{
+    method()
+	if (chosenGender!==gender)
+	chooseGender(gender)
+  }
+
+  return (
+    <li className="menu-items" ref={ref}
+    onMouseEnter={onMouseEnter}
+//    onMouseLeave={onMouseLeave}
+      >{depthLevel==0 ? (
+        <>
+        <button type="button" 
+        aria-haspopup="menu"
+          aria-expanded={dropdown ? "true" : "false"}
+          onClick={() => setDropdown((prev) => !prev)}>
+            {genderString}<span className="arrow" />
+        </button>
+        <Dropdown4 chosenGender={chosenGender} chooseGender={chooseGender}  
+		depthLevel={0} 
+        ancestorMethod={method}
+          dropdown={dropdown} />
+        </>
+      ) : (
+        <button type="button"
+        onClick={chosen}
+        >{chosenGender===gender ? <span>&#10003;</span> : <span />}{genderString}</button>
+      )}
+    </li>
+  );
+};
+
+
+const Dropdown3 = ({chosenNumber, chooseSite,	data , dropdown, depthLevel, ancestorMethod }) => {
+    depthLevel =1;
+    const dropdownClass = depthLevel > 1 ? "dropdown-submenu" : "";
+ return (
+  <ul className={`dropdown ${dropdownClass} ${dropdown ? "show" : ""}`}>
+   {data.map((item,index) => (
+    <MenuItems3 siteNumber={index} chooseSite={chooseSite} siteName={item}
+	  chosenNumber={chosenNumber}  depthLevel={depthLevel} ancestorMethod={ancestorMethod} key={index} />
+   ))}
+  </ul>
+ )
+}
+
+
+
+const MenuItems3 = ({chosenNumber, chosenName, chooseSite, siteNumber, siteName,
+	 data,  depthLevel, ancestorMethod}) => {
+    // const [dropdown, setDropdown] = useState(false);
+	const {dropdown, setDropdown, ref, onMouseEnter }=useMenuSettings()
+  const method=()=>{depthLevel===0 ? setDropdown(false) : ancestorMethod()}
+  const chosen= ()=>{
+    method()
+	chooseSite(siteNumber)
+  }
+
+  return (
+    <li className="menu-items" ref={ref}
+    onMouseEnter={onMouseEnter}
+//    onMouseLeave={onMouseLeave}
+      >{depthLevel==0 ? (
+        <>
+        <button type="button" 
+        aria-haspopup="menu"
+          aria-expanded={dropdown ? "true" : "false"}
+          onClick={() => setDropdown((prev) => !prev)}>
+            {chosenName}<span className="arrow" />
+        </button>
+        <Dropdown3 chosenNumber={chosenNumber} chooseSite={chooseSite}
+	 data={data}  depthLevel={0} 
+        ancestorMethod={method}
+          dropdown={dropdown} />
+        </>
+      ) : (
+        <button type="button"
+        onClick={chosen}
+        >{chosenNumber===siteNumber ? <span>&#10003;</span> : <span />}{siteName}</button>
+      )}
+    </li>
+  );
+};
+//
+///
+const Dropdown2 = ({addConditionBox, data2Array, numberOfBoxes , dropdown, depthLevel, ancestorMethod }) => {
+    depthLevel =1;
+    const dropdownClass = depthLevel > 1 ? "dropdown-submenu" : "";
+ return (
+  <ul className={`dropdown ${dropdownClass} ${dropdown ? "show" : ""}`}>
+   {data2Array.map((item, index) => (
+    <MenuItems2 conditionBoxPresent={item[1]} conditionName={item[0]} conditionNumber={index} addConditionBox={addConditionBox}  depthLevel={depthLevel} ancestorMethod={ancestorMethod} key={index} />
+   ))}
+  </ul>
+ );
+};
+
+
+
+
+
+const MenuItems2 = ({addConditionBox, data2Array, numberOfConditionBoxes,  depthLevel,
+	 conditionNumber, conditionName, conditionBoxPresent, ancestorMethod }) => {
+    // const [dropdown, setDropdown] = useState(false);
+	const {dropdown, setDropdown, ref, onMouseEnter }=useMenuSettings()
+  const method=()=>{depthLevel===0 ? setDropdown(false) : ancestorMethod()}
+  const chosen= ()=>{
+    method()
+	if (!conditionBoxPresent){
+		addConditionBox(conditionNumber)
+	}
+  }
+
+  return (
+    <li className="menu-items" ref={ref}
+    onMouseEnter={onMouseEnter}
+//    onMouseLeave={onMouseLeave}
+      >{depthLevel==0 ? (
+        <>
+        <button type="button" 
+        aria-haspopup="menu"
+          aria-expanded={dropdown ? "true" : "false"}
+          onClick={() => setDropdown((prev) => !prev)}>
+            {"Total = "}{numberOfConditionBoxes}<span className="arrow" />
+        </button>
+        <Dropdown2 addConditionBox={addConditionBox} data2Array={data2Array} numberOfConditionBoxes={numberOfConditionBoxes}  depthLevel={0} 
+        ancestorMethod={method}
+          dropdown={dropdown} />
+        </>
+      ) : (
+        <button type="button"
+        onClick={chosen}
+        >{conditionBoxPresent ? <span>&#10003;</span> : <span />}{conditionName}</button>
+      )}
+    </li>
+  );
+};
+
+
+// const Dropdown = ({ minimalAge, func, dropdown, depthLevel, ancestorMethod }) => {
+//     depthLevel = depthLevel + 1;
+// 	const agesArray = [];
+// 	for (let i = minimalAge; i <= 120; i++) {
+// 		agesArray.push(i);
+// 	}
+// 	return (
+// 		<ul className={`dropdown ${dropdown ? "show" : ""}`}>
+// 			{agesArray.map((key) => (
+// 			<MenuItems value={key} func={func} depthLevel={depthLevel} ancestorMethod={ancestorMethod} key={key} />
+// 			))}
+// 		</ul>
+// 		);
+// 	}
+
+
+
+// 	const MenuItems = ({age, value, minimalAge, func, depthLevel, ancestorMethod }) => {
+// 		const [dropdown, setDropdown] = useState(false);
+// 		const method=()=>{
+// 			if (depthLevel===0)
+// 				setDropdown(false)
+// 			else 
+// 			ancestorMethod()
+// 		}
+// 	  const chosen= ()=>{
+// 		func(value)
+// 		method()
+// 	  }
+// 	  let ref = useRef();
+// 	  useEffect(() => {
+// 		const handler = (event) => {
+// 		 if (dropdown && ref.current && !ref.current.contains(event.target)) {
+// 		  setDropdown(false);
+// 		 }
+// 		};
+// 		document.addEventListener("mousedown", handler);
+// 		document.addEventListener("touchstart", handler);
+// 		return () => {
+// 		 // Cleanup the event listener
+// 		 document.removeEventListener("mousedown", handler);
+// 		 document.removeEventListener("touchstart", handler);
+// 		};
+// 	   }, [dropdown]);
+// 	  return (
+// 		<li className="menu-items" ref={ref}
+// 		>
+// 		  {depthLevel===0 ? (
+// 			<>
+// 			<button type="button" 
+// 			aria-haspopup="menu"
+// 			  aria-expanded={dropdown ? "true" : "false"}
+// 			  onClick={() => {setDropdown((prev) => !prev)}}>
+// 				{age===0 ? "--" : age}{' '}
+// 				{depthLevel > 0 ? <span>&raquo;</span> : <span className="arrow" />}
+// 			</button>
+// 			<Dropdown  depthLevel={depthLevel}
+// 			func={func} minimalAge={minimalAge}
+// 			ancestorMethod={method}
+// 			  dropdown={dropdown} />
+// 			</>
+// 		  ) : (
+// 			// <a href={items.url}>{items.title}</a>
+// 			<button type="button"
+// 			onClick={chosen}
+// 			>{value}</button>
+// 		  )}
+// 		</li>
+// 	  );
+// 	}
+
+const Dropdown = ({addBox, dataArray, numberOfBoxes , dropdown, depthLevel, ancestorMethod }) => {
+    depthLevel =1;
+    const dropdownClass = depthLevel > 1 ? "dropdown-submenu" : "";
+ return (
+  <ul className={`dropdown ${dropdownClass} ${dropdown ? "show" : ""}`}>
+   {dataArray.map((key, index) => (
+    <MenuItems boxPresent={key[1]} questionnaireName={key[0]} questionnaireNumber={index} addBox={addBox}  depthLevel={depthLevel} ancestorMethod={ancestorMethod} key={index} />
+   ))}
+  </ul>
+ );
+};
+
+
+
+
+
+const MenuItems = ({addBox, dataArray, questionnaireNumber, questionnaireName, boxPresent ,numberOfBoxes, depthLevel, ancestorMethod }) => {
+	const {dropdown, setDropdown, ref, onMouseEnter }=useMenuSettings()
+  const method=()=>{depthLevel===0 ? setDropdown(false) : ancestorMethod()}
+  const chosen= ()=>{
+    method()
+	if (!boxPresent){
+		addBox(questionnaireNumber)
+	}
+  }
+
+   
+//    const onMouseLeave = () => {
+//     window.innerWidth > 960 && setDropdown(false);
+//    };
+  return (
+    <li className="menu-items" ref={ref}
+    onMouseEnter={onMouseEnter}
+//    onMouseLeave={onMouseLeave}
+      >{depthLevel==0 ? (
+        <>
+        <button type="button" 
+        aria-haspopup="menu"
+          aria-expanded={dropdown ? "true" : "false"}
+          onClick={() => setDropdown((prev) => !prev)}>
+            {"Total = "}{numberOfBoxes}<span className="arrow" />
+        </button>
+        <Dropdown addBox={addBox} dataArray={dataArray} numberOfBoxes={numberOfBoxes}  depthLevel={0} 
+        ancestorMethod={method}
+          dropdown={dropdown} />
+        </>
+      ) : (
+        <button type="button"
+        onClick={chosen}
+        >{boxPresent ? <span>&#10003;</span> : <span />}{questionnaireName}</button>
+      )}
+    </li>
+  );
+};
+
+const Condition=({removeConditionBox ,conditionNumber, conditionName})=>{
+	const onXClick=()=>{ 
+		removeConditionBox(conditionNumber)  //CHANGEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+	}
+	return (<span><button onClick={onXClick}>X</button><input type="text" value={conditionName}/></span>)
+}
+
+
+const Questionnaire=({removeBox, dataArray,changeSign, greater, questionnaireNumber})=>{
+	const onSignClick=()=>{
+		changeSign(questionnaireNumber)
+	}
+	const onXClick=()=>{
+		removeBox(questionnaireNumber)
+	}
+	return (<span><button onClick={onXClick}>X</button><input type="text" value={dataArray[questionnaireNumber][0]}/><button onClick={onSignClick}>{greater ? ">" : "<"}</button></span>)
+}
+
+const ConditionalLink = ({ children, to, condition }) => (condition)
+      ? <Link to={to}><button id='SummarizeTheDataLink'>{children}</button></Link>
+      : <button id='SummarizeTheDataLink' disabled={true}>{children}</button>;
+
 export default function Datasetselectionforanalysis () {
-	const [minimumAge, setMinimumAge]=useState([0, false])
-	const pickMinimumAge=(number)=>{
-		setMinimumAge([number, true])
-		alert("Pick Age Now")
+	// const [data4,setData4]=useState([])
+	const [newTo,setNewTo]=useState({ 
+		pathname: "", 
+		param1: "" 
+	  })
+	// useEffect (()=>{
+	// 	console.log(data4)
+	// }
+	// ,[data4])
+	const [data, setData]=useState([])
+	const [data2, setData2]=useState([])
+	const [gender,setGender]=useState(-1) //-1 not chosen, 0 male, 1 female
+	const [data3, setData3]=useState([])
+	const [dataArray, setDataArray]=useState([])
+	const [greaterThanArray, setGreaterThanArray]=useState([])
+	const questionnaireScoreArray=useRef([])
+	const [data2Array,setData2Array]=useState([])
+	const [data3Array,setData3Array]=useState([[], -1, "None"])
+	const conditionBoxesShown=useRef([])
+	useEffect(()=>{
+		const getData = async () => {
+			const response = await axios.get("https://czp2w6uy37-vpce-0bdf8d65b826a59e3.execute-api.us-east-1.amazonaws.com/test/get_names_list?table=questionnaire");
+			const theData = response.data
+			setData(theData)
+		}
+		const getData2 = async () => {
+			const response = await axios.get("https://czp2w6uy37-vpce-0bdf8d65b826a59e3.execute-api.us-east-1.amazonaws.com/test/get_names_list?table=disorder");
+			const theData2 = response.data
+			setData2(theData2)
+		}
+		const getData3 = async () => {
+			const response = await axios.get("https://czp2w6uy37-vpce-0bdf8d65b826a59e3.execute-api.us-east-1.amazonaws.com/test/get_names_list?table=site");
+			const theData3 = response.data
+			setData3(theData3)
+		}
+		
+		getData()
+		getData2()
+		getData3()
+		
+		// setDataArrived((a)=>(!a)) //IMPORTANT ask why changing to function parameter from true boolean parameter removes infinite renderring loop 
+			// dataArrayDuplicate.current=data.map( (m,index)=>[m.questionnaire_name, false])
+			// setDataArray(dataArrayDuplicate.current)
+		
+	}, [])
+
+	useEffect (()=>{
+		setDataArray(data.map( (m,index)=>[m.questionnaire_name, false]))
+		setGreaterThanArray(data.map((e)=>true))
+		questionnaireScoreArray.current=data.map((e)=>0)
 	}
-	const [age, setAge]=useState(0)
-	const pickAge= (number)=>{setAge(number)}
-	const method= ()=> 0
-	let depthLevel=0
-	const numberRef = useRef(1)
-	const handleChange = (e) => {
-		console.log("handleChange was called")
-		numberRef.current = e.target.value
+	,[data])
+	useEffect (()=>{
+		setData2Array(data2.map( (m,index)=>[m.disorder_presentation, false]))
+
 	}
-	const handleKeyPress = (event) => {
+	,[data2])
+	useEffect (()=>{
+		setData3Array([data3.map( m=>m.name), (-1), "None"])
+	}
+	,[data3])
+	const boxesShown=useRef([])
+	const [clinicalVisits, setClinicalVisits]=useState([0, false])
+	const [EEGVisits, setEEGVisits]=useState([0, false])
+	const [orDependency,setOrDependency]=useState(false)
+	const clinicalRef=useRef(clinicalVisits[0])
+	const EEGRef=useRef(EEGVisits[0])
+	const minAgeRef=useRef([0,-1])
+	const maxAgeRef=useRef([130,-1])
+	const handleAgeMinChange = (e) => {
+		// if (maxAgeRef.current[1]===-1){
+			if (e.target.value>130){
+				e.target.value=130
+			}
+		// }
+		// else {
+		// 	if (e.target.value>maxAgeRef.current[0])
+		// 	e.target.value=maxAgeRef.current[0]			
+		// }
+		minAgeRef.current[1]=1
+		if (e.target.value<0){
+			e.target.value=0}
+		minAgeRef.current[0]=e.target.value
+	}
+	const handleAgeMaxChange = (e) => {
+		if (e.target.value<0){
+			e.target.value=0
+		}
+		maxAgeRef.current[1]=1
+		if (e.target.value>130){
+			e.target.value=130}
+		maxAgeRef.current[0]=e.target.value
+	}
+	// const handleKeyPress = (event) => {
+	// 	if(event.key === 'Enter'){
+	// 		if (ageRef.current>=1 && ageRef.current<=120 ){
+	// 			setAge(ageRef.current)
+	// 	}
+	//   }
+	// }
+	const handleClinicalChange= (e) => {
+		if (e.target.value>30)
+		e.target.value=30
+		clinicalRef.current = e.target.value
+	}
+
+	const handleEEGChange= (e) => {
+		if (e.target.value>30)
+		e.target.value=30
+		EEGRef.current = e.target.value
+	}
+	const handleClinicalKeyPress = (event) => {
 		if(event.key === 'Enter'){
-		  console.log('enter press here! ')
+			if (orDependency===true){
+				if (EEGVisits[1]===true){
+					if (clinicalVisits[1]===false){
+					alert("EEG Visits number was chosen, press on key to add Clinical Visits")
+					return}
+				}
+			}
+			if (clinicalRef.current>=0 && clinicalRef.current<=30 ){
+				setClinicalVisits([clinicalRef.current, true])
 		}
 	  }
-	const [product, setProduct]=useState(1)
+	}
+
+	const handleEEGKeyPress = (event) => {
+		if(event.key === 'Enter'){
+			if (orDependency===true){
+				if (clinicalVisits[1]===true){
+					if (EEGVisits[1]===false){
+					alert("Clinical Visits number was chosen, press on key to add Clinical Visits")
+					return}
+				}
+			}
+			if (EEGRef.current>=0 && EEGRef.current<=30 ){
+				setEEGVisits([EEGRef.current, true])
+		}
+	  }
+	}
+
+	const changeSign=(number)=>{
+		setGreaterThanArray(greaterThanArray.map((item,index)=>{
+			return number===index ? !item : item
+		}))
+	}
+
+	const handleQuestionnaireNumberChange = (e) => {
+		if (e.target.value>1000)
+		e.target.value=1000
+		questionnaireScoreArray.current[parseInt(e.target.id)]= e.target.value
+	}
+
+	const fillArray1WithArray2=(array1,array2)=>{
+		for (let i=0; i<array2.length; i++){
+			array1.push([array2[i][0], array2[i][1]])
+		}
+
+	}
+
+	const removeBox=(number)=>{
+		const array=[]
+		// for (let i=0; i<dataArray.length; i++){
+		// 	array.push([dataArray[i][0], dataArray[i][1]])
+		// }
+		fillArray1WithArray2(array,dataArray)
+		boxesShown.current=boxesShown.current.filter(num=>(num!==number))
+		array[number][1]=false
+		setDataArray(array)		
+	}
+
+	
+
+	const addBox=(number)=>{
+		const array=[]
+		fillArray1WithArray2(array,dataArray)
+		boxesShown.current.push(number)
+		array[number][1]=true
+		setDataArray(array)
+	}
+
+	const removeConditionBox= (number)=>{
+		const array=[]
+		fillArray1WithArray2(array,data2Array)
+		conditionBoxesShown.current=conditionBoxesShown.current.filter(num=>(num!==number))
+		array[number][1]=false
+		setData2Array(array)	
+
+	}
+
+	const addConditionBox=(number)=>{
+		const array=[]
+		fillArray1WithArray2(array,data2Array)
+		conditionBoxesShown.current.push(number)
+		array[number][1]=true
+		setData2Array(array)
+	}
+
+	const chooseSite=(number)=>{
+		if (data3Array[0][number]!==data3Array[1]){
+			setData3Array((e)=>(([e[0],number, e[0][number] ])))
+		}
+	}
+	
+	const chooseGender=(number)=>{setGender(number)}
+	const makeARequest=()=>{
+		// const getData4 = async (s) => {
+		// 	const response = await axios.get(s);
+		// 	const theData4 = response.data
+		// 	setData4(theData4)
+		// }
+		let ageString;
+		if (minAgeRef.current[0]==="" && maxAgeRef.current[0]==="" ){
+			alert("age range isn't right, both have null value")
+			return 0
+		}
+		if (minAgeRef.current[0]!=="" && maxAgeRef.current[0]!=="" && minAgeRef.current[0]>maxAgeRef.current[0]){
+			alert ("age range isn't right, max is not bigger than number")
+			return 0
+		}
+		if (minAgeRef.current[0]===""){
+			ageString="&age.ls="+maxAgeRef.current[0]
+		}
+		else {
+			if  (maxAgeRef.current[0]===""){
+				ageString="&age.gt="+minAgeRef.current[0]
+			}
+			else ageString="&age.gt="+minAgeRef.current[0]+"&age.ls="+maxAgeRef.current[0]
+		}
+
+		let string="gender="
+		let gender1=gender===0 ? "MALE" : "FEMALE";
+		string=string+gender1
+		for (let i=0;i<boxesShown.current.length; i++){
+			string=string+"&questionnaire=('"+dataArray[boxesShown.current[i]][0]+"')"
+		}
+		string=string+ageString
+		setNewTo({ 
+			pathname: "/summarizethedata/"+string, 
+			param1: "Par1" 
+		  })
+		// console.log(string)
+		// getData4(string)
+				
+
+	}
+	const readyToRequest=(boxesShown.current.length>0 &&
+	conditionBoxesShown.current.length>0 && gender!==-1 && data3Array[1]!==-1)
+	// console.log(""===minAgeRef.current[0])
 	return (
 		<div className='Datasetselectionforanalysis_Datasetselectionforanalysis'>
-			<input className="input" defaultValue={product} 
-			type="number" min="1" max="120" 
-			onChange={handleChange}/>	
-			<div id='bar'>
-				Minimum Age:<span>
-					<ul className="menus">
-						<MenuItems func={pickMinimumAge}
-						age={minimumAge[0]}
-						minimalAge={1}
-						ancestorMethod={method} depthLevel={depthLevel} />;
-					</ul>
-				</span>Age:<span>
-					<ul className={`${minimumAge[1] ? "menus" : "hide"}`}>
-						<MenuItems
-						age={age}
-						func={pickAge} minimalAge={minimumAge[0]} 
-						ancestorMethod={method} depthLevel={depthLevel} />;
-					</ul>
-				</span>
+			<button id='Save' disabled={!readyToRequest } onClick={makeARequest}>Save</button>
+			<ConditionalLink to={newTo} children="Continue" condition={newTo.pathname!=="" && newTo.param1!==""}/>
+			<div id="Age">
+				<div>Age Range</div>
+				<div>
+					<span>Min. </span><input defaultValue={minAgeRef.current[0]}  type="number" min="0" max="130" 
+					onChange={handleAgeMinChange} />
+				</div>
+				<div>
+					<span>Max.</span><input defaultValue={maxAgeRef.current[0]} type="number" min="0" max="130" 
+					onChange={handleAgeMaxChange} />
+				</div>
+
 			</div>
+			<div id='QuestionnaireBoxes'>
+				{boxesShown.current.map((number, index)=>(
+					<div><Questionnaire  dataArray={dataArray} changeSign={changeSign} 
+					removeBox={removeBox} greater={greaterThanArray[number]} questionnaireNumber={number} key={index}
+					/><input className='QuestionnaireBoxInput' id={number+""} type="number" min="0"  max="1000" defaultValue="0" onChange={handleQuestionnaireNumberChange}/></div>		//fix max later			
+				))}
+				<div><button>Or Dependency</button></div>
+			</div>
+			<div id='QuestionnaireText'>Questionnaire:</div>
+
+			<div id='QuestionnaireMenu'><span><ul className="menus"><MenuItems addBox={addBox} dataArray={dataArray} numberOfBoxes={boxesShown.current.length}  depthLevel={0} /> </ul></span></div>
+
+			<div id='ConditionText'>Condition:</div>
+
+			<div id='ConditionBoxes'>
+				{conditionBoxesShown.current.map((number, index)=>(
+					<div><Condition conditionName={data2Array[number][0]}  data2Array={data2Array} removeConditionBox={removeConditionBox} conditionNumber={number} key={index}
+					/></div>					
+				))}
+				<div><button>Or Dependency</button></div>
+			</div>
+
+			<div id='ConditionMenu'><span><ul className="menus"><MenuItems2 addConditionBox={addConditionBox} data2Array={data2Array} numberOfConditionBoxes={conditionBoxesShown.current.length}  depthLevel={0} /> </ul></span></div>
+
+			<div id='SiteText'>Site:</div>
+			<div id='SiteMenu'><ul className="menus"><MenuItems3 chosenNumber={data3Array[1]} chosenName={data3Array[2]} chooseSite={chooseSite} data={data3Array[0]}  depthLevel={0} /> </ul></div>
+
+			<div id='GenderText'>Gender</div>
+			<div id='GenderMenu'><ul className="menus"><MenuItems4 chosenGender={gender} chooseGender={chooseGender}   depthLevel={0} /> </ul></div>
+
+			<div id='ClinicalVisits'>Clinical Visits: <input className="input" defaultValue={clinicalVisits[0]}  type="number" min="0" max="30" onChange={handleClinicalChange} onKeyPress={handleClinicalKeyPress}/></div>
+			
+			<button id='OrDependency' onClick={()=>{setOrDependency(!orDependency)}}
+			>{orDependency? "'Or' Dependency" : "'And' Depencency"}</button>
+			<span id='EEGVisits'>EEG Visits: <input className="input" defaultValue={EEGVisits[0]}  type="number" min="0" max="30" onChange={handleEEGChange} onKeyPress={handleEEGKeyPress}/></span>
+
+			
 			<span className='Definedesiredgroup'>Select dataset for analysis</span>
 			<div className='Header'>
 				<div className='Rectangle'/>
@@ -68,22 +657,22 @@ export default function Datasetselectionforanalysis () {
 				<span className='RichardMcClintock'>Richard McClintock</span>
 				<span className='Elminda'>Elminda</span>
 			</div>
-			<div className='selectsite'>
+			{/* <div className='selectsite'>
 				<div className='Questionnaire_2'>
 					<span className='Questionnaire_3'>Site</span>
 				</div>
 				<div className='iconicofontdirectionalsimpledown'>
 					<img className='_' src = {ImgAsset.Datasetselectionforanalysis__} />
 				</div>
-			</div>
-			<div className='selectGender'>
+			</div> */}
+			{/* <div className='selectGender'>
 				<span className='Gender'>Gender</span>
 				<div className='iconicofontdirectionalsimpledown_1'>
 					<img className='__1' src = {ImgAsset.Datasetselectionforanalysis___1} />
 				</div>
-			</div>
+			</div> */}
 			{/* put up */}
-			<div className='Group12'>
+			{/* <div className='Group12'>
 				<div className='Questionnaire_4'>
 					<span className='Questionnaire_5'>Questionnaire</span>
 				</div>
@@ -95,16 +684,16 @@ export default function Datasetselectionforanalysis () {
 						<img className='__2' src = {ImgAsset.Datasetselectionforanalysis___2} />
 					</div>
 				</div>
-			</div>
-			<div className='Group32'>
+			</div> */}
+			{/* <div className='Group32'>
 				<div className='Questionnaire_8'>
 					<span className='Questionnaire_9'>Max # of visits</span>
 				</div>
 				<div className='iconicofontdirectionalsimpledown_3'>
 					<img className='__3' src = {ImgAsset.Datasetselectionforanalysis___3} />
 				</div>
-			</div>
-			<div className='selectdisorder'>
+			</div> */}
+			{/* <div className='selectdisorder'>
 				<div className='iconicofontdirectionalsimpledown_4'>
 					<img className='__4' src = {ImgAsset.Datasetselectionforanalysis___4} />
 				</div>
@@ -113,79 +702,7 @@ export default function Datasetselectionforanalysis () {
 						<span className='Questionnaire_11'>Condition</span>
 					</div>
 				</div>
-			</div>
+			</div> */}
 		</div>
 	)
 }
-
-
-const MenuItems = ({age, value, minimalAge, func, depthLevel, ancestorMethod }) => {
-	const [dropdown, setDropdown] = useState(false);
-	let valueChosen=0
-	const method=()=>{
-		if (depthLevel===0)
-			setDropdown(false)
-		else 
-		ancestorMethod()
-	}
-  const chosen= ()=>{
-	func(value)
-    method()
-  }
-  let ref = useRef();
-  useEffect(() => {
-    const handler = (event) => {
-     if (dropdown && ref.current && !ref.current.contains(event.target)) {
-      setDropdown(false);
-     }
-    };
-    document.addEventListener("mousedown", handler);
-    document.addEventListener("touchstart", handler);
-    return () => {
-     // Cleanup the event listener
-     document.removeEventListener("mousedown", handler);
-     document.removeEventListener("touchstart", handler);
-    };
-   }, [dropdown]);
-  return (
-    <li className="menu-items" ref={ref}
-	>
-      {depthLevel===0 ? (
-        <>
-        <button type="button" 
-        aria-haspopup="menu"
-          aria-expanded={dropdown ? "true" : "false"}
-          onClick={() => {setDropdown((prev) => !prev)}}>
-            {age===0 ? "--" : age}{' '}
-            {depthLevel > 0 ? <span>&raquo;</span> : <span className="arrow" />}
-        </button>
-        <Dropdown  depthLevel={depthLevel}
-        func={func} minimalAge={minimalAge}
-        ancestorMethod={method}
-          dropdown={dropdown} />
-        </>
-      ) : (
-        // <a href={items.url}>{items.title}</a>
-        <button type="button"
-        onClick={chosen}
-        >{value}</button>
-      )}
-    </li>
-  );
-};
-
-
-const Dropdown = ({ minimalAge, func, dropdown, depthLevel, ancestorMethod }) => {
-    depthLevel = depthLevel + 1;
-	const agesArray = [];
-	for (let i = minimalAge; i <= 120; i++) {
-		agesArray.push(i);
-	}
-	return (
-		<ul className={`dropdown ${dropdown ? "show" : ""}`}>
-			{agesArray.map((key) => (
-			<MenuItems value={key} func={func} depthLevel={depthLevel} ancestorMethod={ancestorMethod} key={key} />
-			))}
-		</ul>
-		);
-	};

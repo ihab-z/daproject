@@ -1,34 +1,36 @@
 import React, { useState, useEffect, useRef } from "react";
 import Dropdown from './Dropdown';
+import {useMenuSettings} from './useMenuSettings'
 
 const MenuItems = ({func, menukey, items, depthLevel, ancestorMethod }) => {
     const isPropertyString=(typeof (items[menukey]) === 'string' || (items[menukey]) instanceof String)
     const isPropertyArray=Array.isArray(items[menukey])
     const isPropertyObject= (!isPropertyArray) && (!isPropertyString)
-    const [dropdown, setDropdown] = useState(false);
+    const {dropdown, setDropdown, ref, onMouseEnter }=useMenuSettings()
+    // const [dropdown, setDropdown] = useState(false);
   const method=()=>{depthLevel===0 ? setDropdown(false) : ancestorMethod()}
   const chosen= ()=>{
     method()
     func((isPropertyArray ? menukey : "")+(isPropertyString ? items[menukey] : ""))
   }
-  let ref = useRef();
-  useEffect(() => {
-    const handler = (event) => {
-     if (dropdown && ref.current && !ref.current.contains(event.target)) {
-      setDropdown(false);
-     }
-    };
-    document.addEventListener("mousedown", handler);
-    document.addEventListener("touchstart", handler);
-    return () => {
-     // Cleanup the event listener
-     document.removeEventListener("mousedown", handler);
-     document.removeEventListener("touchstart", handler);
-    };
-   }, [dropdown]);
-   const onMouseEnter = () => {
-    window.innerWidth > 960 && setDropdown(true);
-   };
+  // let ref = useRef();
+  // useEffect(() => {
+  //   const handler = (event) => {
+  //    if (dropdown && ref.current && !ref.current.contains(event.target)) {
+  //     setDropdown(false);
+  //    }
+  //   };
+  //   document.addEventListener("mousedown", handler);
+  //   document.addEventListener("touchstart", handler);
+  //   return () => {
+  //    // Cleanup the event listener
+  //    document.removeEventListener("mousedown", handler);
+  //    document.removeEventListener("touchstart", handler);
+  //   };
+  //  }, [dropdown]);
+  //  const onMouseEnter = () => {
+  //   window.innerWidth > 960 && setDropdown(true);
+  //  };
    
    const onMouseLeave = () => {
     window.innerWidth > 960 && setDropdown(false);

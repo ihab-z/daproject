@@ -45,6 +45,8 @@ import Datasetselectionforanalysis from '../Components/Datasetselectionforanalys
 import Addgroup from '../Components/Addgroup';
 import Frame34 from '../Components/Frame34';
 import Exporttocodeerrorsdeletemeanytime from '../Components/Exporttocodeerrorsdeletemeanytime';
+import Histogram from '../Components/Histogram';
+
 const RouterDOM = () => {
 	return (
 		<Router>
@@ -93,6 +95,7 @@ const RouterDOM = () => {
 				<Route exact path="/datasetselectionforanalysis"><Datasetselectionforanalysis /></Route>
 				<Route exact path="/addgroup"><Addgroup /></Route>
 				<Route exact path="/frame34"><Frame34 /></Route>
+				<Route path="/summarizethedata/:searchdetail" component={Summarizethedata} />
 				<Route exact path="/exporttocodeerrorsdeletemeanytime"><Exporttocodeerrorsdeletemeanytime /></Route>
 			</Switch>
 		</Router>
