@@ -8,6 +8,8 @@ const axios = require('axios')
 export default function Histogram () {
 	const [data,setData]=useState([])
 	const[data2,setData2]=useState([])
+	const dataInitialized=useRef([0,0])
+	const [dataDone,setDataDone]=useState(false)
 	const getData = async (s) => {
 			const response = await axios.get(s);
 			const theData = response.data
@@ -18,19 +20,25 @@ export default function Histogram () {
 			const theData2 = response.data
 			setData2(e=>theData2)
 		}
-	const dataInitialized=useRef(0)
-	console.log(toString([])===toString([]))
-	const string="https://czp2w6uy37-vpce-0bdf8d65b826a59e3.execute-api.us-east-1.amazonaws.com/test/Table?age.gt=0"
+	const string="https://czp2w6uy37-vpce-0bdf8d65b826a59e3.execute-api.us-east-1.amazonaws.com/test/Table?questionnaire=('MADRS')"
 	const string2="https://czp2w6uy37-vpce-0bdf8d65b826a59e3.execute-api.us-east-1.amazonaws.com/test/get_names_list?table=questionnaire"
 	useEffect(()=>{
 		getData(string)
 		getData2(string2)
 	},[])
 	useEffect(()=>{
-		if (Object.keys(data)[0]!=="message")
-		dataInitialized.current++},[data])
-	useEffect(()=>{dataInitialized.current++},[data2])
-	const chart=(dataInitialized.current===2 ? (<div id="Chart" >
+		if (Object.keys(data)[0]!=="message" && data.length>0)
+		{dataInitialized.current[0]++
+		if (dataInitialized.current[0]===1 && dataInitialized.current[1]===1)
+		setDataDone(true)
+	}
+	},[data])
+	useEffect(()=>{
+		if (data2.length!==0){
+		dataInitialized.current[1]++
+		if (dataInitialized.current[0]===1 && dataInitialized.current[1]===1)
+		setDataDone(true)}},[data2])
+	const chart=(dataDone===true ? (<div id="Chart" >
 	<HistogramChart data={data} data2={data2} />
 </div>) : null)
 	
