@@ -1,8 +1,13 @@
 import React,{useEffect,useRef, useState} from 'react'
+import { Link } from 'react-router-dom'
 import './Summarizethedata.css'
 import ImgAsset from '../public'
 
 const axios = require('axios')
+
+// const ConditionalLink = ({ children, to, condition }) => (condition)
+//       ? <Link to={to}><button id='LinkToGraphs'>{children}</button></Link>
+//       : <button id='LinkToGraphs' disabled={true}>{children}</button>;
 
 export default function Summarizethedata (props) {
 	const [data,setData]=useState([])
@@ -16,16 +21,15 @@ export default function Summarizethedata (props) {
 	useEffect(()=>{
 		getData(string)
 	},[])
-	useEffect(()=>{dataInitialized.current=1},[data])
-	// const data = [
-	// 	{ name: "Anom", age: 19, gender: ["AAAAAAAAAAAAAAAAAAAAAAAAAAAMaleAAAAAAAMaleAAA" ,"AAAAAAAAAAAAAAAAAAAAAAAAAAAMaleAAAAAAAMaleAAA" ,"AAAAAAAAAAAAAAAAAAAAAAAAAAAMaleAAAAAAAMaleAAAAe" ,"AAAAAAAAAAAAAAAAAAAAAAAAAAAMaleAAAAAAAMaleAAA", "AAAAAAAAAAAAAAAAAAAAAAAAAAAMaleAAAAAAAMaleAAA" ]},
-	// 	{ name: "Megha", age: 19, gender: ["Female"] },
-	// 	{ name: "Subham", age: 25, gender: ["Male", "Male","Male","Male","Male"]},
-	//   ]
+	useEffect(()=>{
+		if (toString({})!==toString(props)&& Object.keys(data)[0]!=="message")
+		dataInitialized.current=1},[data])
+	
 	
 	
 	return (
 		<div className='Datasetselectionforanalysis_Datasetselectionforanalysis'>
+			{/* <ConditionalLink /> */}
 			<div className="Table">
 				{dataInitialized.current===1 ? (<table>
 					<tr>

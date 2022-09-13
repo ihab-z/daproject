@@ -1,7 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import Histogram from '../Components/Histogram';
 import HomePage from '../Components/index';
 import Thumbnail from '../Components/Thumbnail';
+// import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Other from '../Components/Other';
 import Core from '../Components/Core';
 import Navigationmenuvertical from '../Components/Navigationmenuvertical';
@@ -44,8 +46,7 @@ import Onegroup from '../Components/Onegroup';
 import Datasetselectionforanalysis from '../Components/Datasetselectionforanalysis';
 import Addgroup from '../Components/Addgroup';
 import Frame34 from '../Components/Frame34';
-import Exporttocodeerrorsdeletemeanytime from '../Components/Exporttocodeerrorsdeletemeanytime';
-import Histogram from '../Components/Histogram';
+import Exporttocodeerrorsdeletemeanytime from '../Components/Exporttocodeerrorsdeletemeanytime'
 
 const RouterDOM = () => {
 	return (
@@ -57,6 +58,7 @@ const RouterDOM = () => {
 				<Route exact path="/core"><Core /></Route>
 				<Route exact path="/navigationmenuvertical"><Navigationmenuvertical /></Route>
 				<Route exact path="/selectdataset"><SelectDataset /></Route>
+				<Route exact path="/histogram"><Histogram /></Route>
 				{/* <Route exact path="/selectdataset_1"><SelectDataset_1 /></Route>
 				<Route exact path="/selectdataset_2"><SelectDataset_2 /></Route>
 				<Route exact path="/selectdataset_3"><SelectDataset_3 /></Route>

@@ -8,6 +8,7 @@ export default function HomePage () {
 		<Link to='/Core'><div>Core</div></Link>
 		<Link to='/Navigationmenuvertical'><div>Navigationmenuvertical</div></Link>
 		<Link to='/SelectDataset'><div>SelectDataset</div></Link>
+		<Link to='/histogram'><div>Histogram</div></Link>
 		{/* <Link to='/SelectDataset_1'><div>SelectDataset_1</div></Link>
 		<Link to='/SelectDataset_2'><div>SelectDataset_2</div></Link>
 		<Link to='/SelectDataset_3'><div>SelectDataset_3</div></Link>
