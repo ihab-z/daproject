@@ -1,6 +1,7 @@
 
 .Datasetselectionforanalysis_Datasetselectionforanalysis {
-	width: 1520px;
+	/* width: 1544px; */
+	width: 100%;
 	height: 1097px;
 	position: relative;
 	left: 0px;
@@ -9,14 +10,14 @@
 	width: 100%;
 	height: 100vh;
 	overflow: auto;
-	background: rgba(235,240,255,1.00);
+	background: rgb(256, 256, 256);
 	border: 1px solid rgba(0,0,0,1);
 	box-sizing: border-box;
 }
 
-.Datasetselectionforanalysis_Datasetselectionforanalysis .Definedesiredgroup {
+ /* .Definedesiredgroup {
 	position: absolute;
-	left: 556px;
+	left: 585px;
 	top: 155px;
 	width: 329px;
 	height: 29px;
@@ -25,16 +26,16 @@
 	text-align: center;
 	align-items: center;
 	color: rgba(0,0,0,1.00);
-	font-family: Roboto;
-	font-size: 27.147384643554688px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
 	font-weight: 700;
 	line-height: 28.957210540771484px;
-}
+} */
 .Datasetselectionforanalysis_Datasetselectionforanalysis .Header {
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 1440px;
+	width: 1534px;
 	height: 80px;
 }
 .Datasetselectionforanalysis_Datasetselectionforanalysis .Header .Rectangle {
@@ -47,7 +48,7 @@
 }
 .Datasetselectionforanalysis_Datasetselectionforanalysis .Header .IconLogOut {
 	position: absolute;
-	left: 1375px;
+	left: 1475px;
 	top: 24px;
 	width: 2.2222222222222223%;
 	height: 40%;
@@ -75,7 +76,7 @@
 }
 .Datasetselectionforanalysis_Datasetselectionforanalysis .Header .IconCircleFill {
 	position: absolute;
-	left: 1323px;
+	left: 1400px;
 	top: 24px;
 	width: 2.2222222222222223%;
 	height: 40%;
@@ -110,7 +111,7 @@
 }
 .Datasetselectionforanalysis_Datasetselectionforanalysis .Header .RichardMcClintock {
 	position: absolute;
-	left: 1095px;
+	left: 1165px;
 	top: 18px;
 	width: 15.48611111111111%;
 	height: 27.500000000000004%;
@@ -122,7 +123,7 @@
 }
 .Datasetselectionforanalysis_Datasetselectionforanalysis .Header .Elminda {
 	position: absolute;
-	left: 1095px;
+	left: 1165px;
 	top: 42px;
 	width: 8.88888888888889%;
 	height: 27.500000000000004%;
@@ -132,25 +133,27 @@
 	font-weight: 400;
 	line-height: 21.09375px;
 }
-.Table{
+.Tables{
 	position: absolute;
-	left: 350px;
+	left: 450px;
+	/* display: flex; */
 	top: 220px;
-	width: 100%;
+	/* width: 800px; */
   /* height: 100vh; */
-  display: flex;
   /* justify-content: flex-start; */
   /* align-items: center; */
 }
 
 table {
 	border: 2px solid forestgreen;
-	width: 800px;
+
+	/* width: 100%; */
 	/* height: 200px; */
   }
 	
   th {
 	border-bottom: 1px solid black;
+	text-align: center;
   }
 	
   td {
@@ -161,6 +164,16 @@ table {
 	font-size: 100px;
   }
 
-  .Lasttr{
+  tr{
 	border-bottom: 1px solid black;
+  }
+  #LinkToGraphs{
+	position: absolute;
+	left: 450px;
+	top:160px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:white;
+	width: 130px;
+	height: 50px;
+	font-size: 18px;
   }

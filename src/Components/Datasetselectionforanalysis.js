@@ -184,76 +184,7 @@ const MenuItems2 = ({addConditionBox, data2Array, numberOfConditionBoxes,  depth
 };
 
 
-// const Dropdown = ({ minimalAge, func, dropdown, depthLevel, ancestorMethod }) => {
-//     depthLevel = depthLevel + 1;
-// 	const agesArray = [];
-// 	for (let i = minimalAge; i <= 120; i++) {
-// 		agesArray.push(i);
-// 	}
-// 	return (
-// 		<ul className={`dropdown ${dropdown ? "show" : ""}`}>
-// 			{agesArray.map((key) => (
-// 			<MenuItems value={key} func={func} depthLevel={depthLevel} ancestorMethod={ancestorMethod} key={key} />
-// 			))}
-// 		</ul>
-// 		);
-// 	}
 
-
-
-// 	const MenuItems = ({age, value, minimalAge, func, depthLevel, ancestorMethod }) => {
-// 		const [dropdown, setDropdown] = useState(false);
-// 		const method=()=>{
-// 			if (depthLevel===0)
-// 				setDropdown(false)
-// 			else 
-// 			ancestorMethod()
-// 		}
-// 	  const chosen= ()=>{
-// 		func(value)
-// 		method()
-// 	  }
-// 	  let ref = useRef();
-// 	  useEffect(() => {
-// 		const handler = (event) => {
-// 		 if (dropdown && ref.current && !ref.current.contains(event.target)) {
-// 		  setDropdown(false);
-// 		 }
-// 		};
-// 		document.addEventListener("mousedown", handler);
-// 		document.addEventListener("touchstart", handler);
-// 		return () => {
-// 		 // Cleanup the event listener
-// 		 document.removeEventListener("mousedown", handler);
-// 		 document.removeEventListener("touchstart", handler);
-// 		};
-// 	   }, [dropdown]);
-// 	  return (
-// 		<li className="menu-items" ref={ref}
-// 		>
-// 		  {depthLevel===0 ? (
-// 			<>
-// 			<button type="button" 
-// 			aria-haspopup="menu"
-// 			  aria-expanded={dropdown ? "true" : "false"}
-// 			  onClick={() => {setDropdown((prev) => !prev)}}>
-// 				{age===0 ? "--" : age}{' '}
-// 				{depthLevel > 0 ? <span>&raquo;</span> : <span className="arrow" />}
-// 			</button>
-// 			<Dropdown  depthLevel={depthLevel}
-// 			func={func} minimalAge={minimalAge}
-// 			ancestorMethod={method}
-// 			  dropdown={dropdown} />
-// 			</>
-// 		  ) : (
-// 			// <a href={items.url}>{items.title}</a>
-// 			<button type="button"
-// 			onClick={chosen}
-// 			>{value}</button>
-// 		  )}
-// 		</li>
-// 	  );
-// 	}
 
 const Dropdown = ({addBox, dataArray, numberOfBoxes , dropdown, depthLevel, ancestorMethod }) => {
     depthLevel =1;
@@ -325,7 +256,7 @@ const Questionnaire=({removeBox, dataArray,changeSign, greater, questionnaireNum
 	const onXClick=()=>{
 		removeBox(questionnaireNumber)
 	}
-	return (<span><button onClick={onXClick}>X</button><input type="text" value={dataArray[questionnaireNumber][0]}/><button onClick={onSignClick}>{greater ? ">" : "<"}</button></span>)
+	return (<span><button onClick={onXClick}>X</button><input type="text" value={dataArray[questionnaireNumber][0]}/><button onClick={onSignClick}>{greater ? ">=" : "<="}</button></span>)
 }
 
 const ConditionalLink = ({ children, to, condition }) => (condition)
@@ -333,15 +264,16 @@ const ConditionalLink = ({ children, to, condition }) => (condition)
       : <button id='SummarizeTheDataLink' disabled={true}>{children}</button>;
 
 export default function Datasetselectionforanalysis () {
-	// const [data4,setData4]=useState([])
-	const [newTo,setNewTo]=useState({ 
+	// const [newTo,setNewTo]=useState({ 
+	// 	pathname: "", 
+	// 	groupArray: []
+	//   })
+	const [saveDone,setSaveDone]=useState(false)
+	 const [newTo,setNewTo]=useState({ 
 		pathname: "", 
-		param1: "" 
+		groupArray: [1]
 	  })
-	// useEffect (()=>{
-	// 	console.log(data4)
-	// }
-	// ,[data4])
+	
 	const [data, setData]=useState([])
 	const [data2, setData2]=useState([])
 	const [gender,setGender]=useState(-1) //-1 not chosen, 0 male, 1 female
@@ -385,11 +317,12 @@ export default function Datasetselectionforanalysis () {
 		questionnaireScoreArray.current=data.map((e)=>0)
 	}
 	,[data])
-	useEffect (()=>{
-		setData2Array(data2.map( (m,index)=>[m.disorder_presentation, false]))
 
+	useEffect (()=>{
+		setData2Array(e=>(data2.map( (m,index)=>[m.disorder_presentation, false])))
 	}
 	,[data2])
+
 	useEffect (()=>{
 		setData3Array([data3.map( m=>m.name), (-1), "None"])
 	}
@@ -402,6 +335,7 @@ export default function Datasetselectionforanalysis () {
 	const EEGRef=useRef(EEGVisits[0])
 	const minAgeRef=useRef([0,-1])
 	const maxAgeRef=useRef([130,-1])
+	
 	const handleAgeMinChange = (e) => {
 		// if (maxAgeRef.current[1]===-1){
 			if (e.target.value>130){
@@ -414,8 +348,13 @@ export default function Datasetselectionforanalysis () {
 		// }
 		minAgeRef.current[1]=1
 		if (e.target.value<0){
-			e.target.value=0}
-		minAgeRef.current[0]=e.target.value
+			e.target.value=0
+		}
+		if (e.target.value===""){
+			minAgeRef.current[0]=e.target.value
+		}
+		else
+		minAgeRef.current[0]=parseInt(e.target.value)
 	}
 	const handleAgeMaxChange = (e) => {
 		if (e.target.value<0){
@@ -423,8 +362,13 @@ export default function Datasetselectionforanalysis () {
 		}
 		maxAgeRef.current[1]=1
 		if (e.target.value>130){
-			e.target.value=130}
-		maxAgeRef.current[0]=e.target.value
+			e.target.value=130
+		}
+		if (e.target.value===""){
+			maxAgeRef.current[0]=e.target.value
+		}
+		else
+			maxAgeRef.current[0]=parseInt(e.target.value)
 	}
 	// const handleKeyPress = (event) => {
 	// 	if(event.key === 'Enter'){
@@ -483,7 +427,7 @@ export default function Datasetselectionforanalysis () {
 	const handleQuestionnaireNumberChange = (e) => {
 		if (e.target.value>1000)
 		e.target.value=1000
-		questionnaireScoreArray.current[parseInt(e.target.id)]= e.target.value
+		questionnaireScoreArray.current[parseInt(e.target.id)]= parseInt(e.target.value)
 	}
 
 	const fillArray1WithArray2=(array1,array2)=>{
@@ -500,11 +444,16 @@ export default function Datasetselectionforanalysis () {
 		// }
 		fillArray1WithArray2(array,dataArray)
 		boxesShown.current=boxesShown.current.filter(num=>(num!==number))
+		questionnaireScoreArray.current[number]=0
+		setGreaterThanArray(e=>(e.map((item,index)=>{
+			if (index===number){
+				return true
+			}
+			return item
+		})))
 		array[number][1]=false
 		setDataArray(array)		
 	}
-
-	
 
 	const addBox=(number)=>{
 		const array=[]
@@ -520,7 +469,6 @@ export default function Datasetselectionforanalysis () {
 		conditionBoxesShown.current=conditionBoxesShown.current.filter(num=>(num!==number))
 		array[number][1]=false
 		setData2Array(array)	
-
 	}
 
 	const addConditionBox=(number)=>{
@@ -538,7 +486,7 @@ export default function Datasetselectionforanalysis () {
 	}
 	
 	const chooseGender=(number)=>{setGender(number)}
-	const makeARequest=()=>{
+	const save=()=>{
 		// const getData4 = async (s) => {
 		// 	const response = await axios.get(s);
 		// 	const theData4 = response.data
@@ -549,8 +497,9 @@ export default function Datasetselectionforanalysis () {
 			alert("age range isn't right, both have null value")
 			return 0
 		}
-		if (minAgeRef.current[0]!=="" && maxAgeRef.current[0]!=="" && minAgeRef.current[0]>maxAgeRef.current[0]){
-			alert ("age range isn't right, max is not bigger than number")
+		if (minAgeRef.current[0]!=="" && maxAgeRef.current[0]!=="" && 
+		((minAgeRef.current[0] )> (maxAgeRef.current[0]))){
+			alert ("age range isn't right, max is not bigger than min")
 			return 0
 		}
 		if (minAgeRef.current[0]===""){
@@ -563,37 +512,73 @@ export default function Datasetselectionforanalysis () {
 			else ageString="&age.gt="+minAgeRef.current[0]+"&age.ls="+maxAgeRef.current[0]
 		}
 
-		let string="gender="
+		let string="https://czp2w6uy37-vpce-0bdf8d65b826a59e3.execute-api.us-east-1.amazonaws.com/test/Table?gender="
 		let gender1=gender===0 ? "MALE" : "FEMALE";
 		string=string+gender1
 		for (let i=0;i<boxesShown.current.length; i++){
 			string=string+"&questionnaire=('"+dataArray[boxesShown.current[i]][0]+"')"
 		}
 		string=string+ageString
-		setNewTo({ 
-			pathname: "/summarizethedata/"+string, 
-			param1: "Par1" 
-		  })
-		// console.log(string)
-		// getData4(string)
-				
-
+		// setNewTo(e=>({ 
+		// 	pathname: "/summarizethedata/"+string, 
+		// 	questionnaires:data,
+		// 	relevantQuestionnaires:boxesShown.current,
+		// 	questionnaireScoreArray:questionnaireScoreArray.current,
+		// 	greaterThanArray:greaterThanArray
+		//   }))
+		  setNewTo(e=>({
+			pathname:"/summarizethedata/something",
+			groupArray:(e.groupArray.map((item,index)=>{
+				if (index!==e.groupArray.length-1){
+					return item
+				}
+				return {
+					link:string, 
+					questionnaires:(data.map( (m,index)=>({ questionnaire_id:m.questionnaire_id ,questionnaire_name: m.questionnaire_name }))),
+					relevantQuestionnaires:[...(boxesShown.current)],
+					questionnaireScoreArray:[...(questionnaireScoreArray.current)],
+					greaterThanArray:[...greaterThanArray]
+				}
+			}))
+		  }))
+		  setSaveDone(true)
 	}
-	const readyToRequest=(boxesShown.current.length>0 &&
+
+	const addGroup=()=>{
+		setNewTo(e=>({
+			pathname:"/summarizethedata",
+			groupArray:[...(e.groupArray), 1]}))
+		setSaveDone(false)
+		document.getElementById('MinAgeInput').value ="0"
+		document.getElementById('MaxAgeInput').value ="130"
+		minAgeRef.current[0]=0
+		maxAgeRef.current[0]=130
+		boxesShown.current=[]
+		setDataArray(data.map( (m,index)=>[m.questionnaire_name, false]))
+		setGreaterThanArray(data.map((e)=>true))
+		questionnaireScoreArray.current=data.map((e)=>0)
+		setGender(-1)
+		setData2Array(e=>(data2.map( (m,index)=>[m.disorder_presentation, false])))
+		conditionBoxesShown.current=[]
+		setData3Array([data3.map( m=>m.name), (-1), "None"])
+				
+	}
+	// console.log(newTo)
+	const readyToSave=(boxesShown.current.length>0 &&
 	conditionBoxesShown.current.length>0 && gender!==-1 && data3Array[1]!==-1)
-	// console.log(""===minAgeRef.current[0])
 	return (
 		<div className='Datasetselectionforanalysis_Datasetselectionforanalysis'>
-			<button id='Save' disabled={!readyToRequest } onClick={makeARequest}>Save</button>
-			<ConditionalLink to={newTo} children="Continue" condition={newTo.pathname!=="" && newTo.param1!==""}/>
+			<button id='Save' disabled={!readyToSave } onClick={save}>Save</button>
+			<button id='AddGroup' disabled={!saveDone} onClick={addGroup}>Add Group</button>
+			<ConditionalLink to={newTo} children="Continue" condition={newTo.pathname!=="" }/>
 			<div id="Age">
 				<div>Age Range</div>
 				<div>
-					<span>Min. </span><input defaultValue={minAgeRef.current[0]}  type="number" min="0" max="130" 
+					<span>Min. </span><input id='MinAgeInput' defaultValue={minAgeRef.current[0]}  type="number" min="0" max="130" 
 					onChange={handleAgeMinChange} />
 				</div>
 				<div>
-					<span>Max.</span><input defaultValue={maxAgeRef.current[0]} type="number" min="0" max="130" 
+					<span>Max.</span><input id='MaxAgeInput' defaultValue={maxAgeRef.current[0]} type="number" min="0" max="130" 
 					onChange={handleAgeMaxChange} />
 				</div>
 
@@ -635,7 +620,7 @@ export default function Datasetselectionforanalysis () {
 			<span id='EEGVisits'>EEG Visits: <input className="input" defaultValue={EEGVisits[0]}  type="number" min="0" max="30" onChange={handleEEGChange} onKeyPress={handleEEGKeyPress}/></span>
 
 			
-			<span className='Definedesiredgroup'>Select dataset for analysis</span>
+			<span className='Definedesiredgroup'>Select Group</span>
 			<div className='Header'>
 				<div className='Rectangle'/>
 				<div className='IconLogOut'>

@@ -67,7 +67,7 @@ const HistogramChart= ({data,data2}) =>  {
     // console.log(data3)
     // console.log(data3)
     // console.log(data2)
-    const length=((450+(data3.length-1>8 ? (data3.length-9) : 0)*80))
+    const length=((500+(data3.length-1>8 ? (data3.length-9) : 0)*100))
     return (
       <div className="container mt-5">
         <h2>React Histogram Chart Example</h2>

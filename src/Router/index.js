@@ -97,7 +97,7 @@ const RouterDOM = () => {
 				<Route exact path="/datasetselectionforanalysis"><Datasetselectionforanalysis /></Route>
 				<Route exact path="/addgroup"><Addgroup /></Route>
 				<Route exact path="/frame34"><Frame34 /></Route>
-				<Route path="/summarizethedata/:searchdetail" component={Summarizethedata} />
+				<Route path="/summarizethedata/:something" component={Summarizethedata} />
 				<Route exact path="/exporttocodeerrorsdeletemeanytime"><Exporttocodeerrorsdeletemeanytime /></Route>
 			</Switch>
 		</Router>
