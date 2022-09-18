@@ -184,8 +184,6 @@ const MenuItems2 = ({addConditionBox, data2Array, numberOfConditionBoxes,  depth
 };
 
 
-
-
 const Dropdown = ({addBox, dataArray, numberOfBoxes , dropdown, depthLevel, ancestorMethod }) => {
     depthLevel =1;
     const dropdownClass = depthLevel > 1 ? "dropdown-submenu" : "";
@@ -197,10 +195,6 @@ const Dropdown = ({addBox, dataArray, numberOfBoxes , dropdown, depthLevel, ance
   </ul>
  );
 };
-
-
-
-
 
 const MenuItems = ({addBox, dataArray, questionnaireNumber, questionnaireName, boxPresent ,numberOfBoxes, depthLevel, ancestorMethod }) => {
 	const {dropdown, setDropdown, ref, onMouseEnter }=useMenuSettings()
@@ -546,7 +540,7 @@ export default function Datasetselectionforanalysis () {
 
 	const addGroup=()=>{
 		setNewTo(e=>({
-			pathname:"/summarizethedata",
+			pathname:"/summarizethedata/something",
 			groupArray:[...(e.groupArray), 1]}))
 		setSaveDone(false)
 		document.getElementById('MinAgeInput').value ="0"

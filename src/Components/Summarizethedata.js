@@ -165,8 +165,6 @@ export default function Summarizethedata (props) {
 				array2[m]=[]
 			}
 			let toAddPatient=true
-			// console.log(data[0])
-			// console.log(data)
 			for (let group=0;group<numberOfValidGroups.current;group++){ //     
 			for (let index=0 ;index<(data[group]).length;index++){
 				toAddPatient=true
@@ -194,7 +192,6 @@ export default function Summarizethedata (props) {
 
 
 			}
-			// array[group]=1 //array supposed to be data
 		}
 			for (let i=0;i<numberOfValidGroups.current;i++){
 			for (let l=0;l<array2[i].length;l++){ //fix this
@@ -205,11 +202,10 @@ export default function Summarizethedata (props) {
 				}
 			}}
 			setData(e=>array2)
-			console.log(maxQuestionnaires.current)
 			setTo({pathname: "/histogram/something",
 			groupArray:props.location.groupArray,
 			numberOfGroups:numberOfValidGroups.current,
-			patientGroups:array2
+			patientGroups:array2 //patientGroups numberOfGroups groupArray
 		})
 			setDataInitialized(true)
 			
